@@ -562,6 +562,15 @@ margin-bottom:0px;
 }
 
 
+/* tagline */
+
+.tagline h3{
+	font-family: 'Lobster Two', cursive;
+	font-size:25px;
+	font-weight:400 !important;
+	color:#fff;
+}
+
 /* Features */
 
 .features{
