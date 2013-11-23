@@ -1,855 +1,268 @@
-/************************
-Designed by : http://responsivewebinc.com
-************************/
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="UTF-8">
+                <!-- Title here -->
+                <title>Peercoin</title>
+                <!-- Description, Keywords and Author -->
+                <meta name="description" content="Peercoin - the innovative, sustainable, and secure cryptocurreency." />
+                <meta name="keywords" content="peercoin, bitcoin, litecoin, primecoin, cryptocurrency, sustainable">
+                <meta name="author" content="Peercoin">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta property="og:title" content="Peercoin" />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="http://peercoin.net" />
+                <meta property="og:image" content="http://peercoin.net/logo.png"/>
+                <meta property="og:description" content="Peercoin - the innovative, sustainable, and secure cryptocurreency." />
+
+
+                
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+                <link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+                
+                <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic' rel='stylesheet' type='text/css'>
+                <meta name="google-site-verification" content="-GOUzkxsjMUypgT8xj6GD4W9xNv_SMeorTZtOKPRzg8" />
+                <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+                
+                <!-- Styles -->
+                <!-- Bootstrap CSS -->
+                <link href="css/bootstrap.min.css" rel="stylesheet">
+                <!-- Font awesome CSS -->
+                <link href="css/font-awesome.min.css" rel="stylesheet">                
+                <!-- Custom CSS -->
+                <link href="css/style.css" rel="stylesheet">
+                
+                <!-- Favicon -->
+                <link rel="shortcut icon" href="#">
+                
+        </head>
+        
+        <body>
+                
+                <!-- Top Starts -->
+                <div class="top">
+                        
+                        
+                        <!-- Header Starts -->
+                        <header>
+                                <div class="container">
+                                        <div class="row">
+
+
+                                                <div class="navigation">
+                                                        <a href="#">Home</a>
+                                                        <a href="https://github.com/ppcoin/ppcoin/wiki">Wiki</a>
+                                                        <a href="http://www.peercointalk.org/">Forum</a>
+                                                        <a href="http://peercoin.net/peercoin-paper.pdf">Whitepaper</a>
+<a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT">Video Tutorial</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </header>
+                        <!-- Header Ends -->
+                        
+                        <!-- Hero starts -->
+                        <div class="hero">
+                                <div class="container">
+                                        <div class="row">
+                                                <div class="col-md-8">
+                                                        <div class="intro" style="margin-bottom: 50px;">
+                                                                <img src="img/logo_text.png" alt="logotext" style="margin-bottom:10px;"/>
+                                                                <h3><em>The innovative, sustainable, and secure cryptocurreency.</em></h3>
+                                                                <p>Through an innovative minting algorithm, the Peercoin network consumes far less energy, maintains stronger security, and rewards users in more sustainable ways than other cryptocurrencies.</p>
+                                                                <br>
+                                                                <a href="http://sourceforge.net/projects/ppcoin/files/" class="download"><i class="icon-cloud-download"></i> Download Now!</a>
+                                                                <span class="applinks" style="padding-left: 25px;">
+                                                                        <a href="http://sourceforge.net/projects/ppcoin/files/0.3.0/ppcoin-0.3.0-win32-setup.exe/download"><i class="icon-windows"></i></a>
+                                                                        <a href="http://sourceforge.net/projects/ppcoin/files/0.3.0/ppcoin-0.3.0-linux.tar.gz/download"><i class="icon-linux"></i></a>
+                                                                </span>
+                                                        </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                        <div class="shot">
+                                                                <img src="logo.png" alt="image" class="img-responsive">
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                        <!-- Hero ends -->
+                </div>
+                <!-- Top Ends -->
+                
+                <!-- Feature Starts -->
+                <div class="features">
+                        <div class="container">
+                                <div class="row">
+                                        <div class="col-md-12">
+                                          <div class="feature-title text-center">
+                                            <h3>Features</h3>
+                                                  <p>
+                                                          Cryptcurrency must be sustainable to last the test of time as a form of money. Peercoin is advanced, sustainable, cryptocurrency. Through its innovative hybrid proof-of-work+proof-of-stake algorithm, Peercoin uses far less energy, has stronger security, and can operate in a more decentralized way than other coins. With a market capitalization of over $30 Million USD, Peercoin is disrupting the exciting cryptocurrency landscape.</p>
+                                            </div>
+                                        </div>
+                                </div>
+                                
+                                <hr>
+                                
+                                
+                                <div class="row">
+                                        <div class="col-md-4  col-xs-6">
+                                                <div class="feat">
+                                                        <i class="icon-eye-open"></i>
+                                                        <h4>Original Innovation</h4>
+                                                        <p>Peercoin's original and noteworthy innovation is the proof-of-stake+proof-of-work hybrid system. Like other cryptocurrencies, initial coins can be mined through the more commonly used proof-of-work hashing process. However unlike other coins, as the hashing difficulty increases over time, users continue to be rewarded with coins generated by the additional proof-of-stake algorithim. Anyone holding 1% of the currency will be compensated with 1% of all proof-of-stake coin blocks. In addition to increased security and improved energy efficiency, the hybrid proof-of-work+proof-of-stake algorithm combats the deflationary tendencies that cryptocurrencies can suffer because of their hard mintage caps.</p>
+                                                </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-6">
+                                                <div class="feat">
+                                                        <i class="icon-lock"></i>
+                                                        <h4>Increased Security</h4>
+                                                        <p>Generating blocks through the hybrid proof-of-work+proof-of-stake algorithm reduces the risk of the <a target="_blank" href="http//www.pcworld.com/article/2060840/selfish-miner-attack-could-devastate-bitcoin-researchers-say.html">Selfish-Miner Cornell Flaw</a>, <a target="_blank" href="http//bitcointalk.org/index.php?topic=12435.0"">">50%" attacks</a>, and the block bloating that have been used to exploit other currencies. The proof-of-stake portion of the algorithm stands at the heart of this security because it drastically raises the cost of an attack. Acquiring 51% of all existing coins requires more effort and resources than acquiring 51% of all mining power. Further, in a ">50%" stake attack, the attacker's investment will be, by definition, at risk of great loss because the attacker will be holding a majority of the coins that he or she is attacking. This risk of loss reduces the incentive to attempt such an attack in the first place. Peercoin also employs other advanced security features including enforcing transaction fees at protocol level to defend against block bloating attacks.</p>
+                                                </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-6">
+                                                <div class="feat">
+                                                        <i class="icon-leaf"></i>
+                                                        <h4>Energy Efficiency</h4>
+                                                        <p>Generating proof-of-stake blocks requires far less energy than generatng hardware intensive proof-of-work hashes. This means that over time, the Peercoin network will consume less energy as proof-of-work blocks become less rewarding and blocks are generated instead by the proof-of-stake portion of the algorithm.</p>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                
+<div class="shots">
+                        <div class="container">
+                                <!-- shot1-->
+                                <div class="row">
+                                        <div class="col-md-4">
+                                                <div class="screenshot">
+                                                        <img src="img/f2.png" alt="image" class="img-responsive">
+                                                </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="shotcontent">
+                                                        <h3><span class="text-muted">Want to Learn More About</span> Peercoin<span class="text-muted">?</span></h3>
+                                                        <p class="shot-para">We have developed a series of short video tutorials to help get you started. They 
+                                                        cover everything from setting up your first wallet, to trading and using Peercoin. Enjoy!</p> 
+                                                        <hr>
+                                                        
+                                                
+                                                        <a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT" class="download"><i class="icon-play"></i> See Video Tutorials</a>
+                                                </div>
+                                        </div>
+                                        
+                                </div>
+                                <hr/>
+
+
+                        </div>
+                        
+                </div>
+
+
+                <!-- Feature Ends -->
+                
+                <!-- Footer starts -->
+                <footer>
+                        <div class="container">
+                                
+                                <div class="row" style="text-align: center;">
+                                        <a href="https://www.facebook.com/Peercoin"><img src="img/facebook.png"/></a>
+                                        <a href="http://www.reddit.com/r/peercoin"><img src="img/reddit.png"/></a>
+                                        <a href="https://twitter.com/PeercoinPPC"><img src="img/twitter.png"/></a>
+                                        <hr/>
+                                </div>
+                                <div class="row">
+                                        <div class="col-md-3  col-xs-4" style="text-align:center;">
+                                                <div class="footer-link">
+                                                        <h5>Info</h5>
+                                                        <a href="http://peercoin.net/peercoin-paper.pdf">Whitepaper</a><br>
+                                                        <a href="https://github.com/ppcoin/ppcoin">Source Code (Github)</a><br>
+                                                        <a href="https://github.com/ppcoin/ppcoin/wiki">Wiki</a><br>
+                                                        <a href="http://www.peercointalk.org/">Forum</a><br>
+                                                        <a href="http://peercoinmyths.com/">Myths</a>
+                                                </div>
+                                        </div>
+                                        <div class="col-md-3  col-xs-4" style="text-align:center;">
+                                                <div class="footer-link">
+                                                        <h5>Exchanges</h5>
+                                                        <a href="https://vircurex.com/welcome/index?alt=ppc&amp;base=btc&amp;locale=en">Vircurex</a><br>
+                                                        <a href="https://btc-e.com/exchange/ppc_btc/">BTC-E</a><br>
+                                                        <a href="https://mcxnow.com/exchange/PPC">MCX Now</a><br>
+                                                        <a href="https://coinmkt.com/">CoinMkt</a><br>
+                                                        <a href=" https://crypto-trade.com/trade/ppc_btc">Crypto-Trade</a>
+
+
+                                                </div>
+                                        </div>
+                                        <div class="col-md-3  col-xs-4" style="text-align:center;">
+                                                <div class="footer-link">
+                                                        <h5>Exchanges</h5>
+                                                        <a href="http://bter.com/trade/ppc_btc">BTER Exchange</a><br>
+                                                        <a href="http://cryptonit.net/exchange/btc/ppc">Cryptonit</a><br>
+                                                        <a href="https://www.cryptsy.com/markets/view/28">Cryptsy</a><br>
+                                                        <a href="https://www.coins-e.com/exchange/PPC_BTC/">Coins-e</a><br>
+                                                        <a href="https://www.vaultofsatoshi.com/">Vault of Satoshi</a>
+                                                </div>
+                                        </div>
+                                        <div class="col-md-3  col-xs-4" style="text-align:center;">
+                                                <div class="footer-link">
+                                                        <h5>Mining</h5>
+                                                        <a href="https://www.coinotron.com/">Coinotron</a><br>
+                                                        <a href="https://ppcoin.d7.lt/">D7 Pool</a><br>
+                                                        <a href="http://fuzzypool.org/pool/">Fuzzypool</a><br>
+                                                        <a href="http://ppc.fixx.ru/index">Fixx</a>
+                                                </div>
+                                        </div>
+                                </div>
+                                
+                                
+                                
+                                <div class="row">
+                                        <div class="col-md-12">
+                                                
+                                                <hr>
+                                                <div class="copy text-center">
+                                                        &copy; 2013 <a href="http://www.peercointalk.org/">Peercoin Community</a> - Designed by <a href="http://super3.org/">Super3</a>
+                                                </div>
+                                        </div>
+                                </div>
+                                
+                        </div>
+                </footer>
+                <!-- Footer Ends -->
+                        
+                <!-- Javascript files -->
+                <!-- jQuery -->
+                <script src="js/jquery.js"></script>
+                <!-- Bootstrap JS -->
+                <script src="js/bootstrap.min.js"></script>
+                <!-- Respond JS for IE8 -->
+                <script src="js/respond.min.js"></script>
+                <!-- HTML5 Support for IE -->
+                <script src="js/html5shiv.js"></script>
+                <!-- Custom JS -->
+                <script src="js/custom.js"></script>
+
+
+                <script src="include/custom.js"></script>
+                
+                <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+                ga('create', 'UA-40768937-3', 'peercoin.net');
+                ga('send', 'pageview');
+
+
+                </script>
+
+
+</body></html>
 
-/* Basic CSS starts */
-
-body{
-	font-family: 'Open Sans', sans-serif;
-	-webkit-font-smoothing: antialiased;
-}
-
-h1,h2,h3,h4,h5,h6{
-	
-}
-
-p{
-	margin:0;
-	padding:0;
-}
-
-a{
-
-}
-
-a:hover{
-
-}
-
-a:hover,a:active,a:focus {
-	outline: 0;
-}
-
-hr{
-
-}
-
-:focus {
-	outline:none;
-}
-
-::-moz-focus-inner {
-	border:0;
-}
-
-/* Basic CSS ends */
-
-.container{
-	width:900px;
-}
-
-.tblue{
-	color:#69b8e5;
-}
-
-
-.top{
-	background:#555 url('../img/back.jpg') repeat;
-	border-bottom:1px solid #000;
-
-}
-
-.inner-page{
-	padding-top:0px	!important;
-	padding-bottom:10px;
-}
-/* Header */
-
-header{
-	background-color:rgba(0,0,0,0.3);
-	height:80px;
-	margin-bottom:15px;
-	border-bottom:1px solid #000;
-}
-
-header .logo h1{
-	font-size:40px;
-	line-height:45px;
-	color:#fff;
-	font-family: 'Lobster Two', cursive;
-	text-shadow:1px 1px 1px #777;
-}
-
-header .logo h1 a{
-	color:#fff;
-	text-decoration:none;
-	padding-left:10px;
-}
-
-header .navigation a{
-	color:#fff;
-	text-decoration:none;
-	font-size:15px;
-	font-weight:bold;
-	line-height:80px;
-	margin-right:15px;
-	background:rgba(0,0,0,0.3);
-	padding:10px 15px;
-	border-radius:5px;
-	-webkit-transition: background 1s ease;
-	-moz-transition: background 1s ease;
-	-o-transition: background 1s ease;
-	-ms-transition: background 1s ease;
-	transition: background 1s ease;
-}
-
-header .navigation a:hover{
-	color:#fff;
-	background:#333;
-	-webkit-transition: background 1s ease;
-   -moz-transition: background 1s ease;
-   -o-transition: background 1s ease;
-   -ms-transition: background 1s ease;
-   transition: background 1s ease;
-}
-
-/* Hero */
-
-.hero{
-	padding-top:20px;
-	
-}
-
-.hero .shot img{
-	width:300px;
-	height:auto;
-	margin:0px auto;
-}
-
-.hero .intro h2{
-	color:#fff;
-	font-family: 'Open Sans', sans-serif;
-	font-size:40px;
-	text-transform:uppercase;
-	font-weight:bold;
-	
-}
-
-.hero .intro p{
-	color:#eee;
-	font-size:22px;
-}
-
-.hero .intro a.download{
-	color:#fff;
-	display:inline-block;
-	text-decoration:none;
-	font-size:17px;
-	font-weight:bold;
-	padding:0px 25px;
-	border-radius:5px;
-	background:#39a5e2;
-	line-height:50px;
-	box-shadow: 0 2px 0 0 rgba(255,255,255,0.2) inset,0 2px 3px rgba(0,0,0,0.3);
-	-webkit-transition: background 1s ease;
-   -moz-transition: background 1s ease;
-   -o-transition: background 1s ease;
-   -ms-transition: background 1s ease;
-   transition: background 1s ease;
-}
-
-.hero .intro a.download:hover{
-	background:#1c97dd;
-	-webkit-transition: background 1s ease;
-   -moz-transition: background 1s ease;
-   -o-transition: background 1s ease;
-   -ms-transition: background 1s ease;
-   transition: background 1s ease;
-}
-
-.hero .intro strong{
-	color:#fff;
-	font-size:15px;
-	margin-left:5px;
-}
-
-.hero .intro .applinks{
-	margin-top:15px;
-}
-
-.hero .intro .applinks a{
-	color:#fff;
-	text-decoration:none;
-	font-size:20px;
-	padding:10px 15px;
-	line-height:60px;
-	box-shadow:inset 0px 0px 3px #000;
-	margin-right:10px;
-	border-radius:40px;
-	background:rgba(0,0,0,0.3);
-	-webkit-transition: background 1s ease;
-   -moz-transition: background 1s ease;
-   -o-transition: background 1s ease;
-   -ms-transition: background 1s ease;
-   transition: background 1s ease;
-}
-
-.hero .intro .applinks a:hover{
-	background:rgba(0,0,0,0.5);
-	-webkit-transition: background 1s ease;
-   -moz-transition: background 1s ease;
-   -o-transition: background 1s ease;
-   -ms-transition: background 1s ease;
-   transition: background 1s ease;
-}
-
-/* Contact */
-
-/* Map */
-
-.map iframe{
-	position:relative;
-	z-index:100;
-	width:100%;
-	margin-bottom: 10px;
-	height:300px;
-	margin-top:10px;
-	border:1px solid #eee;
-	padding:10px;
-}
-
-.contact .formdetails{
-	border:1px solid #eee;
-	padding:20px;
-	margin-bottom:10px;
-}
-
-.contact .well{
-   border-radius:0px;
-   box-shadow:none;
-   background:#fafafa;
-	border:1px solid #eee;
-	padding:20px;
-}
-
-/* About */
-
-.about{
-	padding-top:30px;
-	padding-bottom:30px;
-}
-
-.about p.aboutpara{
-	font-family: 'Droid Serif', serif;
-	font-size:16px;
-	font-style:italic;
-	line-height:30px;
-	border:1px solid #ddd;
-	background:#f5f5f5;
-	padding:15px;
-}
-
-.about p span{
-	font-size:25px;
-}
-
-.about .query h3{
-	color:#777;
-	
-}
-
-.about .query p{
-	font-size:15px;
-	line-height:25px;
-}
-
-.about .query hr{
-	margin-top:5px;
-	margin-bottom:5px;
-}
-
-.about .well{
-	margin-top:20px;
-	padding:5px;
-}
-
-.about .well h5{
-	font-size:20px;
-	padding-left:15px;
-}
-
-.about .well hr{
-	margin-top:15px;
-	margin-bottom:15px;
-}
-
-.about .well ul li{
-	padding-top:5px;
-	padding-bottom:5px;
-}
-
-/* Blog */
-
-.blog{
-	padding-top:30px;
-	padding-bottom:30px;
-}
-
-.blog .posts h3{
-	font-size:35px;
-	font-weight:normal;
-	font-family: 'Droid Serif', serif;
-	
-}
-
-.blog .posts h3 a{
-	text-decoration:none;
-	color:#555;
-}
-
-.blog .posts .post-meta{
-	margin-top:20px;
-	margin-bottom:20px;
-	font-size:12px;
-	color:777;
-	border-top:1px solid #eee;
-	border-bottom:1px solid #eee;
-	padding:10px 0px;
-}
-
-.blog .posts .post-meta i{
-	margin-left:5px;
-	margin-right:5px;
-}
-
-.blog .posts .post-meta a{
-	color:#777;
-	text-decoration:none;
-}
-
-.blog .posts .post-meta a:hover{
-	color:#555;
-}
-
-.blog .posts .post-content img{
-	border:1px solid #f5f5f5;
-	margin-bottom:15px;
-}
-
-.blog .posts .post-content p{
-	font-size:13px;
-	line-height:25px;
-	
-}
-
-.blog .posts .post-content a{
-	margin-top:15px;
-}
-
-.pagination > li:last-child>a, .pagination>li:last-child>span {
-	border-radius:0px;
-}
-
-.pagination > li:first-child>a, .pagination>li:first-child>span {
-	border-radius:0px;
-}
-
-.blog ul li a{
-	color:#333;
-}
-
-.blog ul li a:hover{
-	color:#666;
-}
-
-.blog .posts .well{
-	padding-top:5px;
-}
-
-/* Comments */
-/* Comments */
-
-.respond{
-	padding-top: 10px;
-	padding-left: 20px;
-}
-
-.comments .title h5{
-	font-size:18px;
-	font-weight:bold;
-}
-
-.comments ul.comment-list{
-	list-style-type: none;
-	margin: 0px !important;
-	padding:0px !important;
-}
-
-.comments > ul > li{
-background:none;
-padding:0px;
-}
-
-.comments{
-	margin-bottom: 20px;
-}
-
-.comments .comment{
-margin:15px 0px;
-padding:13px 16px;
-background:#f8f8f8;
-border-left:2px solid #ddd;
-}
-
-.comment .avatar{
-margin-top:5px;
-margin-right:8px;
-}
-
-.comment .cmeta{
-font-size:12px;
-}
-
-.comment p{
-margin-top:5px;
-font-size: 13px;
-}
-
-.comments .reply{
-margin-left:15px;
-}
-
-.respond{
-	border-top: 2px solid #eee;
-}
-
-.respond .title{
-padding:5px 0px;
-margin-bottom:0px;
-}
-
-
-.blog .posts .well a{
-	line-height:24px;
-	text-decoration:none;
-	display:inline-block;
-	width:24px;
-	height:24px;
-	text-align:center;
-	color:#fff;
-	font-size:13px;
-	border-radius:2px;
-   -webkit-transition: background 1s ease;
-   -moz-transition: background 1s ease;
-   -o-transition: background 1s ease;
-   -ms-transition: background 1s ease;
-   transition: background 1s ease;
-}
-
-.blog .posts .well a.facebook{
-	background:#1e78ae;
-}
-
-.blog .posts .well a.twitter{
-	background:#1ba1e2;
-}
-
-.blog .posts .well a.google{
-	background:#f22d0c;
-}
-
-.blog .posts .well a.pinterest{
-	background:#dd1617;
-}
-
-.blog .posts .well a.linkedin{
-	background:#2d93cf;
-}
-
-.blog .posts .well a:hover{
-	 background:#000;
-    -webkit-transition: background 1s ease;
-     -moz-transition: background 1s ease;
-     -o-transition: background 1s ease;
-     -ms-transition: background 1s ease;
-     transition: background 1s ease;
-}
-
-
-
-
-
-
-/* Sidebar widget */
-
-.sidebar {
-	padding-top:0px;
-}
-
-.sidebar .widget h3{
-	font-size: 14px;
-	color: #777;
-	line-height: 18px;
-	margin-bottom: 5px;
-	padding-bottom: 10px;
-	text-transform: uppercase;
-	border-bottom: 1px solid #eee;
-}
-
-.sidebar ul{
-	margin: 10px 0px;
-	margin-left:15px;
-	padding-left:0px;
-}
-
-.sidebar .widget ul li{
-	font-size:13px;
-	padding:3px 0px;
-}
-
-.sidebar ul li{
-	line-height:23px;
-}
-
-.sidebar .widget p{
-	font-size:13px;
-	line-height:23px;
-}
-
-.sidebar .widget a{
-	line-height:40px;
-	text-decoration:none;
-	display:inline-block;
-	width:40px;
-	text-align:center;
-	color:#fff;
-	font-size:15px;
-	border-radius:25px;
-   -webkit-transition: background 1s ease;
-   -moz-transition: background 1s ease;
-   -o-transition: background 1s ease;
-   -ms-transition: background 1s ease;
-   transition: background 1s ease;
-}
-
-.sidebar .widget a.facebook{
-	background:#1e78ae;
-}
-
-.sidebar .widget a.twitter{
-	background:#1ba1e2;
-}
-
-.sidebar .widget a.google{
-	background:#f22d0c;
-}
-
-.sidebar .widget a.pinterest{
-	background:#dd1617;
-}
-
-.sidebar .widget a.linkedin{
-	background:#2d93cf;
-}
-
-.sidebar .widget a:hover{
-	 background:#000;
-    -webkit-transition: background 1s ease;
-     -moz-transition: background 1s ease;
-     -o-transition: background 1s ease;
-     -ms-transition: background 1s ease;
-     transition: background 1s ease;
-}
-
-
-/* Features */
-
-.features{
-	background:#eee url('../img/featureback1.png') repeat;
-	padding-top:40px;
-	padding-bottom:60px;
-	border-bottom:1px solid #ddd;
-}
-
-.features .feature-title h3{
-	font-family: 'Lobster Two', cursive;
-	font-size:45px;
-	font-weight:400 !important;
-	color:#555;
-}
-
-.features .feature-title p{
-	font-size:15px;
-	line-height:30px;
-	font-weight:normal;
-	color:#555;
-	font-family: 'Droid Serif', serif;
-	font-style:italic;
-	max-width:700px;
-	margin:0px auto;
-	margin-bottom:20px;
-}
-
-.features hr{
-	margin-top:25px;
-	margin-bottom:35px;
-}
-
-.features .feat{
-	text-align:center;
-	color:#888;
-	-webkit-transition: color 1s ease;
-   -moz-transition: color 1s ease;
-   -o-transition: color 1s ease;
-   -ms-transition: color 1s ease;
-   transition: color 1s ease;
-   cursor:pointer;
-}
-
-.features .feat:hover{
-	color:#444;
-	-webkit-transition: color 1s ease;
-   -moz-transition: color 1s ease;
-   -o-transition: color 1s ease;
-   -ms-transition: color 1s ease;
-   transition: color 1s ease;
-}
-
-.features .feat i{
-	font-size:30px;
-}
-
-.features .feat h4{
-	color:#666;
-	font-weight:400 !important;
-}
-
-.features .feat p{
-	font-size:14px;
-	line-height:28px;
-	font-weight:normal;
-	font-style:italic;
-	font-family: 'Droid Serif', serif;
-}
-
-/* Features */
-
-/* Shots */
-
-.shots{
-	padding-top:60px;
-	padding-bottom:60px;
-}
-
-.shots .screenshot img{
-	width:300px;
-	margin:0px auto;
-}
-
-.shots .shotcontent h3{
-	font-size:35px;
-	border-bottom:1px solid #eee;
-	padding-bottom:15px;
-	margin-bottom:15px;
-}
-
-.shots .shotcontent p.shot-para{
-	font-size:16px;
-	font-style:italic;
-	font-family: 'Droid Serif', serif;
-	font-weight:normal;
-	line-height:35px;
-}
-
-.shots hr{
-	margin-top:20px;
-	margin-bottom:20px;
-}
-
-.shots .shotcontent .shot-content-body i{
-	font-size:20px;
-	line-height:25px;
-	margin-right:5px;
-}
-
-.shots .shot-content-body p{
-	font-family: 'Open Sans', sans-serif !important;
-	line-height:28px !important;
-}
-
-.shots .shotcontent a.download{
-	color:#fff;
-	display:inline-block;
-	text-decoration:none;
-	font-size:17px;
-	font-weight:bold;
-	padding:0px 25px;
-	border-radius:5px;
-	background:#39a5e2;
-	line-height:50px;
-	box-shadow: 0 2px 0 0 rgba(255,255,255,0.2) inset,0 2px 3px rgba(0,0,0,0.3);
-	-webkit-transition: background 1s ease;
-   -moz-transition: background 1s ease;
-   -o-transition: background 1s ease;
-   -ms-transition: background 1s ease;
-   transition: background 1s ease;
-}
-
-.shots .shotcontent a.download:hover{
-	background:#1c97dd;
-	-webkit-transition: background 1s ease;
-   -moz-transition: background 1s ease;
-   -o-transition: background 1s ease;
-   -ms-transition: background 1s ease;
-   transition: background 1s ease;
-}
-
-/* Footer */
-
-footer{
-	padding-top:30px;
-	background:#000 url('../img/3.png') repeat;
-	color:#ccc;
-}
-
-footer  a{
-	color:#aaa;
-}
-
-footer a:hover{
-	text-decoration:none;
-	color:#eee;
-}
-
-
-
-footer hr{
-	margin-top: 30px;
-	margin-bottom:30px;
-	border-top: #101010 1px solid;
-	border-bottom: #222 1px solid;
-}
-
-footer .footer-link{
-	padding-top:15px;
-}
-
-footer .footer-link h5{
-	color:#fff;
-	font-size:18px;
-}
-
-footer .footer-link a{
-	margin-bottom:10px;
-	display:inline-block;
-}
-
-
-
-footer .copy{
-	margin-bottom:20px;
-	font-size:13px;
-}
-
-
-
-
-
-
-/* Responsive CSS */
-
-/* Mobile phones */
-@media (max-width: 480px){
-	header{
-		padding-bottom:15px;
-	}
-	header .navigation a{
-		margin-right:7px;
-		margin-left:7px;
-		line-height:50px;
-	}
-
-}
-
-/* Tablets */
-@media (max-width: 991px){
-	.container{
-		width:100%;
-	}
-	
-	header{
-		height:auto;
-	}
-	
-	header .logo{
-		text-align:center;
-	}
-	
-	header .navigation{
-		float:none !important;
-		text-align:center;
-	}
-	
-	.hero .intro{
-		text-align:center;
-		max-width:500px;
-		margin:0px auto;
-	}
-	
-	.hero .applinks {
-		margin-bottom:25px;
-	}
-	
-	.features .feat{
-		margin-bottom:30px;
-	}
-	
-	.features .feat p{
-		max-width:200px;
-		margin:0px auto;
-	}
-	
-	.shots{
-		text-align:center;
-		max-width:400px;
-		margin:0px auto;
-	}
-	
-	.shots .shotcontent a.download{
-		margin-bottom:20px;
-	}
-	
-	footer{
-		text-align:center;
-	}
-	
-	.sidebar{
-		margin-top:20px;
-	}
-	
-
-}
-
-/* PC 
-@media (min-width: 768px) and (max-width: 979px){
-	header{
-		height:auto;
-	}
-	
-	header .logo{
-		text-align:center;
-	}
-	
-	header .navigation{
-		float:none !important;
-		text-align:center;
-	}
-	
-	.hero .intro{
-		text-align:center;
-		max-width:500px;
-		margin:0px auto;
-	}
-}
-	
-*/
