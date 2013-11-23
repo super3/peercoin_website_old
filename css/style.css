@@ -564,9 +564,9 @@ margin-bottom:0px;
 
 /* tagline */
 
-.tagline .tagline-title h3{
+.tagline h3{
 	font-family: 'Lobster Two', cursive;
-	font-size:35px;
+	font-size:25px;
 	font-weight:400 !important;
 	color:#fff;
 }
