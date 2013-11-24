@@ -86,6 +86,10 @@ header .logo h1 a{
 	padding-left:10px;
 }
 
+header .navigation {
+	float: left;
+}
+
 header .navigation a{
 	color:#fff;
 	text-decoration:none;
@@ -113,6 +117,24 @@ header .navigation a:hover{
    transition: background 1s ease;
 }
 
+header .social {
+	float:right;
+	padding-top:20px;
+	padding-right:45px;
+}
+
+header .social a{
+	margin-left:5px;
+}
+
+header .social a:hover{
+	-webkit-transition: opacity .5s ease;
+   -moz-transition: opacity .5s ease;
+   -o-transition: opacity .5s ease;
+   -ms-transition: opacity .5s ease;
+   transition: opacity .5s ease;
+	opacity:0.5;
+}
 /* Hero */
 
 .hero{
@@ -777,6 +799,14 @@ footer .copy{
 		margin-left:7px;
 		line-height:50px;
 	}
+	header .social{
+		float:none;
+		margin-top:10px !important;
+		margin-bottom:5px !important;
+		padding-top:0;
+		padding-right:0;
+		text-align:center;
+	}
 
 }
 
@@ -796,6 +826,14 @@ footer .copy{
 	
 	header .navigation{
 		float:none !important;
+		text-align:center;
+	}
+	header .social{
+		float:none;
+		margin-top:-10px;
+		margin-bottom:10px;
+		padding-top:0;
+		padding-right:0;
 		text-align:center;
 	}
 	
