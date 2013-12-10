@@ -25,7 +25,7 @@ General information
 Investor information
 Directory of Peercoin-related services
 
-### Wiki.Percoin.net
+### Wiki.Peercoin.net
 Detailed, multi-category information about Peercoin (ala Bitcoin's wiki)
 Developer-centric resources (a sub-section of the wiki, used for documenting the protocol, APIs and the official client)
 
