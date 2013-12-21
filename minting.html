@@ -32,7 +32,8 @@
 		<p> Statistically you can get 1% interest on your coins if you mint. You only mint when your wallet is open, but as the resources use is a lot lower than mining, you'll hardly notice it. 
 			Your wallet is unlocked, but you will still need your passphrase for transactions. Future wallet version will support in wallet minting, possibly without decrypting.	</p>
 		
-		The Peercoin-QT wallet software takes care of this whole process automatically but it needs a few configuration before it can start.		  
+		The Peercoin-QT wallet software takes care of this whole process automatically but it needs a few configuration before it can start.
+		
         <h3> Windows Minting Guide</h3>
 		
 		1) Set-up required software: <br>
@@ -93,5 +94,45 @@
 		<img src="img/minting4.png">
 		
 		<p> If the bottom right corner shows a unlocked padlock after 30 seconds you are now minting. <b>Congratulations!</b> </p>
+		
+		<h3> Linux Minting Guide</h3>
+		
+		<p> For this tutorial we'll assume the binaries are installed. If you have you can skip the next few lines. Otherwise use the binaries provided on the sourceforge page, click to download them: <a href="http://sourceforge.net/projects/ppcoin/files/0.3.0/ppcoin-0.3.0-linux.tar.gz/download">here</a>.
+		<br> Download the compressed binaries either by command line or via the browser. Decompress the binaries and copy over either the content of the 32bit or 64bit folder, depending on your CPU, to the usr/bin directory or what directory you prefer for your binaries. 
+		We'll use the QT version of peercoin: ppcoin-qt. Navigate to the /usr/bin folder and execute the ppcoin-qt binary. This will set-up the required folders. Encrypt the wallet and write down the passphrase. Don't lose it!
+		Now close the Peercoin-QT client.</p>
+		
+		Open a terminal and copy/type this block of text. Before you execute the command be sure to edit the password!
+		<pre>cd ~
+echo '
+#ppcoin.conf
+# JSON-RPC options (for controlling a running ppcoind process) 
+
+#Server mode allows Qt to accept JSON-RPC commands
+server=1 
+
+# You must set rpcuser and rpcpassword to secure the JSON-RPC api
+rpcuser=rpcuser
+rpcpassword=&lt;A random password that is not your wallet passphrase&gt;
+
+#The reserve balance field is the minimum amount of coins you want to have available and NOT put up as stake.  
+#The reason for this is that if you are generating proof of stake you cannot spend those coins for 520 blocks. 
+#reservebalance=25		
+' > .ppcoin/ppcoin.conf
+		</pre>
+		
+		<p> Start the Peercoin-QT client. The bottom left should display a message that the wallet is locked and the minting process is suspended.
+		Now we go back to the binary folder (/usr/bin): type this in the console</p>
+		
+		<pre>cd /usr/bin
+./ppcoind walletpassphrase &lt;secretpasswordtoyourwallet&gt; 9999999 true		
+		</pre>
+		
+		<p>This unlocks the wallet for minting and starts the minting process if you have the Peercoin-Qt client open. After a few second you should see the padlock on the bottom right unlock. Congratulations you are minting!
+		Don't forget to back-up your privatekey by backing-up the wallet.dat from the ~/.ppcoin folder or extracting the private key. 
+		</p>
+		
+		
+		
    
  </div> <!-- /#features -->
