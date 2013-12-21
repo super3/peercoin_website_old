@@ -1,4 +1,4 @@
 Peercoin.net
 ============
 
-Orginal templete files.
+Orginal template files.
