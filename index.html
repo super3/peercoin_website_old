@@ -59,12 +59,6 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="index.html">Peercoin</a>
-          <div class="social">
-			<a href="https://www.facebook.com/Peercoin"><img src="assets/img/icons/social-fb.png" alt="Visit us on Facebook"></a>
-			<a href="http://www.reddit.com/r/peercoin"><img src="assets/img/icons/social-reddit.png" alt="Reddit"></a>
-			<a href="https://twitter.com/PeercoinPPC"><img src="assets/img/icons/social-twitter.png" alt="Follow us on Twitter"></a>
-			<a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT"><img src="assets/img/icons/social-yt.png" alt="See videos on YouTube"></a>
-		   </div>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav pull-right">
@@ -76,6 +70,7 @@
                 <li><a href="http://peercoin.net/bin/peercoin-paper.pdf">Whitepaper</a></li>
               </ul>
             </li>
+               <li><a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform">Volunteer</a></li>
             <li><a href="http://www.peercointalk.org/">Forum</a></li>
             <li><a href="http://sourceforge.net/projects/ppcoin/files/"><span class="btn btn-primary btn-group-xs" role="button" style="position: relative; top: -6px;">Download Now!</span></a></li>
           </ul>
@@ -194,7 +189,10 @@ Peercoin also employs other advanced security features including enforcing trans
 				    </div>
 				    <div id="collapseThree" class="panel-collapse collapse">
 				      <div class="panel-body">
-				        <p>We provide portfolios to prospective clients on a limited basis to protect the privacy of our clients. So, the answer is yes…</p>
+				        <p>Generating proof-of-stake blocks requires far less energy than generating hardware-intensive proof-of-work hashes.This means that over time, the Peercoin network will consume less energy as proof-of-work blocks become less rewarding and blocks are generated instead by the proof-of-stake portion of the algorithm.
+				        <br/><br/>
+				        Proof-of-stake also does away with the ~$1 billion "tax" on the Bitcoin network through proof-of-work blocks.
+				    	You can read more about that <a href="http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/">here</a></p>
 				      </div>
 				    </div>
 				  </div>
@@ -202,13 +200,17 @@ Peercoin also employs other advanced security features including enforcing trans
 				    <div class="panel-heading">
 				      <h4 class="panel-title">
 				        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-				          <span class="fui-plus"></span> What does it cost to hire Good?
+				          <span class="fui-plus"></span> Myth #1 - Peercon is just a clone of Bitcoin.
 				        </a>
 				      </h4>
 				    </div>
 				    <div id="collapseFour" class="panel-collapse collapse">
 				      <div class="panel-body">
-				        <p>All projects are different. We provide a full analysis of the project and no work is executed without a clear price that is agreed upon by you and Good.</p>
+				        <p>Peercoin is one of the truly unique coins that are not just a clone of the original Bitcoin code. 
+				           Peercoin is the first coin to introduce a Proof of Stake/Proof of Work combination along with other energy efficient mechanisms. In fact, many altcoins are now integrating Peercoin's Proof of stake into their codebase.
+				           <br/> <br/>
+						   Source: <a href="http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features">http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features</a>
+						</p>
 				      </div>
 				    </div>
 				  </div>
@@ -216,13 +218,40 @@ Peercoin also employs other advanced security features including enforcing trans
 				    <div class="panel-heading">
 				      <h4 class="panel-title">
 				        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-				          <span class="fui-plus"></span> When can Good start my project?
+				          <span class="fui-plus"></span> Myth #2 - Peercoin is a centralized coin because of checkpointing.
 				        </a>
 				      </h4>
 				    </div>
 				    <div id="collapseFive" class="panel-collapse collapse">
 				      <div class="panel-body">
-				        <p>Projects start on a first come, first serve basis. We do limit the number of projects we take on at one time. We do not believe in starting several projects just to lock down a client..not our style.</p>
+				        <p>Checkpoint are like an alert message, clients listen to them but does not enforce the checkpoint by default. Users have the choice to enable the enforcement of checkpoint, but it’s a conscious choice users must take. This means the developer responsible for the checkpoint must gain community consensus before using them, developer cannot arbitrarily force a block chain reorganization onto the users. Generally speaking the checkpoint feature should not be used without 51% attack emergency.
+						<br/><br/>
+						The risk of 51% denial-of-service attack on block chain is real, especially to a smaller network. In fact I wouldn’t exclude such a possibility to even bitcoin. Of course such an attack on bitcoin would likely not come from an individual due to the resource required. But it’s irresponsible to say that’s not possible. Just imagine what would happen if bitcoin stops processing transactions for a few days. The advanced checkpoint feature in xpm is specifically designed to deal with this situation. Yes the network would turn into quasi centralized mode by community consensus, however that’s obviously a lot better than admitting defeat and giving up. - Sunny King
+						<br/><br/>
+						Futhermore, Bitcoin(<a href="https://github.com/bitcoin/bitcoin/blob/master/src/checkpoints.cpp">see source</a>) and Litecoin(<a href="https://github.com/litecoin-project/litecoin/blob/master-0.8/src/checkpoints.cpp">see source</a>)
+						also have checkpoints in their code.
+						</p>
+				      </div>
+				    </div>
+				  </div>
+				  	  <div class="panel panel-default">
+				    <div class="panel-heading">
+				      <h4 class="panel-title">
+				        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+				          <span class="fui-plus"></span> Myth #3 - Peercoin is extremely inflation in nature.
+				        </a>
+				      </h4>
+				    </div>
+				    <div id="collapseSix" class="panel-collapse collapse">
+				      <div class="panel-body">
+				        <p>
+				        Nope. If Peercoin grows rapidly, stake minting may temporarily decrease as coin days are lost when trading, this would cause Peercoin to become deflationary. The flat nature of the transaction fees is intended to counter this by decreasing total transaction volume. Proponents of Peercoin argue that this will decrease deflation.
+				        <br/><br/>
+				        Furthermore, Bitcoin currenctly experiences <a href="http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/">a ~10%</a> inflation per year as it approaches is total supply of 21 million. It is <b>hoped</b> 
+				        that when the total supply is reached that the transactions fees will be enough to sustain a secure network.
+				        <br/><br/>
+				        To maintain a secure network in the future, Peercoin has a 1% a year inflation(Proof-of-stake reward) to make sure there will be a secure network, no matter the transaction fees. As stated before this may become deflationary, as Bitcoin aims to be, during high volumes of transactions.
+						</p>
 				      </div>
 				    </div>
 				  </div>
@@ -230,11 +259,18 @@ Peercoin also employs other advanced security features including enforcing trans
 				</div><!-- panel-group -->			
 			</div><!-- col-lg-8 -->
 			
-			<div class="col-lg-4">
+			<div class="col-lg-4 centered">
 				<div class="alert alert-success">
-				<h4>More About Us?</h4>
-			    	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Contrary to popular belief.</p>
-			        <a href="#" class="btn btn-primary btn-wide"><i class="fui-link"></i> Get It Now!</a>
+				<h4>Convinced you?</h4>
+			    	<p>Time to download the client, and try it for youself. If you have any question just ask on the 
+			    		<a href="http://www.peercointalk.org/"forum</a>, or the social links below.</p>
+			        <a href="http://sourceforge.net/projects/ppcoin/files/" class="btn btn-primary btn-large"><i class="fui-link"></i> Download Now!</a>
+			        <div class="social">
+			<a href="https://www.facebook.com/Peercoin"><img src="assets/img/icons/social-fb.png" alt="Visit us on Facebook"></a>
+			<a href="http://www.reddit.com/r/peercoin"><img src="assets/img/icons/social-reddit.png" alt="Reddit"></a>
+			<a href="https://twitter.com/PeercoinPPC"><img src="assets/img/icons/social-twitter.png" alt="Follow us on Twitter"></a>
+			<a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT"><img src="assets/img/icons/social-yt.png" alt="See videos on YouTube"></a>
+		   </div>
 			     </div>
 			
 			</div>
