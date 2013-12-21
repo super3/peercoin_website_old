@@ -20,17 +20,17 @@ If you have a simple change to the website, we ask that you put in a pull reques
 
 Web Plan
 ============
-### Peercoin.net
+### [Peercoin.net](http://peercoin.net)
 General information
 Investor information
 Directory of Peercoin-related services
 
 ### Wiki.Peercoin.net
-Detailed, multi-category information about Peercoin (ala Bitcoin's wiki)
+Detailed, multi-category information about Peercoin (ala Bitcoin's wiki).
 Developer-centric resources (a sub-section of the wiki, used for documenting the protocol, APIs and the official client)
 
 ### Support.Peercoin.net
 Support tickets and Feature requests. Support-specific FAQs, with links back to content on www.peercoin.net or wiki.peercoin.net
 
-### Peercointalk.org
+### [Peercointalk.org](http://www.peercointalk.org/index.php)
 The primary home of the community. General discussions about Peercoin. Questions that come up can be directed to the proper resource above.
