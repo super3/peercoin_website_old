@@ -1,0 +1,744 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: Good - A Flat Business Theme
+ * Version: 1.0
+ * URL: http://alvarez.is
+ */
+
+body {
+  padding-top: 75px;
+}
+
+.centered {
+	text-align: center;
+}
+
+.panel-default > .panel-heading {
+	color: #ffffff;
+	background-color: #1abc9c;
+	border-color: #16a085;
+}
+
+.panel-heading a:hover {
+	color: #bdc3c7;
+}
+
+.panel-title > a {
+	font-weight: 300;
+	font-size: 20px;
+}
+
+/***** Slideshow Stylesheet *****/
+#slideshow-container {
+	width:100% !important;
+	max-height:463px;
+	background:#e4e6e6;
+	position:relative;
+	overflow:hidden;
+	padding:0;
+}
+
+.banner {
+	width:100%;
+	max-height:463px !important;
+	position:relative;
+	overflow:hidden;
+	margin:0 auto;
+}
+
+/***** SVG Icons Configuration *****/
+
+.svgicons img {
+	display: inline-block;
+	max-height: 100px;
+	max-width: 100px;
+	vertical-align: middle;
+	padding-top: 15px;
+	}
+
+
+/***** Image Hover Effect *****/
+
+.ch-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.ch-grid:after,
+.ch-item:before {
+	content: '';
+    display: table;
+}
+
+.ch-grid:after {
+	clear: both;
+}
+
+.ch-grid li {
+	width: 220px;
+	height: 220px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.ch-grid h6 {
+	font-size: 18px;
+	font-weight: 200;
+	margin-top: 10px;
+}
+				
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	cursor: default;
+	box-shadow: 
+		inset 0 0 0 16px rgba(255,255,255,0.6),
+		0 1px 2px rgba(0,0,0,0.1);
+		
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+/***** DEFINE HERE YOUR IMAGES *****/
+.ch-img-1 { 
+	background-image: url(../images/1.jpg);
+}
+
+.ch-img-2 { 
+	background-image: url(../images/2.jpg);
+}
+
+.ch-img-3 { 
+	background-image: url(../images/3.jpg);
+}
+
+.ch-img-4 { 
+	background-image: url(../images/4.jpg);
+}
+
+.ch-img-5 { 
+	background-image: url(../images/5.jpg);
+}
+
+.ch-img-6 { 
+	background-image: url(../images/6.jpg);
+}
+
+
+.ch-info {
+	position: absolute;
+	background: rgba(63,147,147, 0.8);
+	width: inherit;
+	height: inherit;
+	border-radius: 50%;
+	opacity: 0;
+	
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	
+	-webkit-backface-visibility: hidden;
+
+}
+
+
+.ch-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin: 0 30px;
+	padding: 45px 0 0 0;
+	height: 140px;
+	font-family: 'Lato', Arial, sans-serif;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info p {
+	color: #fff;
+	padding: 10px 5px;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 12px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+	opacity: 0;
+	-webkit-transition: all 1s ease-in-out 0.4s;
+	-moz-transition: all 1s ease-in-out 0.4s;
+	-o-transition: all 1s ease-in-out 0.4s;
+	-ms-transition: all 1s ease-in-out 0.4s;
+	transition: all 1s ease-in-out 0.4s;
+}
+
+.ch-info p a {
+	display: block;
+	color: #fff;
+	color: rgba(255,255,255,0.7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	font-family: 'Lato', Arial, sans-serif;
+}
+
+.ch-info p a:hover {
+	color: #fff222;
+	color: rgba(255,242,34, 0.8);
+}
+
+.ch-item:hover {
+	box-shadow: 
+		inset 0 0 0 1px rgba(255,255,255,0.1),
+		0 1px 2px rgba(0,0,0,0.1);
+}
+.ch-item:hover .ch-info {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+.ch-item:hover .ch-info p {
+	opacity: 1;
+}
+
+/****** Headerwrap ******/
+#headerwrap {
+	background: url(../images/header-bg.jpg) no-repeat center top;
+	margin-top: 0px;
+	padding-top:160px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 600px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	color: #ffffff;
+}
+
+#headerwrap-2 {
+	background: url(../images/header2-bg.jpg) no-repeat center top;
+	margin-top: 0px;
+	padding-top:160px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 600px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap-2 h1 {
+	color: #ffffff;
+}
+
+/***** About Wrap *****/
+#aboutwrap {
+	background: url(../images/about-bg.jpg) no-repeat center top;
+	margin-top: 0px;
+	padding-top:80px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 400px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#aboutwrap h1 {
+	color: #ffffff;
+}
+
+/***** Service Wrap *****/
+#servicewrap {
+	background: url(../images/service-bg.jpg) no-repeat center top;
+	margin-top: 0px;
+	padding-top:120px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 400px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#servicewrap h1 {
+	color: #ffffff;
+}
+
+/***** Testimonial Wrap *****/
+#testwrap {
+	background: url(../images/test-bg.jpg) no-repeat center top;
+	margin-top: 0px;
+	padding-top:120px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 400px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#testwrap h4 {
+	color: #ffffff;
+}
+
+#testwrap h6 {
+	color: #ffffff;
+	font-size: 16px;
+}
+
+/***** Team Wrap *****/
+#teamwrap {
+	background: url(../images/team-bg.jpg) no-repeat center top;
+	margin-top: 0px;
+	padding-top:100px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 400px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#teamwrap h1 {
+	color: #ffffff;
+}
+
+/***** Team Wrap *****/
+#faqwrap {
+	background: url(../images/faq-bg.jpg) no-repeat center top;
+	margin-top: 0px;
+	padding-top:100px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 400px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#faqwrap h1 {
+	color: #ffffff;
+}
+
+
+
+
+/***** Spacer Wraps *****/
+#sp1 {
+	background: url(../images/sp1-bg.jpg) no-repeat center top;
+	margin-top: 0px;
+	padding-top:30px;
+	padding-bottom: 0px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 240px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#sp1 h3 {
+	color: #ffffff;
+	font-weight: 100;
+}
+
+
+
+/***** Call To Action *****/
+
+#cta {
+	background-color: #34495e;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	
+}
+
+#cta h3 {
+	color: #ffffff;
+	font-weight: 100;
+}
+
+#cta p {
+	font-weight: 300;
+	color: #c5c5c5;
+}
+
+/***** Grey Wrap *****/
+
+#g {
+	background: #eaeaea;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+#g h4 {
+	color: #c5c5c5;
+	padding-bottom: 40px;
+}
+
+#g h5 {
+	color: #c5c5c5;
+	font-weight: 700;
+}
+
+#g p {
+	color: #c5c5c5;	
+}
+
+
+#g span {
+	display: inline-block;
+	width: 32px;
+	color: #c5c5c5;
+	font-size: 20px;
+}
+
+/* Blog Card */
+#g .bc p {
+	color: #34495e;
+}
+
+/* Testimonial Carousel */
+
+#g .tc p {
+	color: #2f2f2f;
+	font-weight: 200;
+}
+
+#g .tc img {
+	margin-bottom: 25px;
+}
+
+#g .tc name {
+	color: #1abc9c;
+	font-size: 16px;
+}
+
+/***** Footer *****/
+
+#f {
+	background: #34495e;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+#f p {
+	font-weight: 300;
+	color: #677786;
+}
+
+#f h5 {
+	color: #677786;
+	font-weight: 300;
+}
+
+/***** Map Wrap *****/
+
+#mapwrap {
+	width: 100%;
+}
+
+/***** Services Info - Homepage *****/
+
+.sinfo {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.sinfo h4 {
+	font-weight: 300;
+}
+
+.sinfo p {
+	font-weight: 200;
+}
+
+.sinfo span {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/***** Blog Cards *****/
+
+.bc {
+	border: #c5c5c5 1px solid;
+	background: #ffffff;
+	border-radius: 5px;
+}
+
+.bc p {
+	font-weight: 200;
+	margin: 8px;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.bc date {
+	font-size: 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+/***** Tab Mods *****/
+.tabmod {
+	padding-top: 15px;
+}
+
+.tabmod h4 {
+	font-weight: 300;
+}
+
+.tabmod p {
+	font-weight: 200;
+}
+
+/***** Testimonials Styling *****/
+.testi-container {
+	width:100%;
+	margin-bottom:14px;
+	padding: 5px 6px 3px 0px; 
+	background-color:#fafafa;
+	border: solid 1px #ddd;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	position:relative;
+	float:left;
+	z-index:998;
+}
+
+.testi-container:before {
+	width: 25px;
+	height: 17px;
+	background:#fafafa;
+	content: '';
+	position: absolute;
+	z-index:999;
+	left:42px;
+	bottom: 0px;
+	margin-left: -7px;	
+}
+@media \0screen {.testi-container:before {background:none;}}
+
+.testi-container:after {
+	width: 17px;
+	height: 17px;
+	background:#fafafa;
+	border:1px solid #ddd;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	content: '';
+	position: absolute;
+	z-index:888;
+	left:45px;
+	bottom: -5px;
+	margin-left: -7px;
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+}
+@media \0screen {.testi-container:after {background:none; border:none;}}
+
+.testi-text {
+	width:100%;
+	float:left;
+	margin:0px;
+	padding:10px 14px 0px 14px;
+	font-weight: 200;
+}
+
+
+/***** W Bottom Spacer *****/
+
+.wb {
+	padding-bottom: 0px;
+}
+
+.wb p {
+	font-weight: 200;
+}
+
+/***** About Page - Tab Content *****/
+.ab .tab-content {
+  border: transparent;
+  border-radius: 6px;
+  margin-bottom: 0px;
+  padding: 20px 20px 0px;
+  position: relative;
+  z-index: 1;
+}
+
+.tabmod-a {
+}
+
+.tabmod-a h4 {
+	font-weight: 300;
+}
+
+.tabmod-a p {
+	font-weight: 200;
+}
+
+
+/***** Blog Styling *****/
+
+.blogcontent h6 {
+	margin-top: 15px;
+}
+
+.blogcontent p {
+	margin-top: 10px;
+}
+
+.blogcontent small {
+	color: #bdc3c7;
+	font-size: 14px;
+	margin-top: 5px;	
+}
+
+.blogcontent .lead {
+	font-size: 26px;
+	font-weight: 200;
+}
+
+.sidebar {
+	padding-top: 60px;
+}
+
+.sidebar p {
+	font-size: 16px;
+	margin-left: 15px;
+}
+
+.pop-posts {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+}
+
+.pop-posts img {
+	text-align: left;
+	float: left;
+	vertical-align: top;
+	margin-right: 4px;
+}
+
+.pop-posts p {
+	font-size: 12px;
+}
+
+.pop-posts:hover {
+	background: #f2f2f2;
+	cursor: pointer;
+}
+
+/***** Contact Tweak *****/
+
+.cinfo img {
+	width: 55px;
+	height: 55px;
+	float: left;
+	margin-right: 10px;
+}
