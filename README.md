@@ -1,6 +1,8 @@
 Peercoin.net Repo
 ============
-The static html files for [Peercoin.net](http://peercoin.net). The website is automatically updated from this repo on the hour, so be careful with any commits to the `master` branch. 
+The static html files for [Peercoin.net](http://peercoin.net). The website is automatically updated from this repo on the hour, so be careful with any commits to the `master` branch.
+
+[![tip for next commit](http://tip4commit.com/projects/222.svg)](http://tip4commit.com/projects/222)
 
 ### Issues
 Content requests, bugs, etc. are all handled through [Github Issues](https://github.com/super3/Peercoin.net/issues).We will try to get to your issue as soon as possible.
