@@ -5,7 +5,8 @@ The static html files for [Peercoin.net](http://peercoin.net). The website is au
 [![tip for next commit](http://tip4commit.com/projects/222.svg)](http://tip4commit.com/projects/222)
 
 ### Issues
-Content requests, bugs, etc. are all handled through [Github Issues](https://github.com/super3/Peercoin.net/issues).We will try to get to your issue as soon as possible.
+Content requests, bugs, etc. are all handled through [Github Issues](https://github.com/super3/Peercoin.net/issues). 
+We will try to get to your issue as soon as possible.
 
 ### Pull Requests
 If you have a simple change to the website, we ask that you put in a pull request instead of an issue. These include things like link changes, text errors, etc. We can add these to the live site with the push of a button, which makes everything easier. 
@@ -32,7 +33,10 @@ Detailed, multi-category information about Peercoin (ala Bitcoin's wiki).
 Developer-centric resources (a sub-section of the wiki, used for documenting the protocol, APIs and the official client)
 
 ### Support.Peercoin.net
-Support tickets and Feature requests. Support-specific FAQs, with links back to content on www.peercoin.net or wiki.peercoin.net
+Support tickets and Feature requests.
+Support-specific FAQs, with links back to content on www.peercoin.net or wiki.peercoin.net
 
 ### [Peercointalk.org](http://www.peercointalk.org/index.php)
-The primary home of the community. General discussions about Peercoin. Questions that come up can be directed to the proper resource above.
+The primary home of the community.
+General discussions about Peercoin.
+Questions that come up can be directed to the proper resource above.
