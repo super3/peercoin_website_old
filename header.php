@@ -72,9 +72,9 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Docs <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="https://github.com/ppcoin/ppcoin/wiki">Wiki</a></li>
-                <li><a href="mining.php">How to mine</a></li>
-                <li><a href="minting.php">Set up minting</a></li>
-                <li><a href="Resources.php">List of resources</a></li>
+                <li><a href="mining.php">How to Mine</a></li>
+                <li><a href="minting.php">Set up Minting</a></li>
+                <li><a href="Resources.php">List of Resources</a></li>
                 <li><a href="http://peercoin.net/bin/peercoin-paper.pdf" target="_blank">Whitepaper (US)</a></li>
                 <li><a href="http://peercoin.net/bin/peercoin-paper-de.pdf" target="_blank">Whitepaper (DE)</a></li>
                 <li><a href="http://peercoin.net/bin/peercoin-paper-fr.pdf" target="_blank">Whitepaper (FR)</a></li>
