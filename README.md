@@ -8,7 +8,7 @@ The static html files for [Peercoin.net](http://peercoin.net). The website is au
 Content requests, bugs, etc. are all handled through [Github Issues](https://github.com/super3/Peercoin.net/issues). We will try to get to your issue as soon as possible.
 
 ### Pull Requests
-If you have a simple change to the website, we ask that you put in a pull request instead of an issue. These include things like link changes, text errors, etc. We can add these to the live site with the push of a button, which makes everything easier. 
+All minor changes including things like link changes,text errors, etc. Should be put in a pull request insted of an issue, So we could update the live site with a push of a single button, Which makes everything easier.
 
 ### How to do a Pull Request
 1. Click on the button in the top right that says 'Fork'.
