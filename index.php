@@ -1,143 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-	<meta charset="UTF-8">
-	<!-- Title here -->
-	<title>Peercoin - Secure and Sustainable Cryptocurrency.</title>
-	<!-- Description, Keywords and Author -->
-	<meta name="description" content="Peercoin - the sustainable and secure cryptocurrency." />
-	<meta name="keywords" content="peercoin, bitcoin, litecoin, primecoin, cryptocurrency, sustainable">
-	<meta name="author" content="Peercoin">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- open graph tags -->
-	<meta property="og:title" content="Peercoin" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="http://peercoin.net" />
-	<meta property="og:image" content="http://peercoin.net/img/logo.png"/>
-	<meta property="og:description" content="Peercoin - the sustainable and secure cryptocurrency." />
+<?php include ('header.php'); ?>
 
-	<meta name="google-site-verification" content="-GOUzkxsjMUypgT8xj6GD4W9xNv_SMeorTZtOKPRzg8" />
-	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/flat-ui.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
-
-	<link rel="stylesheet" href="assets/css/revolution.css" media="screen"/>
-	<link rel="stylesheet" href="assets/css/media-slideshow.css" media="screen"/>
-
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
-    
-	<script type="text/javascript" src="assets/js/modernizr.custom.79639.js"></script> 
-	<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-40768937-3', 'peercoin.net');
-	ga('send', 'pageview');
-	</script>
-
-	<style>
-	a:hover {
-		color: gray;
-	}
-	</style>
-  </head>
-
-  <body>
-
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html"><img src="assets/images/logos/Dark-Text-350.png" width="130" alt="Peercoin"></a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav pull-right">
-                
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Docs <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="https://github.com/ppcoin/ppcoin/wiki">Wiki</a></li>
-                <li><a href="http://peercoin.net/bin/peercoin-paper.pdf">Whitepaper - English</a></li>
-                <li><a href="http://peercoin.net/bin/peercoin-paper-de.pdf">Whitepaper - German</a></li>
-                <li><a href="http://peercoin.net/bin/peercoin-paper-fr.pdf">Whitepaper - French</a></li>
-                <li><a href="http://peercoin.net/bin/peercoin-paper-fr.pdf">Whitepaper - Dutch</a></li>
-              </ul>
-            </li>
-               <li><a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform">Volunteer</a></li>
-            <li><a href="http://www.peercointalk.org/">Forum</a></li>
-            <li><a href="http://sourceforge.net/projects/ppcoin/files/"><span class="btn btn-primary btn-lg" role="button" style="position: relative; top: -6px;">Download Wallet!</span></a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-
-
-  <!-- Headerwrap -->
-    <div id="headerwrap-2">
-    	<div class="container">
-			<div class="row">
-				<h1>Sustainable. Secure.<br/> <b>Peercoin</b> is here.</h1>
-				<a href="http://sourceforge.net/projects/ppcoin/files/"><button class="btn btn-embossed btn-primary">Download Wallet!</button></a>
-			</div>
-    	</div>
-    </div>
-    <!-- /Headerwrap -->
-
-    <!-- Call To Action -->
-	<div id="cta" style="backgroud-color: #2B3135;">
-		<div class="container centered">
-			<h3>Why Peercoin?</h3>
-			<p>Through an innovative minting algorithm, the Peercoin network consumes far less energy, maintains stronger security, and rewards users in more sustainable ways than other cryptocurrencies.</p>
-			<br>
-			
-		</div><!-- /container -->
-	</div><!-- /cta -->
-	
-	
 	<!-- Services Section -->
 	<div class="container sinfo" style="padding-bottom:0px;">
 		<div class="row svgicons centered">
-		
+
 			<div class="col-lg-4">
 				<img src="assets/images/icons/rocket.svg">
 				<h4>Original <b>Innovation</b></h4>
 				<p>Peercoin's original innovation is the <a href="/bin/peercoin-paper.pdf">proof-of-stake/proof-of-work hybrid</a> system. Like other <a href="https://en.wikipedia.org/wiki/Cryptocurrency">cryptocurrencies</a>, initial coins can be mined, but the core network is maintained
 				by coin holders,  rather than the fastest <a href="https://en.bitcoin.it/wiki/Pooled_mining">pool</a>. </p>
 			</div><!-- col-lg-4 -->
-			
+
 			<div class="col-lg-4">
 				<img src="assets/images/icons/key.svg">
 				<h4>Increased <b>Security</b></h4>
-				<p>Maintaining the network through the hybrid proof-of-work/proof-of-stake algorithm reduces the risk of the 
+				<p>Maintaining the network through the hybrid proof-of-work/proof-of-stake algorithm reduces the risk of the
 				<a href="http://www.pcworld.com/article/2060840/selfish-miner-attack-could-devastate-bitcoin-researchers-say.html">
 				Selfish-Miner Flaw</a>, <a href="https://en.bitcoin.it/wiki/Weaknesses">51% attacks</a>, and the block bloating that have been used to exploit other currencies.</p>
 			</div><!-- col-lg-4 -->
-			
+
 			<div class="col-lg-4">
 				<img src="assets/images/icons/earth.svg">
 				<h4>Energy and Cost <b>Efficiency</b></h4>
-				<p>Maintaining the network requires far less energy than generating hardware-intensive proof-of-work hashes. 
+				<p>Maintaining the network requires far less energy than generating hardware-intensive proof-of-work hashes.
 				Proof-of-stake also does away with the <a href="http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/">
 				~$1 billion "tax"</a> on the Bitcoin network through proof-of-work blocks.
 				</p>
 			</div><!-- col-lg-4 -->
-		
+
 		</div><!-- /row -->
 		<hr>
 		<div class="centered">
@@ -145,12 +35,12 @@
 		</div>
 		<hr>
 	</div><!-- /container -->
-	
-	
+
+
 <div class="container" style="padding-bottom: 20px;">
 		<h2 class="centered" style="padding-bottom: 5px;">FAQ</h2>
 		<div class="row">
-		
+
 			<div class="col-lg-8">
 				<div class="panel-group" id="accordion">
 				  <div class="panel panel-default" style="border:none; margin-bottom: 5px;">
@@ -216,7 +106,7 @@ Peercoin also employs other advanced security features including enforcing trans
 				    </div>
 				    <div id="collapseFour" class="panel-collapse collapse">
 				      <div class="panel-body">
-				        <p>Peercoin is one of the truly unique coins that are not just a clone of the original Bitcoin code. 
+				        <p>Peercoin is one of the truly unique coins that are not just a clone of the original Bitcoin code.
 				           Peercoin is the first coin to introduce a Proof of Stake/Proof of Work combination along with other energy efficient mechanisms. In fact, many altcoins are now integrating Peercoin's Proof of stake into their codebase.
 				           <br/> <br/>
 						   Source: <a href="http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features">http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features</a>
@@ -257,7 +147,7 @@ Peercoin also employs other advanced security features including enforcing trans
 				        <p>
 				        Nope. If Peercoin grows rapidly, stake minting may temporarily decrease as coin days are lost when trading, this would cause Peercoin to become deflationary. The flat nature of the transaction fees is intended to counter this by decreasing total transaction volume. Proponents of Peercoin argue that this will decrease deflation.
 				        <br/><br/>
-				        Furthermore, Bitcoin currently experiences <a href="http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/">a ~10%</a> inflation per year as it approaches it's total supply of 21 million. It is <b>hoped</b> 
+				        Furthermore, Bitcoin currently experiences <a href="http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/">a ~10%</a> inflation per year as it approaches it's total supply of 21 million. It is <b>hoped</b>
 				        that when the total supply is reached that the transactions fees will be enough to sustain a secure network.
 				        <br/><br/>
 				        To maintain a secure network in the future, Peercoin has a 1% a year inflation (Proof-of-stake reward) to make sure there will be a secure network, no matter the transaction fees. As stated before this may become deflationary, as Bitcoin aims to be, during high volumes of transactions.
@@ -265,14 +155,14 @@ Peercoin also employs other advanced security features including enforcing trans
 				      </div>
 				    </div>
 				  </div>
-				  
-				</div><!-- panel-group -->			
+
+				</div><!-- panel-group -->
 			</div><!-- col-lg-8 -->
-			
+
 			<div class="col-lg-4 centered">
 				<div class="alert alert-success">
 				<h4>Convinced <b>you</b>?</h4>
-			    	<p>Time to download the client, and try it for yourself. If you have any questions just ask on the 
+			    	<p>Time to download the client, and try it for yourself. If you have any questions just ask on the
 			    		<a href="http://www.peercointalk.org/">forum</a>, or the social links below.</p>
 			        <a href="http://sourceforge.net/projects/ppcoin/files/" class="btn btn-primary btn-large"><i class="fui-link"></i> Download Wallet!</a>
 			        <div class="social">
@@ -282,14 +172,14 @@ Peercoin also employs other advanced security features including enforcing trans
 			<a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT"><img src="assets/img/icons/social-yt.png" alt="See videos on YouTube"></a>
 		   </div>
 			     </div>
-			
+
 			</div>
-		
+
 		</div>
-	
+
 	</div>
-	
-	
+
+
 	<!-- Grey Wrap / Site Stats -->
 	<div id="g">
 			<!-- Portfolio Section -->
@@ -308,7 +198,7 @@ Peercoin also employs other advanced security features including enforcing trans
 						<h6><b><a href="https://www.youtube.com/watch?v=IDktAbzP-qs">Installing a Wallet</a></b></h6>
 					</li>
 				</div><!-- /col-lg-4 -->
-				
+
 				<div class="col-lg-4">
 						<li>
 						<div class="ch-item ch-img-2">
@@ -320,7 +210,7 @@ Peercoin also employs other advanced security features including enforcing trans
 						<h6><b><a href="https://www.youtube.com/watch?v=_15h-SV02Jw">Setting Up Wallet</a></b></h6>
 					</li>
 				</div><!-- /col-lg-4 -->
-				
+
 			<div class="col-lg-4">
 						<li>
 						<div class="ch-item ch-img-3">
@@ -343,105 +233,7 @@ Peercoin also employs other advanced security features including enforcing trans
 			<br>
 		</div><!-- /row -->
 	</div><!-- /container -->
-	
+
 	</div><!-- /G Wrap -->
-	
-	
-	<!-- FOOTER -->
-	<div id="f">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3">
-					<h5 style="color: white;">Info</h5>
-					<a href="bitaddress.html">Wallet Generator (Beta!)</a><br>
-					<a href="https://github.com/ppcoin/ppcoin">Source Code (Github)</a><br>
-					<a href="https://github.com/ppcoin/ppcoin/wiki">Wiki</a><br>
-					<a href="http://www.peercointalk.org/">Forum</a><br>
-					<a href="http://peercoinmyths.com/">Myths</a>       
-				</div>
-				<div class="col-lg-3">
-					<h5 style="color: white;">Exchanges</h5>
-					<a href="https://vircurex.com/welcome/index?alt=ppc&amp;base=btc&amp;locale=en">Vircurex</a><br>
-					<a href="https://btc-e.com/exchange/ppc_btc/">BTC-E</a><br>
-					<a href="https://mcxnow.com/exchange/PPC">MCX Now</a><br>
-					<a href="https://coinmkt.com/">CoinMkt</a><br>
-					<a href=" https://crypto-trade.com/trade/ppc_btc">Crypto-Trade</a>
-				</div>
-				
-				<div class="col-lg-3">
-					<h5 style="color: white;">More Exchanges</h5>
-					<a href="http://bter.com/trade/ppc_btc">BTER Exchange</a><br>
-					<a href="http://cryptonit.net/exchange/btc/ppc">Cryptonit</a><br>
-					<a href="https://www.cryptsy.com/markets/view/28">Cryptsy</a><br>
-					<a href="https://www.coins-e.com/exchange/PPC_BTC/">Coins-e</a><br>
-					<a href="https://www.vaultofsatoshi.com/">Vault of Satoshi</a>
-				</div>
 
-				<div class="col-lg-3">
-					<h5 style="color: white;">Mining</h5>
-					<a href="https://www.coinotron.com/">Coinotron</a><br>
-					<a href="https://ppcoin.d7.lt/">D7 Pool</a><br>
-					<a href="http://ppc.fixx.ru/index">Fixx</a>
-				</div>
-			</div><!-- /row -->
-
-		</div><!-- /container -->
-	</div><!-- /Footer -->
-	
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/retina.js"></script>
-	<script src="assets/js/jquery.themepunch.revolution.min.js"></script>
-	<script src="assets/js/jquery.themepunch.plugins.min.js"></script>
-	<script>
-	$(document).ready(function() {
-	//Slideshow
-	$('.banner').revolution({
-	delay:9000,
-	startwidth:1040,
-	startheight:463,
-	onHoverStop:"off",						// Stop Banner Timet at Hover on Slide on/off
-	
-	thumbWidth:100,							// Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
-	thumbHeight:50,
-	thumbAmount:3,
-	
-	hideThumbs:0,
-	navigationType:"bullet",				// bullet, thumb, none
-	navigationArrows:"none",				// nexttobullets, solo (old name verticalcentered), none
-	
-	navigationStyle:"round-old",			// round,square,navbar,round-old,square-old,navbar-old, or any from the list in the docu (choose between 50+ different item), custom
-	
-	
-	navigationHAlign:"center",				// Vertical Align top,center,bottom
-	navigationVAlign:"bottom",				// Horizontal Align left,center,right
-	navigationHOffset:-419,
-	navigationVOffset:72,
-	
-	touchenabled:"on",						// Enable Swipe Function : on/off
-	
-	stopAtSlide:-1,							// Stop Timer if Slide "x" has been Reached. If stopAfterLoops set to 0, then it stops already in the first Loop at slide X which defined. -1 means do not stop at any slide. stopAfterLoops has no sinn in this case.
-	stopAfterLoops:-1,						// Stop Timer if All slides has been played "x" times. IT will stop at THe slide which is defined via stopAtSlide:x, if set to -1 slide never stop automatic
-	
-	hideCaptionAtLimit:0,					// It Defines if a caption should be shown under a Screen Resolution ( Basod on The Width of Browser)
-	hideAllCaptionAtLilmit:0,				// Hide all The Captions if Width of Browser is less then this value
-	hideSliderAtLimit:0,					// Hide the whole slider, and stop also functions if Width of Browser is less than this value
-	
-	
-	fullWidth:"on",
-	
-	shadow:0								//0 = no Shadow, 1,2,3 = 3 Different Art of Shadows -  (No Shadow in Fullwidth Version !)
-	})
-	
-	});
-	</script>
-      
-
-
-  </body>
-</html>
+	<?php include ('footer.php'); ?>
