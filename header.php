@@ -72,6 +72,9 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Docs <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="https://github.com/ppcoin/ppcoin/wiki">Wiki</a></li>
+                <li><a href="mining.php">How to mine</a></li>
+                <li><a href="minting.php">Set up minting</a></li>
+                <li><a href="Resources.php">List of resources</a></li>
                 <li><a href="http://peercoin.net/bin/peercoin-paper.pdf" target="_blank">Whitepaper (US)</a></li>
                 <li><a href="http://peercoin.net/bin/peercoin-paper-de.pdf" target="_blank">Whitepaper (DE)</a></li>
                 <li><a href="http://peercoin.net/bin/peercoin-paper-fr.pdf" target="_blank">Whitepaper (FR)</a></li>
@@ -85,28 +88,3 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
-
-
-  <!-- Headerwrap -->
-    <header id="headerwrap-2">
-    	<div class="container">
-			<div class="row">
-				<h1>
-          Sustainable. Secure.
-          <span><strong>Peercoin</strong> is here.</span>
-        </h1>
-				<a href="#cta" class="btn btn-embossed btn-primary smoothScroll">Why Peercoin?</a>
-        <a href="http://sourceforge.net/projects/ppcoin/files/" target="_blank" class="btn btn-embossed btn-primary">Download Wallet!</a>
-			</div>
-    	</div>
-    </header>
-
-    <!-- Call To Action -->
-	<div id="cta" name="cta">
-		<div class="container centered">
-			<h2 class="col-lg-4">Why <span>Peercoin?</span></h2>
-			<p class="col-lg-8">Through an innovative minting algorithm, the Peercoin network consumes far less energy, maintains stronger security, and rewards users in more sustainable ways than other cryptocurrencies.</p>
-			<br>
-
-		</div><!-- /container -->
-	</div><!-- /cta -->
