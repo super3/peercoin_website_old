@@ -1,5 +1,5 @@
 	<!-- FOOTER -->
-	<div id="f">
+	<footer class="footer">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3">
@@ -37,7 +37,7 @@
 			</div><!-- /row -->
 
 		</div><!-- /container -->
-	</div><!-- /Footer -->
+	</footer>
 
 
 
@@ -49,6 +49,7 @@
     <script src="assets/js/retina.js"></script>
 	<script src="assets/js/jquery.themepunch.revolution.min.js"></script>
 	<script src="assets/js/jquery.themepunch.plugins.min.js"></script>
+	<script src="assets/js/peercoin.js"></script>
 	<script>
 	$(document).ready(function() {
 	//Slideshow
