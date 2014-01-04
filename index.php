@@ -31,7 +31,7 @@
 		</div><!-- /row -->
 		<hr>
 		<div class="centered">
- 		<iframe width="426" height="240" src="//www.youtube.com/embed/TjL2AgCQDJ0?rel=0" frameborder="0" allowfullscreen></iframe>
+ 		<iframe width="426" height="240" src="//www.youtube.com/embed/TjL2AgCQDJ0?rel=0?modestbranding=1" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<hr>
 	</div><!-- /container -->
