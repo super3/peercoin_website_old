@@ -4,11 +4,13 @@
 	<meta charset="UTF-8">
 	<!-- Title here -->
 	<title>Peercoin - Secure and Sustainable Cryptocurrency.</title>
+
 	<!-- Description, Keywords and Author -->
 	<meta name="description" content="Peercoin - the sustainable and secure cryptocurrency." />
 	<meta name="keywords" content="peercoin, bitcoin, litecoin, primecoin, cryptocurrency, sustainable">
 	<meta name="author" content="Peercoin">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<!-- open graph tags -->
 	<meta property="og:title" content="Peercoin" />
 	<meta property="og:type" content="website" />
@@ -45,12 +47,6 @@
 	ga('create', 'UA-40768937-3', 'peercoin.net');
 	ga('send', 'pageview');
 	</script>
-
-	<style>
-	a:hover {
-		color: gray;
-	}
-	</style>
   </head>
 
   <body>
@@ -64,7 +60,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img src="assets/images/logos/Dark-Text-350.png" width="130" alt="Peercoin"></a>
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logos/Dark-Text-350.png" width="110" alt="Peercoin">
+            <span>Sustainable &amp; secure cryptocoin</span>
+          </a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav pull-right">
@@ -78,7 +77,7 @@
             </li>
                <li><a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform">Volunteer</a></li>
             <li><a href="http://www.peercointalk.org/">Forum</a></li>
-            <li><a href="http://sourceforge.net/projects/ppcoin/files/"><span class="btn btn-primary btn-lg" role="button" style="position: relative; top: -6px;">Download Wallet!</span></a></li>
+            <li class="wallet"><a class="btn btn-primary btn-lg" role="button" href="http://sourceforge.net/projects/ppcoin/files/" target="_blank">Download Wallet!</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -86,21 +85,24 @@
 
 
   <!-- Headerwrap -->
-    <div id="headerwrap-2">
+    <header id="headerwrap-2">
     	<div class="container">
 			<div class="row">
-				<h1>Sustainable. Secure.<br/> <b>Peercoin</b> is here.</h1>
-				<a href="http://sourceforge.net/projects/ppcoin/files/"><button class="btn btn-embossed btn-primary">Download Wallet!</button></a>
+				<h1>
+          Sustainable. Secure.
+          <span><strong>Peercoin</strong> is here.</span>
+        </h1>
+				<a href="#cta" class="btn btn-embossed btn-primary smoothScroll">Why Peercoin?</a>
+        <a href="http://sourceforge.net/projects/ppcoin/files/" target="_blank" class="btn btn-embossed btn-primary">Download Wallet!</a>
 			</div>
     	</div>
-    </div>
-    <!-- /Headerwrap -->
+    </header>
 
     <!-- Call To Action -->
-	<div id="cta" style="backgroud-color: #2B3135;">
+	<div id="cta" name="cta">
 		<div class="container centered">
-			<h3>Why Peercoin?</h3>
-			<p>Through an innovative minting algorithm, the Peercoin network consumes far less energy, maintains stronger security, and rewards users in more sustainable ways than other cryptocurrencies.</p>
+			<h2 class="col-lg-4">Why <span>Peercoin?</span></h2>
+			<p class="col-lg-8">Through an innovative minting algorithm, the Peercoin network consumes far less energy, maintains stronger security, and rewards users in more sustainable ways than other cryptocurrencies.</p>
 			<br>
 
 		</div><!-- /container -->
