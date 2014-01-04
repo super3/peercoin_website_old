@@ -1,5 +1,29 @@
 <?php include ('header.php'); ?>
 
+  <!-- Headerwrap -->
+    <header id="headerwrap-2">
+    	<div class="container">
+			<div class="row">
+				<h1>
+		          Sustainable. Secure.
+		          <span><strong>Peercoin</strong> is here.</span>
+		        </h1>
+				<a href="#cta" class="btn btn-embossed btn-primary smoothScroll">Why Peercoin?</a>
+        <a href="http://sourceforge.net/projects/ppcoin/files/" target="_blank" class="btn btn-embossed btn-primary">Download Wallet!</a>
+			</div>
+    	</div>
+    </header>
+
+    <!-- Call To Action -->
+	<div id="cta" name="cta">
+		<div class="container centered">
+			<h2 class="col-lg-4">Why <span>Peercoin?</span></h2>
+			<p class="col-lg-8">Through an innovative minting algorithm, the Peercoin network consumes far less energy, maintains stronger security, and rewards users in more sustainable ways than other cryptocurrencies.</p>
+			<br>
+
+		</div><!-- /container -->
+	</div><!-- /cta -->
+
 	<!-- Services Section -->
 	<div class="container sinfo" style="padding-bottom:0px;">
 
