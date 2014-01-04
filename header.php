@@ -60,7 +60,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.php">
             <img src="assets/images/logos/Dark-Text-350.png" width="110" alt="Peercoin">
             <span>Sustainable &amp; secure cryptocoin</span>
           </a>
@@ -72,7 +72,10 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Docs <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="https://github.com/ppcoin/ppcoin/wiki">Wiki</a></li>
-                <li><a href="http://peercoin.net/bin/peercoin-paper.pdf">Whitepaper</a></li>
+                <li><a href="http://peercoin.net/bin/peercoin-paper.pdf" target="_blank">Whitepaper (US)</a></li>
+                <li><a href="http://peercoin.net/bin/peercoin-paper-de.pdf" target="_blank">Whitepaper (DE)</a></li>
+                <li><a href="http://peercoin.net/bin/peercoin-paper-fr.pdf" target="_blank">Whitepaper (FR)</a></li>
+                <li><a href="http://peercoin.net/bin/peercoin-paper-nl.pdf" target="_blank">Whitepaper (NL)</a></li>
               </ul>
             </li>
                <li><a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform">Volunteer</a></li>
