@@ -74,22 +74,22 @@
 				<div class="col-lg-3">
 					<h2>Exchanges</h2>
 					<ul>
-						<li><a href="https://vircurex.com/welcome/index?alt=ppc&amp;base=btc&amp;locale=en">Vircurex</a></li>
 						<li><a href="https://btc-e.com/exchange/ppc_btc/">BTC-E</a></li>
+						<li><a href="https://www.vaultofsatoshi.com/">Vault of Satoshi</a></li>
+						<li><a href="https://vircurex.com/welcome/index?alt=ppc&amp;base=btc&amp;locale=en">Vircurex</a></li>
 						<li><a href="https://mcxnow.com/exchange/PPC">MCX Now</a></li>
 						<li><a href="https://coinmkt.com/">CoinMkt</a></li>
-						<li><a href=" https://crypto-trade.com/trade/ppc_btc">Crypto-Trade</a></li>
 					</ul>
 				</div>
 
 				<div class="col-lg-3">
 					<h2>More Exchanges</h2>
 					<ul>
+						<li><a href=" https://crypto-trade.com/trade/ppc_btc">Crypto-Trade</a></li>
 						<li><a href="http://bter.com/trade/ppc_btc">BTER Exchange</a></li>
 						<li><a href="http://cryptonit.net/exchange/btc/ppc">Cryptonit</a></li>
 						<li><a href="https://www.cryptsy.com/markets/view/28">Cryptsy</a></li>
 						<li><a href="https://www.coins-e.com/exchange/PPC_BTC/">Coins-e</a></li>
-						<li><a href="https://www.vaultofsatoshi.com/">Vault of Satoshi</a></li>
 					</ul>
 				</div>
 
