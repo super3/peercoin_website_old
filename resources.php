@@ -8,7 +8,7 @@
 
 				      	<div class="item">
 					      	<h2>Mining Pools</h2>
-							<p>Peercoin started as a Proof-Of-Work coin. As there are now a lot of coins generated, the network is slowly switching to Proof-Of-Stake minting. Bitcoin ASIC hardware also work
+							<p>Peercoin started as a Proof-Of-Work coin. As there are now a lot of coins generated, the network is slowly switching to Proof-Of-Stake minting. Bitcoin ASIC hardware also works
 							on the Peercoin network. With this, the increasing popularity of Peercoin, increased minting rate, and the decreasing return on mining, competition for blocks becomes more fierce.
 							Even with powerfull hardware it is difficult to mine alone.	Mining pools combine the power of all participants to find block, and share the reward based on shares. Read the instructions of each pool carefully as connection protocols and software
 							use can change between pools. </p>
@@ -25,7 +25,7 @@
 				        <div class="item">
 					        <h2> Exchanges</h2>
 
-					        <p>Exchanges are the trading websites where you can buy or sell Peercoin. Be careful not to place large sums of Peercoin on exchanges without adequate security measures as a good password and 2-factor authentication.
+					        <p>Exchanges are the trading websites where you can buy or sell Peercoin. Be careful not to place large sums of Peercoin on exchanges without adequate security measures such as a good password and 2-factor authentication.
 							Minting coins is also impossible on exchanges.</p><br>
 
 							<p><strong>Buying with Fiat Money (e.g. Dollar or Euro):</strong></p>
@@ -47,7 +47,7 @@
 
 				        <div class="item">
 					       <h2> Getting started</h2>
-							<p><strong>Here are some tutorials, that can help you out if you are new to cryptocurrencies as Peercoin.</strong></p>
+							<p><strong>Here are some tutorials that can help you out if you are new to cryptocurrencies as Peercoin.</strong></p>
 					        <ul style="list-style-type: circle;">
 					            <li><a href="https://www.youtube.com/watch?v=TjL2AgCQDJ0">What is Peercoin?</a> -  Youtube Introduction into Peercoin; What makes it different from BTC?</li>
 					            <li><a href="http://www.ppcointalk.org/">Peercoin Talk</a> -  Peercoin Talk - Official Peercoin Forum</li>
@@ -61,7 +61,7 @@
 					       <p><strong>These tools provide statistics on the network, allow you to track payments or calculate mining returns.</strong></p>
 					        <ul style="list-style-type: circle;">
 					            <li><a href="http://blockexplorer.ppcointalk.org/">http://blockexplorer.ppcointalk.org/</a> -  Blockchain Viewer: View transactions on the blockchain</li>
-								<li><a href="http://ppc.cryptocoinexplorer.com/">http://ppc.cryptocoinexplorer.com/</a> -  Blockchain Explorer: View transactions by PPC adress</li>
+								<li><a href="http://ppc.cryptocoinexplorer.com/">http://ppc.cryptocoinexplorer.com/</a> -  Blockchain Explorer: View transactions by PPC address</li>
 								<li><a href="http://bitinfocharts.com/comparison/hashrate-ppc.html">http://bitinfocharts.com/comparison/hashrate-ppc.html</a> -  Peercoin Network Statistics</li>
 								<li><a href="http://bitinfocharts.com/">http://bitinfocharts.com/</a> -  Compare Peercoin statistics to other cryptocurrencies</li>
 								<li><a href="http://www.coinwarz.com/calculators/peercoin-mining-calculator">Coinwarz Mining Calculator</a> -  Calculate expected return on PPC mining</li>
