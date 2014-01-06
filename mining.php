@@ -16,7 +16,7 @@
 
 			<div class="col-lg-6">
 				<p>
-					Even with powerful hardware it is difficult to mine alone.	Mining pools combine the power of all participants to find block, and share the reward based on shares. This guide shows you how to poolmine at one of the largest PPC pools.
+					Even with powerful hardware it is difficult to mine alone.	Mining pools combine the power of all participants to find blocks, and share the reward based on shares. This guide shows you how to poolmine at one of the largest PPC pools.
 				</p>
 			</div>
 		</div>
@@ -33,7 +33,7 @@
 				<div class="item">
 					<p>
 						<strong>Step #2: Sign Up</strong><br />
-						Go over to the pool website: https://ppcoin.d7.lt and sign up
+						Go over to the pool website: <a href="https://ppcoin.d7.lt">https://ppcoin.d7.lt</a> and sign up
 					</p>
 					<a href="img/mining1.png" target="_blank"><img src="img/mining1.png" alt="Mining" /></a>
 				</div>
@@ -54,7 +54,7 @@
 
 				<div class="item">
 					<p>
-						Download the software from here. The link is where arrow 2 points to. The pool settings are where arrow 3 points
+						Download the software from here. The link is where arrow 2 points to. The pool settings are where arrow 3 points.
 					</p>
 					<a href="img/mining4.png" target="_blank"><img src="img/mining4.png" alt="Mining" /></a>
 					<p>Download the zip file, and save it to C:/Peercoin. If the file downloaded without a .zip extension, rename it and add .zip to the end of the filename. Extract the archive and open the folder "ppc".</p>
