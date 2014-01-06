@@ -72,8 +72,6 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Docs <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="https://github.com/ppcoin/ppcoin/wiki">Wiki</a></li>
-                <li><a href="mining.php">How to Mine</a></li>
-                <li><a href="minting.php">Set up Minting</a></li>
                 <li><a href="resources.php">List of Resources</a></li>
                 <li><a href="http://peercoin.net/bin/peercoin-paper.pdf" target="_blank">Whitepaper (US)</a></li>
                 <li><a href="http://peercoin.net/bin/peercoin-paper-de.pdf" target="_blank">Whitepaper (DE)</a></li>
@@ -81,7 +79,9 @@
                 <li><a href="http://peercoin.net/bin/peercoin-paper-nl.pdf" target="_blank">Whitepaper (NL)</a></li>
               </ul>
             </li>
-               <li><a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform">Volunteer</a></li>
+            <li><a href="mining.php">How to Mine</a></li>
+            <li><a href="minting.php">Set up Minting</a></li>
+            <li><a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform">Volunteer</a></li>
             <li><a href="http://www.peercointalk.org/">Forum</a></li>
             <li class="wallet"><a class="btn btn-primary btn-lg" role="button" href="downloads.php" target="_blank">Download Wallet!</a></li>
           </ul>
