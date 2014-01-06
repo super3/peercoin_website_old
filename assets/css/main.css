@@ -764,11 +764,11 @@ a:hover {
 		}
 
 		.navbar {
-			background: url(../images/mobile-header-bg.png) repeat-x 0 100% transparent;
+			background: url(../images/mobile-header-bg.png) repeat-x 0 100% #f8f8f8;
 		}
 
 		.navbar .container {
-			height: 187px;
+			height: 147px;
 		}
 
 		.navbar-header {
@@ -777,6 +777,10 @@ a:hover {
 
 		.nav.navbar-nav.pull-right {
 			float: left !important;
+		}
+
+		.navbar .navbar-brand {
+		padding: 9px 28px 6px 17px;
 		}
 	}
 
