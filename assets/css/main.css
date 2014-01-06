@@ -22,6 +22,7 @@
 	2.6 FAQ
 	2.7 Tutorials
 	2.8 Videocontainer
+	2.9 Wallet Download
 3. Custom Media Queries
 	3.1 Mobile Navigation
 	3.2 FAQ
@@ -65,8 +66,29 @@ a:hover {
 	margin-bottom: 20px;
 }
 
+.content h3 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+.content h4 {
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.content h2.maintitle {
+	font-size: 40px;
+	padding-bottom: 6px;
+	border-bottom: 2px solid #eee;
+	margin-bottom: 30px;
+}
+
 .content .item {
 	margin-bottom: 40px;
+}
+
+.content ul {
+	margin-bottom: 30px;
 }
 
 .content ul li {
@@ -588,7 +610,7 @@ a:hover {
 	margin-right: 10px;
 }
 
-/***** Responsive Video Wrapper *****/
+/* 2.8 Tutorials */
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
@@ -603,6 +625,68 @@ a:hover {
 	height: 100%;
 }
 
+
+/* 2.9 Wallet downloads */
+.downloads {}
+.downloads ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.content .downloads ul li {
+	margin: 0;
+	margin: 0 50px 0 15px;
+	display: inline-block;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.downloads li:last-child {
+	margin-right: 0;
+}
+
+.downloads li .inner {
+	padding: 30px;
+	background-color: #1abc9c;
+	color: #fff;
+	border-radius: 3px;
+}
+
+.downloads h2 {
+	font-size: 26px;
+	margin-bottom: 35px;
+}
+
+.downloads span.icon {
+	display: block;
+	height: 64px;
+	width: 64px;
+	background: url(../images/downloads/windows.png) no-repeat 0 0 transparent;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.downloads li.mac span.icon {
+	background: url(../images/downloads/mac.png) no-repeat 0 0 transparent;
+}
+
+.downloads li.linux span.icon {
+	background: url(../images/downloads/linux.png) no-repeat 0 0 transparent;
+}
+
+.downloads a {
+	display: block;
+	background-color: #fff;
+	padding: 10px 10px;
+	border-radius: 3px;
+}
+
+.downloads a:hover {
+	background-color: #13856f;
+	color: #fff;
+}
 
 /*
 *
@@ -665,6 +749,60 @@ a:hover {
 }
 
 	/* 3.3 Misc */
+
+	@media (max-width: 999px) {
+		.content {
+			padding: 140px 0 70px 0;
+		}
+
+		.content .downloads ul li {
+			margin: 0 5px 20px 15px;
+		}
+
+		.downloads a {
+			padding: 10px 8px;
+		}
+
+		.navbar {
+			background: url(../images/mobile-header-bg.png) repeat-x 0 100% #f8f8f8;
+		}
+
+		.navbar .container {
+			height: 147px;
+		}
+
+		.navbar-header {
+			float: none;
+		}
+
+		.nav.navbar-nav.pull-right {
+			float: left !important;
+		}
+
+		.navbar .navbar-brand {
+		padding: 9px 28px 6px 17px;
+		}
+	}
+
+	@media (max-width: 767px) {
+		.navbar {
+			background: none #f8f8f8;
+		}
+
+		.navbar .container {
+			height: auto;
+		}
+
+		.content {
+			padding: 70px 0 70px 0;
+		}
+
+		.content .downloads ul li {
+			display: block;
+			margin: 0 30px 20px 30px;
+		}
+	}
+
 	@media only screen and (max-width: 530px) {
 		#headerwrap-2 {
 			min-height: 460px;
