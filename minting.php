@@ -11,7 +11,7 @@
 				<div class="col-lg-12">
 					<p>
 						<strong>Introduction</strong><br />
-						Peercoin (PPC) uses a novel, green and very interesting method of network validation and mining. Most alternative crypto-currencies in existence are forks of Bitcoin, with changed mining parameters or different mining algorithms. Miners maintain the network and check transactions, while spending a lot of energy on cryptographic brute force puzzles. Blockchain.info estimates that mid December 2013, Bitcoin mining takes up 22 million dollars or 150.000 megawatts of energy PER DAY. Peercoin also started out as a Proof-Of-Work network. But as more blocks and coins have been mined, the network switches slowly to Proof-Of-Stake validation. With it we also switch to a new approach of securing the network. In Peercoin terms this process of generating coins by stake is called minting. And if you have a stake in Peercoin (PPC), coins, you can mint too!
+						Peercoin (PPC) uses a novel, green and very interesting method of network validation and mining. Most alternative crypto-currencies in existence are forks of Bitcoin, with changed mining parameters or different mining algorithms. Miners maintain the network and check transactions, while spending a lot of energy on cryptographic brute force puzzles. Blockchain.info estimates that mid December 2013, Bitcoin mining takes up 22 million dollars or 150.000 megawatts of energy PER DAY. Peercoin also started out as a Proof-Of-Work network. But as more blocks and coins have been mined, the network switches slowly to Proof-Of-Stake validation. With it we also switch to a new approach of securing the network. In Peercoin terms this process of generating coins by stake is called minting. And if you have a stake in Peercoin (PPC) coins, you can mint too!
 					</p>
 					<p>This guide will explain what minting is, how to mint coins and what factors influence minting speed.</p>
 				</div>
@@ -21,7 +21,7 @@
 				<div class="col-lg-12">
 					<p>
 						<strong>What is minting?</strong><br />
-						All coins in the Peercoin network collect coin age. Your stake is calculated from this coinage, measured by last transaction, and multiplied with the amount of coin (time * coins). Transferred coins lose their age and start a new "life" as fresh coins. When you keep coins for 30 days, they are old enough to start the minting process. From that moment on the software tests the 'search space' given by the coinage, the limited options are tested if they "solve the puzzle" like in Bitcoin mining. You can simply this by comparing it with a raffle. But it is a raffle that lets you keep the tickets every time you do not win a round. And with it the chance of producing a valid solution of the next puzzle increases. More coins equals more raffle tickets. So 100 coins at an age of 30 days are twice as likely to solve the "puzzle" as 50 coins with 30 age days. The maximum age a coin can have is 90 days, after this the coin does not age further. When a puzzle is solved you can mint 1% of your input, by sending 101% of the coin to yourself. With it you "consume" your build up coin-age. As you test against a limited number of raffle tickets, the 'limited search space', this requires significantly less power. Attacks become more difficult as well, instead of controlling 51% calculating power to take over the block chain, you need 51% of the coins that are put up as stake! When a block is minted, your new coins will be unspendable for a period of 520 blocks (~ 3.6 days with 10 minutes blocks). More information can be found in the Peercoin <a href="bin/peercoin-paper.pdf">whitepaper</a>.
+						All coins in the Peercoin network collect coin age. Your stake is calculated from this coinage, measured by last transaction, and multiplied with the amount of coin (time * coins). Transferred coins lose their age and start a new "life" as fresh coins. When you keep coins for 30 days, they are old enough to start the minting process. From that moment on the software tests the 'search space' given by the coinage, the limited options are tested if they "solve the puzzle" like in Bitcoin mining. You can simply think of this by comparing it with a raffle. But it is a raffle that lets you keep the tickets every time you do not win a round. And with it the chance of producing a valid solution of the next puzzle increases. More coins equals more raffle tickets. So 100 coins at an age of 30 days are twice as likely to solve the "puzzle" as 50 coins with 30 age days. The maximum age a coin can have is 90 days, after this the coin does not age further. When a puzzle is solved you can mint 1% of your input, by sending 101% of the coin to yourself. With it you "consume" your build up coin-age. As you test against a limited number of raffle tickets, the 'limited search space', this requires significantly less power. Attacks become more difficult as well, instead of controlling 51% calculating power to take over the block chain, you need 51% of the coins that are put up as stake! When a block is minted, your new coins will be unspendable for a period of 520 blocks (~ 3.6 days with 10 minutes blocks). More information can be found in the Peercoin <a href="bin/peercoin-paper.pdf">whitepaper</a>.
 					</p>
 				</div>
 			</div>
@@ -32,7 +32,7 @@
 						<strong>Minting Return</strong><br />
 						Statistically you will get 1% interest on average on your coins per year if you mint. You only mint when your wallet is open, but as the resources use is a lot lower this will not lock up the computer or waste much power. Your wallet is unlocked, but you will still need your passphrase for transactions. An alternative strategy would be to wait till you have a lot of coinage and have a larger chance of minting a block. This would be around 90 days after transaction. However your return will be a little less compared with constant minting. Future wallet version will support in wallet minting, possibly without decrypting.
 					</p>
-					<p>The Peercoin-QT wallet software takes care of this whole process automatically but it needs a few configuration before it can start.</p>
+					<p>The Peercoin-QT wallet software takes care of this whole process automatically but it needs some configuration before it can start.</p>
 				</div>
 			</div>
 
@@ -52,7 +52,7 @@
 			<div class="item">
 				<div class="col-lg-12">
 					<p>Now create a text document. Open it up in notepad and copy the following information.<br />
-					The reserve balance option sets the number of coins you do not put up for stake. These are the coins for daily use. The newly minted coins cannot be spend for 520 blocks (~ 3.6 days)!
+					The reserve balance option sets the number of coins you do not put up for stake. These are the coins for daily use. The newly minted coins cannot be spent for 520 blocks (~ 3.6 days)!
 					<br />Be sure to edit the rpc user and rpc password lines! Pick a good long random password, do not use your wallet passphrase!</p>
 
 <pre>
