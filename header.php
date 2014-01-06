@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<meta charset="UTF-8">
-	<!-- Title here -->
-	<title>Peercoin - Secure and Sustainable Cryptocurrency.</title>
+  <meta charset="UTF-8">
+  <!-- Title here -->
+  <title>Peercoin - Secure and Sustainable Cryptocurrency.</title>
 
-	<!-- Description, Keywords and Author -->
-	<meta name="description" content="Peercoin - the sustainable and secure cryptocurrency." />
-	<meta name="keywords" content="peercoin, bitcoin, litecoin, primecoin, cryptocurrency, sustainable">
-	<meta name="author" content="Peercoin">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Description, Keywords and Author -->
+  <meta name="description" content="Peercoin - the sustainable and secure cryptocurrency." />
+  <meta name="keywords" content="peercoin, bitcoin, litecoin, primecoin, cryptocurrency, sustainable">
+  <meta name="author" content="Peercoin">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<!-- open graph tags -->
-	<meta property="og:title" content="Peercoin" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="http://peercoin.net" />
-	<meta property="og:image" content="http://peercoin.net/img/logo.png"/>
-	<meta property="og:description" content="Peercoin - the sustainable and secure cryptocurrency." />
+  <!-- open graph tags -->
+  <meta property="og:title" content="Peercoin" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://peercoin.net" />
+  <meta property="og:image" content="http://peercoin.net/img/logo.png"/>
+  <meta property="og:description" content="Peercoin - the sustainable and secure cryptocurrency." />
 
-	<meta name="google-site-verification" content="-GOUzkxsjMUypgT8xj6GD4W9xNv_SMeorTZtOKPRzg8" />
-	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <meta name="google-site-verification" content="-GOUzkxsjMUypgT8xj6GD4W9xNv_SMeorTZtOKPRzg8" />
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -28,8 +28,8 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
 
-	<link rel="stylesheet" href="assets/css/revolution.css" media="screen"/>
-	<link rel="stylesheet" href="assets/css/media-slideshow.css" media="screen"/>
+  <link rel="stylesheet" href="assets/css/revolution.css" media="screen"/>
+  <link rel="stylesheet" href="assets/css/media-slideshow.css" media="screen"/>
 
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -38,15 +38,15 @@
       <script src="assets/js/respond.min.js"></script>
     <![endif]-->
 
-	<script type="text/javascript" src="assets/js/modernizr.custom.79639.js"></script>
-	<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-40768937-3', 'peercoin.net');
-	ga('send', 'pageview');
-	</script>
+  <script type="text/javascript" src="assets/js/modernizr.custom.79639.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-40768937-3', 'peercoin.net');
+  ga('send', 'pageview');
+  </script>
   </head>
 
   <body>
