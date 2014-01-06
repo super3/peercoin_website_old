@@ -9,7 +9,7 @@
 		          <span><strong>Peercoin</strong> is here.</span>
 		        </h1>
 				<a href="#cta" class="btn btn-embossed btn-primary smoothScroll">Why Peercoin?</a>
-        <a href="http://sourceforge.net/projects/ppcoin/files/" target="_blank" class="btn btn-embossed btn-primary">Download Wallet!</a>
+		        <a href="downloads.php" target="_blank" class="btn btn-embossed btn-primary">Download Wallet!</a>
 			</div>
     	</div>
     </header>
@@ -183,7 +183,7 @@
 				<h4>Convinced <b>you</b>?</h4>
 			    	<p>Time to download the client, and try it for yourself. If you have any questions just ask on the
 			    		<a href="http://www.peercointalk.org/">forum</a>, or the social links below.</p>
-			        <a href="http://sourceforge.net/projects/ppcoin/files/" class="btn btn-primary btn-large"><i class="fui-link"></i> Download Wallet!</a>
+			        <a href="downloads.php" class="btn btn-primary btn-large"><i class="fui-link"></i> Download Wallet!</a>
 			        <div class="social">
 			<a href="https://www.facebook.com/Peercoin"><img src="assets/img/icons/social-fb.png" alt="Visit us on Facebook"></a>
 			<a href="http://www.reddit.com/r/peercoin"><img src="assets/img/icons/social-reddit.png" alt="Reddit"></a>

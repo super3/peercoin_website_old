@@ -83,7 +83,7 @@
             </li>
                <li><a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform">Volunteer</a></li>
             <li><a href="http://www.peercointalk.org/">Forum</a></li>
-            <li class="wallet"><a class="btn btn-primary btn-lg" role="button" href="http://sourceforge.net/projects/ppcoin/files/" target="_blank">Download Wallet!</a></li>
+            <li class="wallet"><a class="btn btn-primary btn-lg" role="button" href="downloads.php" target="_blank">Download Wallet!</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
