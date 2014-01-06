@@ -182,6 +182,18 @@ a:hover {
 	padding: 70px 0;
 }
 
+.footer h2 {
+	font-size: 28px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+
+.footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
 .footer p,
 .footer a {
 	font-weight: 300;
@@ -599,6 +611,9 @@ a:hover {
 
 .tuts a {
 	color: #fff;
+	display: block;
+	width: 220px;
+	height: 220px;
 }
 
 /***** Contact Tweak *****/
@@ -749,6 +764,15 @@ a:hover {
 }
 
 	/* 3.3 Misc */
+	@media (max-width: 1999px) {
+		.footer {
+			text-align: center;
+		}
+
+		.footer ul {
+			margin-bottom: 30px;
+		}
+	}
 
 	@media (max-width: 999px) {
 		.content {
@@ -768,20 +792,47 @@ a:hover {
 		}
 
 		.navbar .container {
-			height: 147px;
+			height: 142px;
+			position: relative;
 		}
 
 		.navbar-header {
 			float: none;
 		}
 
-		.nav.navbar-nav.pull-right {
-			float: left !important;
+		.navbar .nav {
+			padding-top: 0;
 		}
 
-		.navbar .navbar-brand {
-		padding: 9px 28px 6px 17px;
+		.navbar .nav > li > a {
+			padding: 20px 20px !important;
 		}
+
+		.nav.navbar-nav.pull-right {
+			float: left !important;
+			margin: 0;
+			padding: 0;
+		}
+
+		.navbar-collapse {
+			padding-left: 0;
+		}
+		.navbar .navbar-brand {
+			padding: 9px 28px 6px 17px;
+		}
+
+		.navbar .nav > li.wallet,
+		.navbar .nav > li.wallet {
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+
+		.navbar .nav > li.wallet a,
+		.navbar .nav > li.wallet a {
+			padding: 10px 20px !important;
+		}
+
 	}
 
 	@media (max-width: 767px) {
@@ -793,6 +844,10 @@ a:hover {
 			height: auto;
 		}
 
+		.navbar .nav > li > a {
+			padding: 4px 20px !important;
+		}
+
 		.content {
 			padding: 70px 0 70px 0;
 		}
@@ -800,6 +855,13 @@ a:hover {
 		.content .downloads ul li {
 			display: block;
 			margin: 0 30px 20px 30px;
+		}
+
+		.navbar .nav > li.wallet,
+		.navbar .nav > li.wallet {
+			position: static;
+			top: 0;
+			right: 0;
 		}
 	}
 

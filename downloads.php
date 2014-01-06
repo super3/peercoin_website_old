@@ -98,7 +98,7 @@
 				</div>
 
 				<div class="item">
-					<h2>Configuration</h2>
+					<h2 id="config">Configuration</h2>
 					<p><em>Note: Optional if you only use PPCoin-Qt.</em></p>
 					<p>Create <code><a class="internal present" href="#ppconf">ppcoin.conf</a></code> in the wallet directory.</p>
 				</div>
@@ -237,64 +237,5 @@
 
 
 	</div>
-
-	<!-- Grey Wrap / Site Stats -->
-	<div class="tuts">
-			<!-- Portfolio Section -->
-	<div class="container">
-		<div class="row centered">
-			<h2>Tutorials</h2>
-			<div class="ch-grid">
-				<div class="col-lg-4">
-					<ul>
-						<li>
-							<a href="https://www.youtube.com/watch?v=IDktAbzP-qs">
-								<div class="ch-item ch-img-1">
-									<div class="ch-info">
-										<h3>Installing a Wallet</h3>
-										<p>by Peercoin <a href="https://www.youtube.com/watch?v=IDktAbzP-qs">View Tutorial</a></p>
-									</div>
-								</div><!-- /ch-img-1 -->
-							</a>
-							<h4><a href="https://www.youtube.com/watch?v=IDktAbzP-qs">Installing a Wallet</a></h4>
-						</li>
-					</ul>
-				</div><!-- /col-lg-4 -->
-
-				<div class="col-lg-4">
-					<ul>
-						<li>
-							<div class="ch-item ch-img-2">
-								<a href="https://www.youtube.com/watch?v=_15h-SV02Jw">
-									<div class="ch-info">
-										<h3>Setting Up Wallet</h3>
-										<p>by Peercoin <a href="https://www.youtube.com/watch?v=_15h-SV02Jw">View Tutorial</a></p>
-									</div>
-								</a>
-							</div><!-- /ch-img-1 -->
-							<h4><a href="https://www.youtube.com/watch?v=_15h-SV02Jw">Setting Up Wallet</a></h4>
-						</li>
-				</div><!-- /col-lg-4 -->
-
-			<div class="col-lg-4">
-				<ul>
-					<li>
-						<div class="ch-item ch-img-3">
-							<a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT">
-								<div class="ch-info">
-									<h3>More...</h3>
-									<p>by Peercoin <a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT">View Tutorials</a></p>
-								</div>
-							</a>
-						</div><!-- /ch-img-1 -->
-						<h4><a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT">More...</a></h4>
-					</li>
-				</ul>
-			</div><!-- /col-lg-4 -->
-			</div><!-- /ch-igrid -->
-		</div><!-- /row -->
-	</div><!-- /container -->
-
-	</div><!-- /G Wrap -->
 
 	<?php include ('footer.php'); ?>
