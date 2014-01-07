@@ -79,8 +79,8 @@
                 <li><a href="http://peercoin.net/bin/peercoin-paper-nl.pdf" target="_blank">Whitepaper (NL)</a></li>
               </ul>
             </li>
-            <li><a href="mining.php">How to Mine</a></li>
-            <li><a href="minting.php">Set up Minting</a></li>
+            <li><a href="mining.php">Mine</a></li>
+            <li><a href="minting.php">Mint</a></li>
             <li><a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform">Volunteer</a></li>
             <li><a href="http://www.peercointalk.org/">Forum</a></li>
             <li class="wallet"><a class="btn btn-primary btn-lg" role="button" href="downloads.php" target="_blank">Download Wallet!</a></li>
