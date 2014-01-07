@@ -110,7 +110,7 @@
 				<div class="col-lg-12">
 					<h2>Linux Minting Guide</h2>
 					<p> For this tutorial we'll assume the binaries are installed. If you have you can skip the next few lines. Otherwise use the binaries provided on the sourceforge page, click to download them: <a href="http://sourceforge.net/projects/ppcoin/files/0.3.0/ppcoin-0.3.0-linux.tar.gz/download">here</a>.
-					<br> Download the compressed binaries either by command line or via the browser. Decompress the binaries and copy over either the content of the 32bit or 64bit folder, depending on your CPU, to the usr/bin directory or what directory you prefer for your binaries.
+					<br> Download the compressed binaries either by command line or via the browser. Decompress the binaries and copy over the contents of either the 32bit or 64bit folder (depending on your CPU) to the usr/bin directory or whichever directory you prefer for your binaries.
 					We'll use the QT version of peercoin: ppcoin-qt. Navigate to the /usr/bin folder and execute the ppcoin-qt binary. This will set-up the required folders. Encrypt the wallet and write down the passphrase. Don't lose it!
 					Now close the Peercoin-QT client.</p>
 					<p>Open a terminal and copy/type this block of text. Before you execute the command be sure to edit the password!</p>
