@@ -132,10 +132,9 @@
 	#reservebalance=25
 	' &gt; .ppcoin/ppcoin.conf
 </pre>
-					<p>Start the Peercoin-QT client. The bottom left should display a message that the wallet is locked and the minting process is suspended. Now we go back to the binary folder (/usr/bin): type this in the console</p>
+					<p>Start the Peercoin-QT client. The bottom left should display a message that the wallet is locked and the minting process is suspended. Type this in the terminal: (If you have not installed peercoin system-wide, you need to first go to the directory you installed it in)</p>
 <pre>
-	cd /usr/bin
-	./ppcoind walletpassphrase &lt;secretpasswordtoyourwallet&gt; 9999999 true
+	ppcoind walletpassphrase &lt;secretpasswordtoyourwallet&gt; 9999999 true
 </pre>
 
 					<p>This unlocks the wallet for minting and starts the minting process if you have the Peercoin-Qt client open. After a few second you should see the padlock on the bottom right unlock. Congratulations you are minting!
