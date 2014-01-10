@@ -10,6 +10,30 @@
 		        </h1>
 				<a href="#cta" class="btn btn-embossed btn-primary smoothScroll">Why Peercoin?</a>
 		        <a href="downloads.php" target="_blank" class="btn btn-embossed btn-primary">Download Wallet!</a>
+
+		        <!-- begin marketcap // commented out since API is down. Also remove the hardcoded data below.
+		        <div class="marketcap">
+			        <ul>
+				        <li>
+					        <span id="current-price">$6,20</span>
+				        	<span>Price</span>
+				        </li>
+				        <li>
+					        <span id="market-cap">$216.234,20</span>
+					        <span>Market cap</span>
+				        </li>
+				        <li>
+					        <span id="total-supply">32453452</span>
+					        <span>Total supply</span>
+				        </li>
+			        </ul>
+			        <div class="updated">
+				        <span>Last updated: </span>
+	        	        <span id="seconds-since-update">never</span>
+			        </div>
+		        </div>
+		        end marketcap -->
+
 			</div>
     	</div>
     </header>
