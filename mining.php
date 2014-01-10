@@ -66,7 +66,7 @@
 						For the first worker, there is no set-up needed! Just double click start.bat and you should see this
 					</p>
 					<a href="img/mining5.png" target="_blank"><img src="img/mining5.png" alt="Mining" /></a>
-					<p>In the above image [2] displays the mining rate and [3] are successful blocks accepted by the pool!</p>
+					<p>In the above image [2] displays the mining rate and [3] are submitted shares accepted by the pool!</p>
 				</div>
 
 				<div class="item">
