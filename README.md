@@ -20,6 +20,9 @@ If you have a simple change to the website, we ask that you put in a pull reques
 7. On your forked repo you can now hit the green 'Compare and Review' button. It's at the top of the page, next to where it says something like 'branch: master'. 
 8. From there you can submit a pull request, and we will review it ASAP.
 
+### Dependencies and Stuff
+     sudo apt-get install apache2 php5 php5-sqlite
+
 Web Plan
 ============
 ### [Peercoin.net](http://peercoin.net)
