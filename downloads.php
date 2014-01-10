@@ -227,7 +227,7 @@
 </div>
 
 				<h2>Mining</h2>
-				<p>You should be able to use most <a href="https://en.bitcoin.it/wiki/Category:Miners">Bitcoin miners</a>. Default RPC port is 9902 for <code>ppcoind</code>.</p>
+				<p>You are able to use most <a href="https://en.bitcoin.it/wiki/Category:Miners">Bitcoin miners</a>. Default RPC port is 9902 for <code>ppcoind</code>.</p>
 				<p><em>Note: PPCoin does not support <a href="http://dot-bit.org/Merged_Mining">merged mining</a> with Bitcoin.</em></p>
 			    </div>
 				</div>
