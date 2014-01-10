@@ -113,6 +113,7 @@
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/retina.js"></script>
+    <script src="assets/js/ticker.js"></script>
 	<script src="assets/js/jquery.themepunch.revolution.min.js"></script>
 	<script src="assets/js/jquery.themepunch.plugins.min.js"></script>
 	<script src="assets/js/peercoin.js"></script>
