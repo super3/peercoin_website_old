@@ -58,7 +58,7 @@
 
 	<div class="video centered">
 		<div class="videoWrapper">
-			<iframe width="726" height="240" src="//www.youtube.com/embed/TjL2AgCQDJ0?rel=0?modestbranding=1" frameborder="0" allowfullscreen></iframe>
+			<iframe width="726" height="240" src="//www.youtube.com/embed/TjL2AgCQDJ0?rel=0?modestbranding=1&;showinfo=0&;autohide=1&;rel=0;" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
 
