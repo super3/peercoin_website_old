@@ -143,9 +143,9 @@
 				    </div>
 				    <div id="collapseFive" class="panel-collapse collapse">
 				      <div class="panel-body">
-				        <p>Checkpoints are an additional security measure and were introduced to protect the Peercoin network from attacks when it was in its infancy. Sunny King explains:
+				        <p>Checkpoints are an additional security measure and were introduced to protect the Peercoin network from attacks when it was in it's infancy. Sunny King explains:
 					<br/><br/>
-					&quot;The risk of 51% denial-of-service attack on block chain is real, especially to a smaller network. In fact I wouldn’t exclude such a possibility to even bitcoin. Of course such an attack on bitcoin would likely not come from an individual due to the resource required. But it’s irresponsible to say that’s not possible. Just imagine what would happen if bitcoin stops processing transactions for a few days.&quot;
+					&quot;The risk of 51% denial-of-service attack on block chain is real, especially to a smaller network. In fact I wouldn’t exclude such a possibility to even bitcoin. Of course such an attack on bitcoin would likely not come from an individual due to the resources required. But it’s irresponsible to say that’s not possible. Just imagine what would happen if bitcoin stops processing transactions for a few days.&quot;
 					<br/><br/>
 					As Peercoin's network has grown substantially in the past year, checkpoints will be phased out in one of the next versions, probably in PPC 0.5.
 					</p>
