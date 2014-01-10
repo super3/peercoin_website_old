@@ -10,7 +10,7 @@
 
 			<div class="col-lg-6">
 				<p>
-					Peercoin is a hybrid Proof-Of-Work / Proof-Of-Stake coin, with the same work algorithm as Bitcoin. This means you can mine with GPU's, FGPA's and ASICs using bitcoin mining software. With the increasing popularity of Peercoin, the slow switch to minting blocks, and the decreasing return on mining, competition for blocks becomes more fierce.
+					Peercoin is a hybrid Proof-Of-Work / Proof-Of-Stake coin, with the same work algorithm as Bitcoin. This means you can mine with GPUs, FGPAs and ASICs using bitcoin mining software. With the increasing popularity of Peercoin, the slow switch to minting blocks, and the decreasing return on mining, competition for blocks becomes more fierce.
 				</p>
 			</div>
 
