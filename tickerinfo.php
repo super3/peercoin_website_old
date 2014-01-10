@@ -8,10 +8,10 @@ define('INFO_EXPIRY', 30); // Seconds before cached data is re-downloaded
 
 // Database schema is one table, as follows:
 // CREATE TABLE ppcmarket(
-//   price REAL NOT NULL,
-//   market_cap REAL NOT NULL,
-//   total_supply INTEGER NOT NULL,
-//   updated DATETIME NOT NULL
+//   price REAL IS NOT NULL,
+//   market_cap REAL IS NOT NULL,
+//   total_supply INTEGER IS NOT NULL,
+//   updated DATETIME IS NOT NULL
 // )
 
 // Grab new data from CoinMarketCap if our data is expired
