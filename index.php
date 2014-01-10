@@ -143,13 +143,12 @@
 				    </div>
 				    <div id="collapseFive" class="panel-collapse collapse">
 				      <div class="panel-body">
-				        <p>&quot;Checkpoints are like an alert message, clients listen to them but do not enforce the checkpoint by default. Users have the choice to enable the enforcement of checkpoints, but it’s a conscious choice users must take. This means the developer responsible for the checkpoint must gain community consensus before using them, and cannot just arbitrarily force a block chain reorganization onto the users. Generally speaking the checkpoint feature should not be used except in the case of a 51% attack emergency.
-						<br/><br/>
-						The risk of 51% denial-of-service attack on block chain is real, especially to a smaller network. In fact I wouldn’t exclude such a possibility to even bitcoin. Of course such an attack on bitcoin would likely not come from an individual due to the resource required. But it’s irresponsible to say that’s not possible. Just imagine what would happen if bitcoin stops processing transactions for a few days. The advanced checkpoint feature in xpm is specifically designed to deal with this situation. Yes the network would turn into quasi centralized mode by community consensus, however that’s obviously a lot better than admitting defeat and giving up.&quot; - Sunny King
-						<br/><br/>
-						Futhermore, Bitcoin (<a href="https://github.com/bitcoin/bitcoin/blob/master/src/checkpoints.cpp">see source</a>) and Litecoin (<a href="https://github.com/litecoin-project/litecoin/blob/master-0.8/src/checkpoints.cpp">see source</a>)
-						also have checkpoints in their code.
-						</p>
+				        <p>Checkpoints are an additional security measure and were introduced to protect the Peercoin network from attacks when it was in its infancy. Sunny King explains:
+					<br/><br/>
+					&quot;The risk of 51% denial-of-service attack on block chain is real, especially to a smaller network. In fact I wouldn’t exclude such a possibility to even bitcoin. Of course such an attack on bitcoin would likely not come from an individual due to the resource required. But it’s irresponsible to say that’s not possible. Just imagine what would happen if bitcoin stops processing transactions for a few days.&quot;
+					<br/><br/>
+					As Peercoin's network has grown substantially in the past year, checkpoints will be phased out in one of the next versions, probably in PPC 0.5.
+					</p>
 				      </div>
 				    </div>
 				  </div>
