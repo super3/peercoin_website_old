@@ -160,6 +160,17 @@
 	});
 	</script>
 
+<!-- Drop down menu in minting -->
+<script type='text/javascript'>
+$(document).ready(function() {
+$('.collapse').on('shown.bs.collapse', function(){
+$(this).parent().find(".glyphicon-down").removeClass("glyphicon-down").addClass("glyphicon-up");
+}).on('hidden.bs.collapse', function(){
+$(this).parent().find(".glyphicon-up").removeClass("glyphicon-up").addClass("glyphicon-down");
+});
+});
+</script>
+
 
 
   </body>
