@@ -10,6 +10,7 @@ define('INFO_EXPIRY', 30); // Seconds before cached data is re-downloaded
 // CREATE TABLE ppcmarket(
 //   price REAL NOT NULL,
 //   market_cap REAL NOT NULL,
+//   total_supply INTEGER NOT NULL,
 //   updated DATETIME NOT NULL
 // )
 
