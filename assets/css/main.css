@@ -181,6 +181,11 @@ a:hover {
 	font-size: 26px;
 }
 
+.marketcap ul {
+	margin: 0;
+	padding: 0;
+}
+
 .marketcap li {
 	display: inline-block;
 	width: 20%;
@@ -812,6 +817,11 @@ a:hover {
 		.marketcap li span:last-child {
 			font-size: 15px;
 		}
+
+		.marketcap li,
+		.marketcap li span {
+			font-size: 20px !important;
+		}
 	}
 
 	@media (max-width: 999px) {
@@ -871,6 +881,11 @@ a:hover {
 		.navbar .nav > li.wallet a,
 		.navbar .nav > li.wallet a {
 			padding: 10px 20px !important;
+		}
+
+		.marketcap li,
+		.marketcap li span {
+			font-size: 17px !important;
 		}
 
 	}

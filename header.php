@@ -79,15 +79,6 @@
                 <li><a href="http://peercoin.net/bin/peercoin-paper-nl.pdf" target="_blank">Whitepaper (NL)</a></li>
               </ul>
             </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ticker <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Price: <span id="current-price"></span></a></li>
-                <li><a href="#">Market cap: <span id="market-cap"></span></a></li>
-                <li><a href="#">Total supply: <span id="total-supply"></span></a></li>
-                <li><a href="#">Last updated <span id="seconds-since-update">never</span></a></li>
-              </ul>
-            </li>
             <li><a href="mining.php">Mine</a></li>
             <li><a href="minting.php">Mint</a></li>
             <li><a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform">Volunteer</a></li>
