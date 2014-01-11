@@ -44,7 +44,7 @@
 					Encrypt your wallet with a good pass-phrase. Write this down and keep it somewhere safe, if you forget the pass-phrase you will lose your coins.
 					The wallet encryption option can be found under the settings tab in the PeercoinQt wallet program. </p>
 					<p>2) Configure the software: </p>
-					<p>Open up explorer and select the navigation bar. Type in: %appdata%/PPCoin</p>
+					<p>Open up Windows Explorer using <b>Ctrl+E</b>and select the navigation bar or open "Run" by <b>Win+R</b>, then type in: %appdata%/PPCoin</p>
 					<img src="img/minting1.png" alt="Minting" />
 				</div>
 			</div>
@@ -144,8 +144,8 @@
 			</div>
 
 			<div class="col-lg-12">
-				<h2>Mac Minting Guide</h2>
-				<p>A Mac OS X tutorial, visually supported with step-by-step images, will follow soon. Step by step command line instructions for Mac Peercoin minting are available at the peercointalk forum <a href="http://www.peercointalk.org/index.php?topic=1104.0">here</a>.</p>
+				<h2>OS X Minting Guide</h2>
+				<p>A OS X tutorial, visually supported with step-by-step images, will follow soon. Step by step command line instructions for Mac Peercoin minting are available at the peercointalk forum <a href="http://www.peercointalk.org/index.php?topic=1104.0">here</a>.</p>
 			</div>
 
 
