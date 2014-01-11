@@ -10,6 +10,28 @@
 		        </h1>
 				<a href="#cta" class="btn btn-embossed btn-primary smoothScroll">Why Peercoin?</a>
 		        <a href="downloads.php" target="_blank" class="btn btn-embossed btn-primary">Download Wallet!</a>
+
+		        <div class="marketcap">
+			        <ul>
+				        <li>
+					        <span id="current-price"></span>
+				        	<span>Price</span>
+				        </li>
+				        <li>
+					        <span id="market-cap"></span>
+					        <span>Market cap</span>
+				        </li>
+				        <li>
+					        <span id="total-supply"></span>
+					        <span>Total supply</span>
+				        </li>
+			        </ul>
+			        <div class="updated">
+				        <span>Last updated: </span>
+	        	        <span id="seconds-since-update">never</span>
+			        </div>
+		        </div>
+
 			</div>
     	</div>
     </header>
