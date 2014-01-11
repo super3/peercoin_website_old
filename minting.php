@@ -11,7 +11,7 @@
 				<div class="col-lg-12">
 					<p>
 						<strong>Introduction</strong><br />
-						Peercoin (PPC) uses a novel, green and very interesting method of network validation and mining. Most alternative crypto-currencies in existence are forks of Bitcoin, with changed mining parameters or different mining algorithms. Miners maintain the network and check transactions, while spending a lot of energy on cryptographic brute force puzzles. Blockchain.info estimates that mid December 2013, Bitcoin mining takes up 22 million dollars or 150.000 megawatts of energy PER DAY. Peercoin also started out as a Proof-Of-Work network. But as more blocks and coins have been mined, the network switches slowly to Proof-Of-Stake validation. With it we also switch to a new approach of securing the network. In Peercoin terms this process of generating coins by stake is called minting. And if you have a stake in Peercoin (PPC) coins, you can mint too!
+						Peercoin (PPC) uses a novel, green and very interesting method of network validation and mining. Most alternative cryptocurrencies in existence are forks of Bitcoin, with changed mining parameters or different mining algorithms. Miners maintain the network and check transactions, while spending a lot of energy on cryptographic brute force puzzles. Blockchain.info estimates that mid December 2013, Bitcoin mining takes up 22 million dollars or 150.000 megawatts of energy PER DAY. Peercoin also started out as a Proof-Of-Work network. But as more blocks and coins have been mined, the network switches slowly to Proof-Of-Stake validation. With it we also switch to a new approach of securing the network. In Peercoin terms this process of generating coins by stake is called <i>minting</i>. And if you have a stake in Peercoin (PPC) coins, you can mint too!
 					</p>
 					<p>This guide will explain what minting is, how to mint coins and what factors influence minting speed.</p>
 				</div>
@@ -44,7 +44,7 @@
 					Encrypt your wallet with a good pass-phrase. Write this down and keep it somewhere safe, if you forget the pass-phrase you will lose your coins.
 					The wallet encryption option can be found under the settings tab in the PeercoinQt wallet program. </p>
 					<p>2) Configure the software: </p>
-					<p>Open up explorer and select the navigation bar. Type in: %appdata%/PPCoin</p>
+					<p>Open up Windows Explorer using <b>Ctrl+E</b>and select the navigation bar or open "Run" by <b>Win+R</b>, then type in: %appdata%/PPCoin</p>
 					<img src="img/minting1.png" alt="Minting" />
 				</div>
 			</div>
@@ -144,8 +144,8 @@
 			</div>
 
 			<div class="col-lg-12">
-				<h2>Mac Minting Guide</h2>
-				<p>A Mac OS X tutorial, visually supported with step-by-step images, will follow soon. Step by step command line instructions for Mac Peercoin minting are available at the peercointalk forum <a href="http://www.peercointalk.org/index.php?topic=1104.0">here</a>.</p>
+				<h2>OS X Minting Guide</h2>
+				<p>A OS X tutorial, visually supported with step-by-step images, will follow soon. Step by step command line instructions for Mac Peercoin minting are available at the peercointalk forum <a href="http://www.peercointalk.org/index.php?topic=1104.0">here</a>.</p>
 			</div>
 
 
