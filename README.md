@@ -30,12 +30,12 @@ General information
 Investor information
 Directory of Peercoin-related services
 
-### Wiki.Peercoin.net
+### [Wiki.Peercoin.net](http://wiki.peercoin.net)
 Detailed, multi-category information about Peercoin (ala Bitcoin's wiki).
 Developer-centric resources (a sub-section of the wiki, used for documenting the protocol, APIs and the official client)
 
-### Support.Peercoin.net
-Support tickets and Feature requests. Support-specific FAQs, with links back to content on www.peercoin.net or wiki.peercoin.net
+### [Support.Peercoin.net](http://support.peercoin.net)
+Support tickets and Feature requests. Support-specific FAQs, with links back to content on [www.peercoin.net](http://peercoin.net) or [wiki.peercoin.net](http://wiki.peercoin.net)
 
 ### [Peercointalk.org](http://www.peercointalk.org/index.php)
 The primary home of the community. General discussions about Peercoin. Questions that come up can be directed to the proper resource above.
