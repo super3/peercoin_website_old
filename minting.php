@@ -144,8 +144,8 @@
 			</div>
 
 			<div class="col-lg-12">
-				<h2>Mac Minting Guide</h2>
-				<p>A Mac OS X tutorial, visually supported with step-by-step images, will follow soon. Step by step command line instructions for Mac Peercoin minting are available at the peercointalk forum <a href="http://www.peercointalk.org/index.php?topic=1104.0">here</a>.</p>
+				<h2>OS X Minting Guide</h2>
+				<p>OS X tutorial, visually supported with step-by-step images, will follow soon. Step by step command line instructions for Mac Peercoin minting are available at the peercointalk forum <a href="http://www.peercointalk.org/index.php?topic=1104.0">here</a>.</p>
 			</div>
 
 
