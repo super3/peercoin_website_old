@@ -71,6 +71,7 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Docs <b class="caret"></b></a>
               <ul class="dropdown-menu">
+                <li><a href="/proofofstake.php">What is proof-of-stake?</a></li>
                 <li><a href="https://github.com/ppcoin/ppcoin/wiki">Wiki</a></li>
                 <li><a href="resources.php">List of Resources</a></li>
                 <li><a href="http://peercoin.net/bin/peercoin-paper.pdf" target="_blank">Whitepaper (US)</a></li>
