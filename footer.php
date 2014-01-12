@@ -61,7 +61,7 @@
 				<div class="col-lg-3">
 					<h2>Info</h2>
 					<ul>
-						<li><a href="bitaddress.html">Wallet Generator (Beta!)</a></li>
+						<li><a href="http://wallet.peercointalk.org/">Wallet Generator (Beta!)</a></li>
 						<li><a href="https://github.com/ppcoin/ppcoin">Source Code (Github)</a></li>
 						<li><a href="mining.php">How to Mine</a></li>
 						<li><a href="minting.php">Set up Minting</a></li>
