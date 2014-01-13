@@ -80,6 +80,14 @@
                 <li><a href="http://peercoin.net/bin/peercoin-paper-nl.pdf" target="_blank">Whitepaper (NL)</a></li>
               </ul>
             </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Press <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.peercointalk.org/index.php?topic=1616.0">Press Kit</a></li>
+                <li><a href="http://www.peercointalk.org/index.php?topic=1603.0">Articles and Interviews</a></li>
+                <li><a href="mailto:sunnyking9999@gmail.com?cc=john.manglaviti@gmail.com&subject=Sunny%20King%20Interview%20Request">Interview Sunny King</a></li>
+              </ul>
+            </li>
             <li><a href="mining.php">Mine</a></li>
             <li><a href="minting.php">Mint</a></li>
             <li><a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform">Volunteer</a></li>
