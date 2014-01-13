@@ -16,7 +16,7 @@
 					        <p><strong>This is a list of pools mining PCC:</strong></p>
 					        <ul style="list-style-type: circle;">
 					          <li><a href="https://ppcoin.d7.lt/">https://ppcoin.d7.lt/</a> -  1.25% fee, PPLNS: payout per share of the last N rounds</li>
-					          <li><a href="https://www.coinotron.com/coinotron/">Coinotron</a> -  Multicoin Pool, Pay Per Share: 12% fee, Round-Based Pay Per Share: 2% </li>
+					          <li><a href="https://www.coinotron.com/coinotron/">https://www.coinotron.com/coinotron/</a> -  Multicoin Pool, Pay Per Share: 12% fee, Round-Based Pay Per Share: 2% </li>
 					          <li><a href="http://ppc.fixx.ru/">http://ppc.fixx.ru/</a> -  1% fee, PPLNS: payout per share of the last N rounds</li>
 					          <li><a href="https://hynodeva.com/">https://hynodeva.com/</a> - Currently under upgrade</li>
 					        </ul>
@@ -64,10 +64,10 @@
 								<li><a href="http://ppc.cryptocoinexplorer.com/">http://ppc.cryptocoinexplorer.com/</a> -  Blockchain Explorer: View transactions by PPC address</li>
 								<li><a href="http://bitinfocharts.com/comparison/hashrate-ppc.html">http://bitinfocharts.com/comparison/hashrate-ppc.html</a> -  Peercoin Network Statistics</li>
 								<li><a href="http://bitinfocharts.com/">http://bitinfocharts.com/</a> -  Compare Peercoin statistics to other cryptocurrencies</li>
-								<li><a href="http://www.coinwarz.com/calculators/peercoin-mining-calculator">Coinwarz Mining Calculator</a> -  Calculate expected return on PPC mining</li>
+								<li><a href="http://www.coinwarz.com/calculators/peercoin-mining-calculator/">http://www.coinwarz.com/calculators/peercoin-mining-calculator/</a> -  Calculate expected return on PPC mining</li>
 					        </ul>
 					       </div>
-				        <p>Happy minting!</p>
+				        <p>Happy mining!</p>
 
 			</div><!-- end col -->
 		</div><!-- end row -->
