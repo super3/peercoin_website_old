@@ -85,7 +85,13 @@
               <ul class="dropdown-menu">
                 <li><a href="http://www.peercointalk.org/index.php?topic=1616.0">Press Kit</a></li>
                 <li><a href="http://www.peercointalk.org/index.php?topic=1603.0">Articles and Interviews</a></li>
+                <?php
+                if (!file_exists('include/recaptcha_keys.php')) {
+                ?>
                 <li><a href="mailto:sunnyking9999@gmail.com?cc=john.manglaviti@gmail.com&subject=Sunny%20King%20Interview%20Request">Interview Sunny King</a></li>
+                <?php } else { ?>
+                <li><a href="/interview.php">Interview Sunny King</a></li>
+                <?php } ?>
               </ul>
             </li>
             <li><a href="mining.php">Mine</a></li>
