@@ -15,7 +15,7 @@ define('INFO_EXPIRY', 30); // Seconds before cached data is re-downloaded
 // )
 
 // Grab new data from CoinMarketCap if our data is expired
-function fetch_market_info() {
+function fetch_cmc_market_info() {
     // Grab the CMC homepage
     $html = file_get_html("http://www.coinmarketcap.com/");
     // Get Peercoin's table
@@ -66,6 +66,18 @@ function fetch_market_info() {
     return $info;
 }
 
+// Just return the price from Vircurex
+function fetch_vircurex_market_price() {
+    $btc_usd_json = file_get_contents('https://vircurex.com/api/get_highest_bid.json?base=BTC&alt=USD');
+    $btc_usd = json_decode($btc_usd_json)->value;
+
+    $ppc_btc_json = file_get_contents('https://vircurex.com/api/get_highest_bid.json?base=PPC&alt=BTC');
+    $ppc_btc = json_decode($ppc_btc_json)->value;
+
+    $ppc_usd = $btc_usd * $ppc_btc;
+    return round($ppc_usd, 2);
+}
+
 // Get either cached or new market data
 function market_info() {
     $db = new SQLite3(DB_PATH);
@@ -77,15 +89,27 @@ function market_info() {
     
     if (!$row) {
         // SQLite3 database is empty, populate it
-        $info = fetch_market_info();
+        $info = fetch_cmc_market_info();
         $db->query("INSERT INTO ppcmarket(price, market_cap, total_supply, updated) VALUES({$info['price']}, {$info['market_cap']}, {$info['total_supply']}, {$now})");
     }
     else {
         if ($now - $row['updated'] > INFO_EXPIRY) {
             // Cached data is expired, fetch new data
-            $info = fetch_market_info();
-            $db->query("UPDATE ppcmarket SET price={$info['price']}, market_cap={$info['market_cap']}, total_supply={$info['total_supply']}, updated={$now}");
-            $row = $info;
+            $info = fetch_cmc_market_info();
+            
+            if ($info['price'] == 0) { // CMC is freaking out, grab from Vircurex instead
+                // "Dumb mode" only updates price and market cap, not total supply (can add later)
+                $price = fetch_vircurex_market_price();
+                $market_cap = $price * $info['total_supply']; // Calculate a market cap based on Vircurex price and last known supply
+                
+                $db->query("UPDATE ppcmarket SET price={$info['price']}, market_cap={$market_cap}, updated={$now}");
+                $row['price'] = $price;
+                $row['market_cap'] = $market_cap;
+            }
+            else {
+                $db->query("UPDATE ppcmarket SET price={$info['price']}, market_cap={$info['market_cap']}, total_supply={$info['total_supply']}, updated={$now}");
+                $row = $info;
+            }
         }
         // Else, return the cached data
         
