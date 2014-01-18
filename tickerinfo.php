@@ -4,7 +4,7 @@ require('include/simple_html_dom.php');
 
 // Configuration values
 define('DB_PATH', 'ppcmarket.sqlite3');
-define('INFO_EXPIRY', 30); // Seconds before cached data is re-downloaded
+define('INFO_EXPIRY', 90); // Seconds before cached data is re-downloaded
 
 // Database schema is one table, as follows:
 // CREATE TABLE ppcmarket(
