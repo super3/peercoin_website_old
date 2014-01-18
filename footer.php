@@ -85,6 +85,7 @@
 				<div class="col-lg-3">
 					<h2>More Exchanges</h2>
 					<ul>
+						<li><a href="http://www.btc38.com/trade.html?btc38_trade_coin_name=ppc">BTC38</a></li>
 						<li><a href="http://bter.com/trade/ppc_btc">BTER Exchange</a></li>
 						<li><a href="http://cryptonit.net/exchange/btc/ppc">Cryptonit</a></li>
 						<li><a href="https://www.cryptsy.com/markets/view/28">Cryptsy</a></li>
