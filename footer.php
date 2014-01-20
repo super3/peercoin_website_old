@@ -96,6 +96,7 @@
 				<div class="col-lg-3">
 					<h2>Mining</h2>
 					<ul>
+						<li><a href="http://peercoin.ecoining.com/">Ecoining Pool</a></li>
 						<li><a href="https://www.coinotron.com/">Coinotron</a></li>
 						<li><a href="https://ppcoin.d7.lt/">D7 Pool</a></li>
 						<li><a href="http://ppc.fixx.ru/index">Fixx</a></li>
