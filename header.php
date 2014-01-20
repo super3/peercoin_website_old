@@ -75,6 +75,7 @@
                 <li><a href="https://github.com/ppcoin/ppcoin/wiki">Wiki</a></li>
                 <li><a href="resources.php">List of Resources</a></li>
                 <li><a href="http://peercoin.net/bin/peercoin-paper.pdf" target="_blank">Whitepaper (US)</a></li>
+                <li><a href="http://peercoin.net/bin/peercoin-paper-es.pdf" target="_blank">Whitepaper (ES)</a></li>
                 <li><a href="http://peercoin.net/bin/peercoin-paper-de.pdf" target="_blank">Whitepaper (DE)</a></li>
                 <li><a href="http://peercoin.net/bin/peercoin-paper-fr.pdf" target="_blank">Whitepaper (FR)</a></li>
                 <li><a href="http://peercoin.net/bin/peercoin-paper-nl.pdf" target="_blank">Whitepaper (NL)</a></li>
