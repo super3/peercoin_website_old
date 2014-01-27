@@ -79,6 +79,7 @@
                 <li><a href="http://peercoin.net/bin/peercoin-paper-de.pdf" target="_blank">Whitepaper (DE)</a></li>
                 <li><a href="http://peercoin.net/bin/peercoin-paper-fr.pdf" target="_blank">Whitepaper (FR)</a></li>
                 <li><a href="http://peercoin.net/bin/peercoin-paper-nl.pdf" target="_blank">Whitepaper (NL)</a></li>
+                <li><a href="http://peercoin.net/bin/peercoin-paper-kr.pdf" target="_blank">Whitepaper (KR)</a></li>
               </ul>
             </li>
             <li class="dropdown">
