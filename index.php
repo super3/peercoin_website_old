@@ -202,7 +202,7 @@
 			<div class="col-lg-4 centered">
 				<div class="alert alert-success">
 				<h4>Convinced <b>you</b>?</h4>
-			    	<p>Time to download the client, and try it for yourself. If you have any questions just ask on the
+			    	<p>Time to download the client, and try it yourself. If you have any questions just ask on the
 			    		<a href="http://www.peercointalk.org/">forum</a>, or the social links below.</p>
 			        <a href="downloads.php" class="btn btn-primary btn-large"><i class="fui-link"></i> Download Wallet!</a>
 			        <div class="social">
