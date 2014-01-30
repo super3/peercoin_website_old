@@ -209,7 +209,7 @@
 			<a href="https://www.facebook.com/Peercoin"><img src="assets/img/icons/social-fb.png" alt="Visit us on Facebook"></a>
 			<a href="http://www.reddit.com/r/peercoin"><img src="assets/img/icons/social-reddit.png" alt="Reddit"></a>
 			<a href="https://twitter.com/PeercoinPPC"><img src="assets/img/icons/social-twitter.png" alt="Follow us on Twitter"></a>
-			<a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT"><img src="assets/img/icons/social-yt.png" alt="See videos on YouTube"></a>
+			<a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT"><img src="assets/img/icons/social-yt.png" alt="Watch videos on YouTube"></a>
 		   </div>
 			     </div>
 
