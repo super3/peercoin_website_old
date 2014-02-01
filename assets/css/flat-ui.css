@@ -663,7 +663,7 @@ address {
   padding: 9px 12px 10px;
   line-height: 22px;
   text-decoration: none;
-  border-radius: 6px;
+  border-radius: 3px;
   -webkit-transition: 0.25s linear;
   -moz-transition: 0.25s linear;
   -o-transition: 0.25s linear;
@@ -1043,7 +1043,7 @@ address {
   line-height: 29.55px;
   font-weight: 900;
   margin-left: -15px;
-  padding: 23px 28px 24px 17px;
+  padding: 18px 28px 19px 17px;
   text-shadow: none;
   display: inline-block;
 }
@@ -1057,7 +1057,15 @@ address {
 .navbar .navbar-brand small {
   line-height: 1;
 }
+
+.navbar .navbar-brand span {
+  display: block;
+  font-size: 11px;
+  font-weight: 400;
+}
+
 .navbar .nav {
+  padding-top: 10px;
   margin-right: 0;
   display: inline-block;
   float: left;
@@ -1128,7 +1136,23 @@ address {
   -o-transition: background-color .25s, color .25s, border-bottom-color .25s;
   transition: background-color .25s, color .25s, border-bottom-color .25s;
   -webkit-backface-visibility: hidden;
+  font-weight: 500;
 }
+
+
+.navbar .nav > li.wallet { margin-left: 20px; }
+.navbar .nav > li.wallet > a,
+.navbar .nav > li.wallet > a:hover {
+  padding: 10px 20px;
+  position: relative;
+  bottom: -13px;
+  color: #fff;
+}
+
+.navbar .nav > li.wallet > a:hover {
+  background-color: #48c9b0;
+}
+
 .navbar .nav > li > a:hover,
 .navbar .nav > li > a:focus {
   color: #1abc9c;
@@ -1175,11 +1199,11 @@ address {
   position: relative;
 }
 .navbar .nav ul li:first-child {
-  border-radius: 6px 6px 0 0;
+  border-radius: 3px 3px 0 0;
   padding-top: 3px;
 }
 .navbar .nav ul li:last-child {
-  border-radius: 0 0 6px 6px;
+  border-radius: 0 0 3px 3px;
 }
 .navbar .nav ul li.active > a,
 .navbar .nav ul li.active > a:hover,
@@ -1348,6 +1372,9 @@ address {
   z-index: 1000;
   -webkit-transform: none;
 }
+
+.navbar .nav li.dropdown.open .dropdown-menu
+
 .navbar .nav li.dropdown > .dropdown-toggle {
   outline: none;
 }
@@ -1369,6 +1396,7 @@ address {
   opacity: 0;
   padding: 0;
   visibility: hidden;
+  position: absolute;
 }
 .navbar .nav li.dropdown .dropdown-menu:before {
   display: none;
@@ -1377,7 +1405,7 @@ address {
   border-bottom-color: #34495e;
 }
 .navbar .nav li.dropdown .dropdown-menu > li > a {
-  border-radius: 3px;
+  border-radius :0;
   color: #ffffff;
   padding: 6px 8px 8px;
 }
@@ -1556,7 +1584,6 @@ address {
   .navbar .nav > li.dropdown:hover > ul li:hover a,
   .navbar .nav > li:hover .dropdown-menu li:hover a,
   .navbar .nav > li.dropdown:hover .dropdown-menu li:hover a {
-    background-color: transparent;
     color: #1abc9c;
   }
   .navbar .nav > li:hover > ul li:hover ul,
@@ -1570,12 +1597,12 @@ address {
   .navbar .nav > li.dropdown > a,
   .navbar .nav > li > a:hover,
   .navbar .nav > li.dropdown > a:hover {
-    background: none;
-    padding: 7px 20px;
+    /*background: none;*/
+    padding: 23px 20px;
   }
   .navbar .nav > li ul,
   .navbar .nav > li.dropdown ul {
-    background: none;
+    /*background: none;*/
     height: 0;
     padding: 0;
     position: static;
@@ -1589,31 +1616,33 @@ address {
   }
   .navbar .nav > li ul li,
   .navbar .nav > li.dropdown ul li {
-    background: none;
+    /*background: none;*/
   }
   .navbar .nav > li ul li a,
   .navbar .nav > li.dropdown ul li a {
-    color: #34495e;
+    /*color: #34495e;*/
   }
   .navbar .nav > li ul li a:hover,
   .navbar .nav > li.dropdown ul li a:hover,
   .navbar .nav > li ul li a:focus,
   .navbar .nav > li.dropdown ul li a:focus {
-    color: #1abc9c;
+    /*color: #1abc9c;*/
+    color: #fff !important;
   }
   .navbar .nav li.dropdown .dropdown-menu {
-    background: none;
+    /*background: none;*/
     margin-top: 0;
   }
   .navbar .nav li.dropdown .dropdown-menu li a {
-    color: #34495e;
+    /*color: #34495e;*/
   }
   .navbar .nav li.dropdown .dropdown-menu li a:hover,
   .navbar .nav li.dropdown .dropdown-menu li a:focus {
-    color: #1abc9c;
+    /*color: #1abc9c;*/
+    color: #fff !important;
   }
   .navbar .nav .dropdown-toggle:focus {
-    background-color: transparent !important;
+    /*background-color: transparent !important;*/
   }
   .navbar .nav li a .hidden-lg {
     display: inline !important;
