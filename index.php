@@ -5,7 +5,7 @@
     	<div class="container">
 			<div class="row">
 				<h1>
-		          Sustainable. Secure.
+		          Secure. Sustainable.
 		          <span><strong>Peercoin</strong> is here.</span>
 		        </h1>
 				<a href="#cta" class="btn btn-embossed btn-primary smoothScroll">Why Peercoin?</a>
