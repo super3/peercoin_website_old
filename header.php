@@ -3,11 +3,11 @@
   <head>
 	<meta charset="UTF-8">
 	<!-- Title here -->
-	<title>Peercoin - Secure and Sustainable Cryptocurrency.</title>
+	<title>Peercoin - The Secure &amp; Sustainable Cryptocoin.</title>
 
 	<!-- Description, Keywords and Author -->
-	<meta name="description" content="Peercoin - the sustainable and secure cryptocurrency." />
-	<meta name="keywords" content="peercoin, bitcoin, litecoin, primecoin, cryptocurrency, sustainable">
+	<meta name="description" content="Peercoin - the secure and sustainable cryptocoin." />
+	<meta name="keywords" content="peercoin, bitcoin, litecoin, primecoin, cryptocurrency, sustainable, cryptocoin">
 	<meta name="author" content="Peercoin">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -16,7 +16,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="http://peercoin.net" />
 	<meta property="og:image" content="http://peercoin.net/img/logo.png"/>
-	<meta property="og:description" content="Peercoin - the sustainable and secure cryptocurrency." />
+	<meta property="og:description" content="Peercoin - the secure and sustainable cryptocoin." />
 
 	<meta name="google-site-verification" content="-GOUzkxsjMUypgT8xj6GD4W9xNv_SMeorTZtOKPRzg8" />
 	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
@@ -62,7 +62,7 @@
           </button>
           <a class="navbar-brand" href="index.php">
             <img src="assets/images/logos/Dark-Text-350.png" width="110" alt="Peercoin">
-            <span>Sustainable &amp; secure cryptocoin</span>
+            <span>The Secure &amp; Sustainable Cryptocoin</span>
           </a>
         </div>
         <div class="navbar-collapse collapse">
