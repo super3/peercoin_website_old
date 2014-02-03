@@ -117,7 +117,7 @@
 				    <div id="collapseTwo" class="panel-collapse collapse">
 				      <div class="panel-body">
 				        <p>Generating blocks through the hybrid proof-of-work/proof-of-stake algorithm reduces the risk of the Selfish-Miner Cornell Flaw, ">50%" attacks, and the block bloating that have been used to exploit other currencies.</p>
-						<p>The proof-of-stake portion of the algorithm stands at the heart of this security because it drastically raises the cost of an attack. Acquiring 51% of all existing coins requires more effort and resources than acquiring 51% of all mining power. Further, in a ">50%" stake attack, the attacker's investment will be, by definition, at risk of great loss because the attacker will be holding a majority of the coins that he or she is attacking. This risk of loss reduces the incentive to attempt such an attack in the first place.</p>
+						<p>The proof-of-stake portion of the algorithm stands at the heart of this security because it drastically raises the cost of an attack. Acquiring 51% of all existing coins requires more effort and resources than acquiring 51% of all mining power. Further, in a ">50%" stake attack, the attacker's investment will be, by definition, at risk of great loss because the attacker will be holding a majority of the coins that they are attacking. This risk of loss reduces the incentive to attempt such an attack in the first place.</p>
 						<p>Peercoin also employs other advanced security features including enforcing transaction fees at protocol level to defend against block bloating attacks.</p>
 				      </div>
 				    </div>
