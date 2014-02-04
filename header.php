@@ -86,7 +86,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Press <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="http://www.peercointalk.org/index.php?topic=1616.0">Press Kit</a></li>
-                <li><a href="http://www.peercointalk.org/index.php?topic=1603.0">Articles and Interviews</a></li>
+                <li><a href="http://www.peercointalk.org/index.php?topic=2219.0">Articles and Interviews</a></li>
                 <?php
                 if (!file_exists('include/recaptcha_keys.php')) {
                 ?>
