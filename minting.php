@@ -59,7 +59,7 @@
 							<div class="col-lg-12">
 								<p>Now create a text document. Open it up in notepad and copy the following information.<br />
 								The reserve balance option sets the number of coins you do not put up for stake. These are the coins for daily use. The newly minted coins cannot be spent for 520 blocks (~ 3.6 days)!
-								<br />Be sure to edit the rpc user and rpc password lines! Pick a good long random password, do not use your wallet passphrase!</p>
+								<br />Be sure to edit the rpc user and rpc password lines! Pick a good long random password; do not use your wallet passphrase!</p>
 <pre>
 	#ppcoin.conf
 	# JSON-RPC options (for controlling a running ppcoind process)
