@@ -59,10 +59,10 @@ function fetch_cmc_market_info() {
 
 // Just return the price from Vircurex
 function fetch_vircurex_market_price() {
-    $btc_usd_json = file_get_contents('https://vircurex.com/api/get_highest_bid.json?base=BTC&alt=USD');
+    $btc_usd_json = file_get_contents('https://api.vircurex.com/api/get_highest_bid.json?base=BTC&alt=USD');
     $btc_usd = json_decode($btc_usd_json)->value;
 
-    $ppc_btc_json = file_get_contents('https://vircurex.com/api/get_highest_bid.json?base=PPC&alt=BTC');
+    $ppc_btc_json = file_get_contents('https://api.vircurex.com/api/get_highest_bid.json?base=PPC&alt=BTC');
     $ppc_btc = json_decode($ppc_btc_json)->value;
 
     $ppc_usd = $btc_usd * $ppc_btc;
