@@ -21,7 +21,16 @@ If you have a simple change to the website, we ask that you put in a pull reques
 8. From there you can submit a pull request, and we will review it ASAP.
 
 ### Dependencies and Stuff
-     sudo apt-get install apache2 php5 php5-sqlite
+     sudo apt-get install apache2 php5
+
+
+### Market Ticker
+The ticker sources data from CoinMarketCap, and if that fails, falls back to the Vircurex API. `tickerinfo.php` returns a JSON array containing the last price, market capitalization, and total number of PPC in circulation.
+
+Ensure that `ppcmarket.txt` is writeable by the PHP user so that the ticker can store updated information. Running `update_tickerinfo.php` will update the info provided by the ticker. This should be run via cron.
+
+     # Update the ticker every 5 minutes
+     */5 * * * * curl 'http://peercoin.net/update_tickerinfo.php'
 
 Web Plan
 ============
