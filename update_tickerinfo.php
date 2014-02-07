@@ -3,14 +3,24 @@ require('include/simple_html_dom.php');
 
 // Configuration values
 define('DATA_PATH', 'ppcmarket.txt');
-define('INFO_EXPIRY', 90); // Seconds before cached data is re-downloaded
+define('INFO_EXPIRY', 90); // Seconds before cached data is re-downloaded (currently unused)
+define('TRY_CMC', TRUE); // Whether or not we try to get data from CoinMarketCap
 
-// Grab new data from CoinMarketCap if our data is expired
+// Grab new data from CoinMarketCap
 function fetch_cmc_market_info() {
     // Grab the CMC homepage
     $html = file_get_html("http://www.coinmarketcap.com/");
+
+    // Don't try to parse the HTML if it isn't there
+    if ($html == FALSE) {
+        return FALSE;
+    }
+
     // Get Peercoin's table
     $ppc_data = $html->find('#ppc', 0);
+    if (!is_object($ppc_data)) {
+        return FALSE;
+    }
 
     // Market cap is stored in the "data-usd" tag of a 'td'
     $market_cap_td = $ppc_data->find('td[class=market-cap]', 0);
@@ -68,26 +78,43 @@ function fetch_vircurex_market_price() {
     $ppc_usd = $btc_usd * $ppc_btc;
     return round($ppc_usd, 2);
 }
+
+// Get the total circulation from CCE to calculate market cap without CoinMarketCap
+function fetch_total_circulation() {
+    $total_ppc = floatval(file_get_contents('http://ppc.cryptocoinexplorer.com/chain/PPCoin/q/totalbc'));
+    return $total_ppc;
+}
+
+function fetch_alternative_market_info() {
+    $total_supply = fetch_total_circulation();
+    $price = fetch_vircurex_market_price();
+    $market_cap = $price * $total_supply;
+
+    $info = array(
+        'price' => floatval($price),
+        'market_cap' => floatval($market_cap),
+        'total_supply' => intval($total_supply),
+    );
+
+    return $info;
+}
+
 // Update the market info file
 function update_market_info() {
-    $info = fetch_cmc_market_info(); // CMC sourced
+    if (TRY_CMC) {
+        $info = fetch_cmc_market_info();
+    }
+    else {
+        $info = FALSE;
+    }
 
-    if ($info['price'] == 0) { // CMC is freaking out, grab from Vircurex instead
-        // Grab our old market info for reference to use its total supply
-        $old_info = market_info();
-
-        // "Dumb mode" only updates price and market cap, not total supply (can add later)
-        $price = fetch_vircurex_market_price();
-        $market_cap = $price * $old_info['total_supply']; // Calculate a market cap based on Vircurex price and last known supply
-        
-        $info['price'] = $price;
-        $info['market_cap'] = $market_cap;
-        $info['total_supply'] = $old_info['total_supply'];
+    if ($info == FALSE || $info['price'] == 0 || $info['market_cap'] == 0 || $info['total_supply'] == 0) {
+        echo "*falling back to alt data sources*\n";
+        $info = fetch_alternative_market_info();
     }
 
     $info['updated'] = time();
     file_put_contents(DATA_PATH, json_encode($info));
-
 }
 
 update_market_info();
