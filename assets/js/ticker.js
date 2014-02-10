@@ -12,7 +12,11 @@ $(document).ready(function() {
             if (intervalId == null) {
                 intervalId = setInterval(function() {
                     secondsSinceUpdate++;
-                    $('#seconds-since-update').text(secondsSinceUpdate + " seconds ago");
+                    var secondUnit = "seconds";
+                    if (secondsSinceUpdate == 1) {
+                      secondUnit = "second";
+                    }
+                    $('#seconds-since-update').text(secondsSinceUpdate + " " + secondUnit + " ago");
                 }, 1000);
             }
             $('#current-price').text("$" + data['price'] + " USD/PPC");
