@@ -30,7 +30,7 @@
 				<div class="col-lg-12">
 					<p>
 						<strong>Minting Return</strong><br />
-						Statistically you will get 1% interest on average on your coins per year if you mint. You only mint when your wallet is open, but as the resources use is a lot lower this will not lock up the computer or waste much power. Your wallet is unlocked, but you will still need your passphrase for transactions. An alternative strategy would be to wait till you have a lot of coinage and have a larger chance of minting a block. This would be around 90 days after transaction. However your return will be a little less compared with constant minting. Future wallet version will support in wallet minting, possibly without decrypting.
+						Statistically you will get 1% interest on average on your coins per year if you mint. You only mint when your wallet is open, but as the resources use is a lot lower this will not lock up the computer or waste much power. Your wallet is unlocked, but you will still need your passphrase for transactions. An alternative strategy would be to wait till you have a lot of coinage and have a larger chance of minting a block. This would be around 90 days after transaction. However your return will be a little less compared with constant minting. A future wallet version will support in-wallet minting, possibly without decrypting.
 					</p>
 					<p>The Peercoin-QT wallet software takes care of this whole process automatically but it needs some configuration before it can start.</p>
 				</div>
