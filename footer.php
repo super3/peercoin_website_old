@@ -9,13 +9,13 @@
 				<ul>
 					<li>
 						<div class="ch-item ch-img-1">
-							<a href="downloads.php">
+							<a href="downloads">
 								<div class="ch-info">
 									<h3>Installing a Wallet</h3>
 								</div>
 							</a>
 						</div><!-- /ch-img-1 -->
-						<h4><a href="downloads.php">Installing a Wallet</a></h4>
+						<h4><a href="downloads">Installing a Wallet</a></h4>
 					</li>
 				</ul>
 			</div><!-- /col-lg-4 -->
@@ -24,13 +24,13 @@
 				<ul>
 					<li>
 						<div class="ch-item ch-img-2">
-							<a href="downloads.php#config">
+							<a href="downloads#config">
 								<div class="ch-info">
 									<h3>Setting Up Wallet</h3>
 								</div>
 							</a>
 						</div><!-- /ch-img-1 -->
-						<h4><a href="downloads.php#config">Setting Up Wallet</a></h4>
+						<h4><a href="downloads#config">Setting Up Wallet</a></h4>
 					</li>
 			</div><!-- /col-lg-4 -->
 
@@ -63,9 +63,9 @@
 					<ul>
 						<li><a href="http://wallet.peercointalk.org/">Wallet Generator (Beta!)</a></li>
 						<li><a href="https://github.com/ppcoin/ppcoin">Source Code (Github)</a></li>
-						<li><a href="mining.php">How to Mine</a></li>
-						<li><a href="minting.php">Set up Minting</a></li>
-						<li><a href="resources.php">List of Resources</a></li>
+						<li><a href="mining">How to Mine</a></li>
+						<li><a href="minting">Set up Minting</a></li>
+						<li><a href="resources">List of Resources</a></li>
 						<li><a href="https://github.com/ppcoin/ppcoin/wiki">Wiki</a></li>
 						<li><a href="http://www.peercointalk.org/">Forum</a></li>
 						<li><a href="http://peercoinmyths.com/">Myths</a></li>
@@ -78,7 +78,7 @@
 						<li><a href="https://www.vaultofsatoshi.com/">Vault of Satoshi</a></li>
 						<li><a href="https://vircurex.com/welcome/index?alt=ppc&amp;base=btc&amp;locale=en">Vircurex</a></li>
 						<li><a href="https://coinmkt.com/">CoinMkt</a></li>
-						<li><a href=" https://crypto-trade.com/trade/ppc_btc">Crypto-Trade</a></li>
+						<li><a href="https://crypto-trade.com/trade/ppc_btc">Crypto-Trade</a></li>
 					</ul>
 				</div>
 
