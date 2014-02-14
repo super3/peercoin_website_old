@@ -144,7 +144,7 @@
 </pre>
 
 								<p>This unlocks the wallet for minting and starts the minting process if you have the Peercoin-Qt client open. After a few second you should see the padlock on the bottom right unlock. Congratulations you are minting!
-										Don't forget to back-up your privatekey by backing-up the wallet.dat from the ~/.ppcoin folder or extracting the private key.
+										Don't forget to back-up your private key by backing-up the wallet.dat from the ~/.ppcoin folder or extracting the private key.
 								</p>
 							</div>
 						</div>
