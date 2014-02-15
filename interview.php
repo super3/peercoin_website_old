@@ -169,21 +169,20 @@ require_once('include/recaptchalib.php');
 	}
 } ?>
 				
-<?php // if the page the variable "email sent" is set to true show confirmation instead of the form ?>
-<?php if(isset($emailSent) && $emailSent == true) { ?>
+<?php // if the page the variable "email sent" is set to true show confirmation instead of the form
+if(isset($emailSent) && $emailSent == true) { ?>
 	<p>
 		Your interview request was sent successfully.
 	</p>
-<?php } else { ?>
-<?php // if there are errors in the form show a message ?>
-	<?php if(isset($hasError) || isset($blindError)) { ?>
+<?php } else
+// if there are errors in the form show a message
+if(isset($hasError) || isset($blindError)) { ?>
 		<p>There was an error submitting the form. Please check all the marked fields.</p>
-	<?php } ?>
-	<?php // if there are recaptcha errors show a message ?>
-	<?php if ($captchaErrorMsg){ ?>	
+	<?php }
+	// if there are recaptcha errors show a message
+	if ($captchaErrorMsg){ ?>	
 		<p>Captcha error. Please, type the check-words again.</p>
-	<?php } ?>
-	<?php 
+	<?php }
 	// here, you set what the recaptcha module should look like
 	// possible options: red, white, blackglass and clean
 	// more infor on customisation can be found here: http://code.google.com/intl/pl-PL/apis/recaptcha/docs/customization.html
@@ -205,26 +204,26 @@ require_once('include/recaptchalib.php');
 								<label for="formAuthor">
 									Name
 								</label>
-								<input class="requiredField <?php if($authorError) { echo 'formError'; } ?>" type="text" name="formAuthor" id="formAuthor" value="<?php if(isset($_POST['formAuthor']))  echo $_POST['formAuthor'];?>" size="40" />
+								<input class="requiredField <?php if($authorError) { echo 'formError'; } ?>" type="text" name="formAuthor" id="formAuthor" value="<?php if(isset($_POST['formAuthor'])) echo htmlspecialchars($_POST['formAuthor']);?>" size="40" />
 							</div>
 							<div>
 								<label for="formEmail">
 									Email
 								</label>
-								<input class="requiredField <?php if($emailError) { echo 'formError'; } ?>" type="text" name="formEmail" id="formEmail" value="<?php if(isset($_POST['formEmail']))  echo $_POST['formEmail'];?>" size="40" />
+								<input class="requiredField <?php if($emailError) { echo 'formError'; } ?>" type="text" name="formEmail" id="formEmail" value="<?php if(isset($_POST['formEmail'])) echo htmlspecialchars($_POST['formEmail']);?>" size="40" />
 							</div>
 							<div>
 								<label for="formSubject">
 									Subject
 								</label>
-								<input class="requiredField <?php if($subjectError) { echo 'formError'; } ?>" type="text" name="formSubject" id="formSubject" value="<?php if(isset($_POST['formSubject']))  echo $_POST['formSubject'];?>" size="40" />
+								<input class="requiredField <?php if($subjectError) { echo 'formError'; } ?>" type="text" name="formSubject" id="formSubject" value="<?php if(isset($_POST['formSubject'])) echo htmlspecialchars($_POST['formSubject']);?>" size="40" />
 							</div>
 						</div>
 						<div id="commentTxt">
 							<label for="formContent">
 								Message
 							</label>
-							<textarea class="requiredField <?php if($commentError) { echo 'formError'; } ?>" id="formContent" name="formContent" cols="40" rows="5"><?php if(isset($_POST['formContent'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['formContent']); } else { echo $_POST['formContent']; } } ?></textarea>
+							<textarea class="requiredField <?php if($commentError) { echo 'formError'; } ?>" id="formContent" name="formContent" cols="40" rows="5"><?php if(isset($_POST['formContent'])) { echo htmlspecialchars(stripslashes($_POST['formContent'])); } ?></textarea>
 							<?php 
 							// this field is visible only to robots and screenreaders
 							// if it is filled in it means that a human hasn't submitted this form thus it will be rejected
@@ -233,7 +232,7 @@ require_once('include/recaptchalib.php');
 								<label for="checking">
 									If you want to submit this form, do not enter anything in this field
 								</label>
-								<input type="text" name="checking" id="checking" value="<?php if(isset($_POST['checking']))  echo $_POST['checking'];?>" />
+								<input type="text" name="checking" id="checking" value="<?php if(isset($_POST['checking']))  echo htmlspecialchars($_POST['checking']);?>" />
 							</div>
 						</div>
 						<?php
