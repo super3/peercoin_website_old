@@ -7,3 +7,12 @@ RewriteRule		^proofofstake$		proofofstake.php	[NC,L]
 RewriteRule		^resources$			resources.php		[NC,L]
 RewriteRule		^downloads$			downloads.php		[NC,L]
 RewriteRule		^interview$			interview.php		[NC,L]
+
+
+# 301 Redirects to keep SEO score on previous URLs
+RewriteRule		^mining.php$		http://www.peercoin.net/mining [R=301,L]
+RewriteRule		^minting.php$		http://www.peercoin.net/minting [R=301,L]
+RewriteRule		^proofofstake.php$	http://www.peercoin.net/proofofstake [R=301,L]
+RewriteRule		^resources.php$		http://www.peercoin.net/resources [R=301,L]
+RewriteRule		^downloads.php$		http://www.peercoin.net/downloads [R=301,L]
+RewriteRule		^interview.php$		http://www.peercoin.net/interview [R=301,L]
