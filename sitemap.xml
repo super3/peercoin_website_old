@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+	<url>
+		<loc>http://www.peercoin.net/</loc>
+		<lastmod>2014-02-13</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.8</priority>
+	</url>
+
+
+	<url>
+		<loc>http://www.peercoin.net/mining</loc>
+		<lastmod>2014-02-13</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+
+	<url>
+		<loc>http://www.peercoin.net/minting</loc>
+		<lastmod>2014-02-13</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+
+	<url>
+		<loc>http://www.peercoin.net/proofofstake</loc>
+		<lastmod>2014-02-13</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+
+	<url>
+		<loc>http://www.peercoin.net/resources</loc>
+		<lastmod>2014-02-13</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+	<url>
+		<loc>http://www.peercoin.net/downloads</loc>
+		<lastmod>2014-02-13</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+	<url>
+		<loc>http://www.peercoin.net/interview</loc>
+		<lastmod>2014-02-13</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+
+</urlset>
