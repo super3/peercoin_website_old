@@ -71,7 +71,6 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Docs <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="whitepaper.php">Peercoin Whitepaper</a></li>
-                <li><a href="/proofofstake.php">What is proof-of-stake?</a></li>
                 <li><a href="https://github.com/ppcoin/ppcoin/wiki">Wiki</a></li>
                 <li><a href="resources.php">List of Resources</a></li>
               </ul>
@@ -90,8 +89,14 @@
                 <?php } ?>
               </ul>
             </li>
-            <li><a href="mining.php">Mine</a></li>
-            <li><a href="minting.php">Mint</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Peercoins <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+		    <li><a href="mining.php">Mine Peercoins</a></li>
+		    <li><a href="minting.php">Mint Peercoins</a></li>
+		    <li><a href="buying.php">Buy Peercoins</a></li>
+              </ul>
+            </li>
             <li><a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform">Contribute</a></li>
             <li><a href="http://www.peercointalk.org/">Forum</a></li>
             <li class="wallet"><a class="btn btn-primary btn-lg" role="button" href="downloads.php" target="_blank">Download Wallet!</a></li>
