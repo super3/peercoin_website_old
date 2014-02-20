@@ -21,22 +21,21 @@
 	<meta name="google-site-verification" content="-GOUzkxsjMUypgT8xj6GD4W9xNv_SMeorTZtOKPRzg8" />
 	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/flat-ui.css" rel="stylesheet">
+ 	<!-- Bootstrap core CSS -->
+ 	<link href="assets/css/bootstrap.css" rel="stylesheet">
+ 	<link href="assets/css/flat-ui.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
+ 	<!-- Custom styles for this template -->
+ 	<link href="assets/css/main.css" rel="stylesheet">
 
 	<link rel="stylesheet" href="assets/css/revolution.css" media="screen"/>
 	<link rel="stylesheet" href="assets/css/media-slideshow.css" media="screen"/>
 
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
+    	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    	<!--[if lt IE 9]>
+      	<script src="assets/js/html5shiv.js"></script>
+      	<script src="assets/js/respond.min.js"></script>
+    	<![endif]-->
 
 	<script type="text/javascript" src="assets/js/modernizr.custom.79639.js"></script>
 	<script>
@@ -71,15 +70,9 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Docs <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="/proofofstake.php">What is proof-of-stake?</a></li>
+                <li><a href="whitepaper.php">Peercoin Whitepaper</a></li>
                 <li><a href="https://github.com/ppcoin/ppcoin/wiki">Wiki</a></li>
                 <li><a href="resources.php">List of Resources</a></li>
-                <li><a href="http://peercoin.net/bin/peercoin-paper.pdf" target="_blank">Whitepaper (US)</a></li>
-                <li><a href="http://peercoin.net/bin/peercoin-paper-es.pdf" target="_blank">Whitepaper (ES)</a></li>
-                <li><a href="http://peercoin.net/bin/peercoin-paper-de.pdf" target="_blank">Whitepaper (DE)</a></li>
-                <li><a href="http://peercoin.net/bin/peercoin-paper-fr.pdf" target="_blank">Whitepaper (FR)</a></li>
-                <li><a href="http://peercoin.net/bin/peercoin-paper-nl.pdf" target="_blank">Whitepaper (NL)</a></li>
-                <li><a href="http://peercoin.net/bin/peercoin-paper-kr.pdf" target="_blank">Whitepaper (KR)</a></li>
               </ul>
             </li>
             <li class="dropdown">
@@ -96,9 +89,15 @@
                 <?php } ?>
               </ul>
             </li>
-            <li><a href="mining.php">Mine</a></li>
-            <li><a href="minting.php">Mint</a></li>
-            <li><a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform">Volunteer</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Peercoins <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+		    <li><a href="mining.php">Mine Peercoins</a></li>
+		    <li><a href="minting.php">Mint Peercoins</a></li>
+		    <li><a href="buying.php">Buy Peercoins</a></li>
+              </ul>
+            </li>
+            <li><a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform">Contribute</a></li>
             <li><a href="http://www.peercointalk.org/">Forum</a></li>
             <li class="wallet"><a class="btn btn-primary btn-lg" role="button" href="downloads.php" target="_blank">Download Wallet!</a></li>
           </ul>
