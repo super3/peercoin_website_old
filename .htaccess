@@ -1,0 +1,20 @@
+RewriteEngine	On
+
+# Quick and dirty URL rewrites for each page
+RewriteRule		^mining$			mining.php			[NC,L]
+RewriteRule		^minting$			minting.php			[NC,L]
+RewriteRule		^buying$			buying.php			[NC,L]
+RewriteRule		^resources$			resources.php		[NC,L]
+RewriteRule		^downloads$			downloads.php		[NC,L]
+RewriteRule		^interview$			interview.php		[NC,L]
+RewriteRule		^whitepaper$		whitepaper.php		[NC,L]
+
+
+# 301 Redirects to keep SEO score on previous URLs
+RewriteRule		^mining\.php$		http://www.peercoin.net/mining [R=301,L]
+RewriteRule		^minting\.php$		http://www.peercoin.net/minting [R=301,L]
+RewriteRule		^buying\.php$		http://www.peercoin.net/buying [R=301,L]
+RewriteRule		^resources\.php$		http://www.peercoin.net/resources [R=301,L]
+RewriteRule		^downloads\.php$		http://www.peercoin.net/downloads [R=301,L]
+RewriteRule		^interview\.php$		http://www.peercoin.net/interview [R=301,L]
+RewriteRule		^whitepaper\.php$		http://www.peercoin.net/whitepaper [R=301,L]
