@@ -26,11 +26,11 @@
 						<div class="ch-item ch-img-2">
 							<a href="downloads.php#config">
 								<div class="ch-info">
-									<h3>Setting Up Wallet</h3>
+									<h3>Setting Up a Wallet</h3>
 								</div>
 							</a>
 						</div><!-- /ch-img-1 -->
-						<h4><a href="downloads.php#config">Setting Up Wallet</a></h4>
+						<h4><a href="downloads.php#config">Setting Up a Wallet</a></h4>
 					</li>
 			</div><!-- /col-lg-4 -->
 
