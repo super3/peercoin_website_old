@@ -5,7 +5,7 @@
     	<div class="container">
 			<div class="row">
 				<h1>
-		          可持续的.安全的.
+		          可持续的. 安全的.
 		          <span><strong>点点币</strong> 就在这里.</span>
 		        </h1>
 				<a href="#cta" class="btn btn-embossed btn-primary smoothScroll">为什么选择点点币?</a>
@@ -124,7 +124,7 @@
 				    </div>
 				    <div id="collapseFour" class="panel-collapse collapse">
 				      <div class="panel-body">
-				        <p>点点币是一个独特而创新的货币绝不简简单单是比特币的一个克隆.
+				        <p>点点币是一个独特而创新的货币, 绝不简简单单是比特币的一个克隆.
 				           点点币是第一个将证明型股权应用到加密货币中的. 事实上，很多货币都在学习点点币把证明型股权代码加到他们的源码中.
 				           <br/> <br/>
 						   来源: <a href="http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features">http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features</a>
