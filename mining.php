@@ -26,14 +26,14 @@
 				<div class="item">
 					<p>
 						<strong>Setting up the PPC wallet</strong><br />
-						Download the Peercoin wallet if you did not do this already. Install, let it sync, and secure the wallet with a good password. You can find your wallet address on the receive tab. You can follow <a href="http://peercoin.net/downloads">this guide</a> to download and configure it.
+						Download the Peercoin wallet if you did not do this already. Install, let it sync, and secure the wallet with a good password. You can find your wallet address on the receive tab. You can follow <a href="http://peercoin.net/downloads.php">this guide</a> to download and configure it.
 					</p>
 				</div>
 
 				<div class="item">
 					<p>
 						<strong>Sign Up in a Pool</strong><br />
-						You can find a list of pools in the <a href="http://peercoin.net/resources">resources page</a>. Here you can find instructions to join some of these pools.
+						You can find a list of pools in the <a href="http://peercoin.net/resources.php">resources page</a>. Here you can find instructions to join some of these pools.
 					</p>
 				</div>
 				<div class="panel-group" id="accordion">
