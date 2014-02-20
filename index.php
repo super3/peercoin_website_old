@@ -84,6 +84,22 @@
 		</div>
 	</div>
 
+		   <!-- Call To Action -->
+	<div id="cta" name="cta">
+		<div class="container centered">
+			<h2 class="col-lg-4">Fund <span>Peercoin.</span></h2>
+			<p class="col-lg-8">
+				We are now accepting donations towards the Peercoin Development and Web Fund. 
+				BTC Donations: 1MKMndP5iXKtdDd5M6bcsxVmLAirHW1j7i - 
+				<a href="http://blockr.io/address/info/1MKMndP5iXKtdDd5M6bcsxVmLAirHW1j7i">Block Explorer</a>
+				PPC Donations: P9ZveNqMmSSB5RApp3dcpDYXYXmKYUG7mN - 
+				<a href="http://ppc.blockr.io/address/info/P9ZveNqMmSSB5RApp3dcpDYXYXmKYUG7mN">Block Explorer</a>
+			</p>
+			<br/>
+		</div><!-- /container -->
+	</div><!-- /cta -->
+
+
 
 <div class="faq container">
 		<h2 class="centered">Frequently <span>asked questions</span></h2>
