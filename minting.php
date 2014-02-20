@@ -79,7 +79,7 @@
 							<div class="col-lg-12">
 								<h4>Set-up required software:</h4>
 								<p>	Download and install the <a href="http://sourceforge.net/projects/ppcoin/files/">Peercoin-Qt wallet</a> if you have not done so already.
-								Encrypt your wallet with a good pass-phrase. Write this down and keep it somewhere safe, if you forget the pass-phrase you will lose your coins.
+								Encrypt your wallet with a good passphrase. Write this down and keep it somewhere safe, if you forget the passphrase you will lose your coins.
 								The wallet encryption option can be found under the settings tab in the PeercoinQt wallet program. </p>
 								<h4>Configure the software: </h4>
 								<p>Open up explorer and select the navigation bar. Type in: %appdata%/PPCoin</p>
