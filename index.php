@@ -80,7 +80,7 @@
 
 	<div class="video centered">
 		<div class="videoWrapper">
-			<iframe width="726" height="240" src="//www.youtube.com/embed/TjL2AgCQDJ0?rel=0?modestbranding=1" frameborder="0" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="//www.youtube.com/embed/TjL2AgCQDJ0?rel=0?modestbranding=1" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
 
@@ -89,9 +89,9 @@
 		<div class="container centered">
 			<h2 class="col-lg-4">Fund <span>Peercoin.</span></h2>
 			<p class="col-lg-8">
-				We are now accepting donations towards the Peercoin Development and Web Fund. 
+				We are now accepting donations towards the Peercoin Development and Web Fund. <br/>
 				BTC Donations: 1MKMndP5iXKtdDd5M6bcsxVmLAirHW1j7i - 
-				<a href="http://blockr.io/address/info/1MKMndP5iXKtdDd5M6bcsxVmLAirHW1j7i">Block Explorer</a>
+				<a href="http://blockr.io/address/info/1MKMndP5iXKtdDd5M6bcsxVmLAirHW1j7i">Block Explorer</a><br/>
 				PPC Donations: P9ZveNqMmSSB5RApp3dcpDYXYXmKYUG7mN - 
 				<a href="http://ppc.blockr.io/address/info/P9ZveNqMmSSB5RApp3dcpDYXYXmKYUG7mN">Block Explorer</a>
 			</p>
