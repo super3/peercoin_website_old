@@ -1,0 +1,10 @@
+RewriteEngine	On
+
+# Quick and dirty URL rewrites for each page
+RewriteRule		^mining$			mining.php			[NC]
+RewriteRule		^minting$			minting.php			[NC]
+RewriteRule		^buying$			buying.php			[NC]
+RewriteRule		^resources$			resources.php		[NC]
+RewriteRule		^downloads$			downloads.php		[NC]
+RewriteRule		^interview$			interview.php		[NC]
+RewriteRule		^whitepaper$		whitepaper.php		[NC]
