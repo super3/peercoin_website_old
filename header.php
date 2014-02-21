@@ -59,7 +59,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">
+          <a class="navbar-brand" href="/">
             <img src="assets/images/logos/Dark-Text-350.png" width="110" alt="Peercoin">
             <span>The Secure &amp; Sustainable Cryptocoin</span>
           </a>
@@ -70,9 +70,9 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Docs <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="whitepaper.php">Peercoin Whitepaper</a></li>
+                <li><a href="whitepaper">Peercoin Whitepaper</a></li>
                 <li><a href="https://github.com/ppcoin/ppcoin/wiki">Wiki</a></li>
-                <li><a href="resources.php">List of Resources</a></li>
+                <li><a href="resources">List of Resources</a></li>
               </ul>
             </li>
             <li class="dropdown">
@@ -85,21 +85,21 @@
                 ?>
                 <li><a href="mailto:sunnyking9999@gmail.com?cc=john.manglaviti@gmail.com&subject=Sunny%20King%20Interview%20Request">Interview Sunny King</a></li>
                 <?php } else { ?>
-                <li><a href="/interview.php">Interview Sunny King</a></li>
+                <li><a href="/interview">Interview Sunny King</a></li>
                 <?php } ?>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Peercoins <b class="caret"></b></a>
               <ul class="dropdown-menu">
-		    <li><a href="mining.php">Mine Peercoins</a></li>
-		    <li><a href="minting.php">Mint Peercoins</a></li>
-		    <li><a href="buying.php">Buy Peercoins</a></li>
+		    <li><a href="mining">Mine Peercoins</a></li>
+		    <li><a href="minting">Mint Peercoins</a></li>
+		    <li><a href="buying">Buy Peercoins</a></li>
               </ul>
             </li>
             <li><a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform">Contribute</a></li>
             <li><a href="http://www.peercointalk.org/">Forum</a></li>
-            <li class="wallet"><a class="btn btn-primary btn-lg" role="button" href="downloads.php" target="_blank">Download Wallet!</a></li>
+            <li class="wallet"><a class="btn btn-primary btn-lg" role="button" href="downloads" target="_blank">Download Wallet!</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
