@@ -17,8 +17,6 @@ If don't know how to submit a pull request use these helpful guides: [one](https
 Below are just some notes for running the website yourself. We run the website on a simple [Apache2](https://httpd.apache.org/) server with [PHP5](http://php.net/) installed.  
 
 ### Deploy
-URL Rewriting via Apache's ```mod_rewrite``` module has issues when the ```MultiViews``` [option](https://httpd.apache.org/docs/2.2/mod/core.html#options) is set in any of the config files in the ```sites-available``` directory. Ensure this option is removed from your site's config files or errors will occur with URL rewriting (```/mining.php -> /mining```)
-
 We run the deploy.sh every 10 minutes, so that the live site is always up to date. This also calls the market ticker updater. The cron job
 is listed below:
 
