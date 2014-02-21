@@ -8,3 +8,12 @@ RewriteRule		^resources$			resources.php		[NC]
 RewriteRule		^downloads$			downloads.php		[NC]
 RewriteRule		^interview$			interview.php		[NC]
 RewriteRule		^whitepaper$		whitepaper.php		[NC]
+
+# 301 Redirects to keep SEO score on previous URLs
+RewriteRule		^mining\.php$		http://www.peercoin.net/mining [R=301]
+RewriteRule		^minting\.php$		http://www.peercoin.net/minting [R=301]
+RewriteRule		^buying\.php$		http://www.peercoin.net/buying [R=301]
+RewriteRule		^resources\.php$	http://www.peercoin.net/resources [R=301]
+RewriteRule		^downloads\.php$	http://www.peercoin.net/downloads [R=301]
+RewriteRule		^interview\.php$	http://www.peercoin.net/interview [R=301]
+RewriteRule		^whitepaper\.php$	http://www.peercoin.net/whitepaper [R=301]
