@@ -9,13 +9,13 @@
 				<ul>
 					<li>
 						<div class="ch-item ch-img-1">
-							<a href="downloads.php">
+							<a href="downloads">
 								<div class="ch-info">
 									<h3>Installing the Wallet</h3>
 								</div>
 							</a>
 						</div><!-- /ch-img-1 -->
-						<h4><a href="downloads.php">Installing the Wallet</a></h4>
+						<h4><a href="downloads">Installing tThe Wallet</a></h4>
 					</li>
 				</ul>
 			</div><!-- /col-lg-4 -->
@@ -24,13 +24,13 @@
 				<ul>
 					<li>
 						<div class="ch-item ch-img-2">
-							<a href="downloads.php#config">
+							<a href="downloads#config">
 								<div class="ch-info">
 									<h3>Setting Up the Wallet</h3>
 								</div>
 							</a>
 						</div><!-- /ch-img-1 -->
-						<h4><a href="downloads.php#config">Setting Up the Wallet</a></h4>
+						<h4><a href="downloads#config">Setting Up the Wallet</a></h4>
 					</li>
 			</div><!-- /col-lg-4 -->
 
