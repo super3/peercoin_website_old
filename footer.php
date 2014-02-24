@@ -11,11 +11,11 @@
 						<div class="ch-item ch-img-1">
 							<a href="downloads">
 								<div class="ch-info">
-									<h3>Installing a Wallet</h3>
+									<h3>Installing the Wallet</h3>
 								</div>
 							</a>
 						</div><!-- /ch-img-1 -->
-						<h4><a href="downloads">Installing a Wallet</a></h4>
+						<h4><a href="downloads">Installing tThe Wallet</a></h4>
 					</li>
 				</ul>
 			</div><!-- /col-lg-4 -->
@@ -26,11 +26,11 @@
 						<div class="ch-item ch-img-2">
 							<a href="downloads#config">
 								<div class="ch-info">
-									<h3>Setting Up Wallet</h3>
+									<h3>Setting Up the Wallet</h3>
 								</div>
 							</a>
 						</div><!-- /ch-img-1 -->
-						<h4><a href="downloads#config">Setting Up Wallet</a></h4>
+						<h4><a href="downloads#config">Setting Up the Wallet</a></h4>
 					</li>
 			</div><!-- /col-lg-4 -->
 
@@ -40,11 +40,11 @@
 					<div class="ch-item ch-img-3">
 						<a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT">
 							<div class="ch-info">
-								<h3>More...</h3>
+								<h3>More Resources</h3>
 							</div>
 						</a>
 					</div><!-- /ch-img-1 -->
-					<h4><a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT">More...</a></h4>
+					<h4><a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT">More Resources</a></h4>
 				</li>
 			</ul>
 		</div><!-- /col-lg-4 -->
@@ -61,7 +61,7 @@
 				<div class="col-lg-3">
 					<h2>Links</h2>
 					<ul>
-						<li><a href="https://github.com/ppcoin/ppcoin">Source Code (Github)</a></li>
+						<li><a href="https://github.com/ppcoin/ppcoin">Sources</a></li>
 						<li><a href="https://github.com/ppcoin/ppcoin/wiki">Wiki</a></li>
 						<li><a href="http://www.peercointalk.org/">Forum</a></li>
 						<li><a href="http://peercoinmyths.com/">Myths</a></li>
@@ -70,7 +70,7 @@
 				<div class="col-lg-3">
 					<h2>Tools</h2>
 					<ul>
-						<li><a href="http://wallet.peercointalk.org/">Wallet Generator (Beta!)</a></li>
+						<li><a href="http://wallet.peercointalk.org/">Paper Wallet</a></li>
 						<li><a href="http://ppc.blockr.io/">Block Explorer</a></li>
 						<li><a href="http://bitinfocharts.com/comparison/hashrate-ppc.html">Network Statistics</a></li>
 						<li><a href="http://www.coinwarz.com/calculators/peercoin-mining-calculator/">Mining Calculator</a></li>
@@ -80,11 +80,11 @@
 				<div class="col-lg-3">
 					<h2>Exchanges</h2>
 					<ul>
-						
 						<li><a href="https://www.cryptsy.com/markets/view/28">Cryptsy</a></li>
 						<li><a href="http://www.btc38.com/trade.html?btc38_trade_coin_name=ppc">BTC38</a></li>
 						<li><a href="https://www.vaultofsatoshi.com/">Vault of Satoshi</a></li>
 						<li><a href="https://btc-e.com/exchange/ppc_btc/">BTC-E</a></li>
+						<li><a href="buying.php"><em>more...</em></a></li>
 					</ul>
 				</div>
 

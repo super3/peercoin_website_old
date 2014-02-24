@@ -90,10 +90,8 @@
 			<h2 class="col-lg-4">Fund <span>Peercoin.</span></h2>
 			<p class="col-lg-8">
 				We are now accepting donations towards the Peercoin Development and Web Fund. <br/>
-				BTC Donations: 1MKMndP5iXKtdDd5M6bcsxVmLAirHW1j7i - 
-				<a href="http://blockr.io/address/info/1MKMndP5iXKtdDd5M6bcsxVmLAirHW1j7i">Block Explorer</a><br/>
-				PPC Donations: P9ZveNqMmSSB5RApp3dcpDYXYXmKYUG7mN - 
-				<a href="http://ppc.blockr.io/address/info/P9ZveNqMmSSB5RApp3dcpDYXYXmKYUG7mN">Block Explorer</a>
+				BTC Donations: <a href="http://blockr.io/address/info/1MKMndP5iXKtdDd5M6bcsxVmLAirHW1j7i">1MKMndP5iXKtdDd5M6bcsxVmLAirHW1j7i</a><br/>
+				PPC Donations: <a href="http://ppc.blockr.io/address/info/P9ZveNqMmSSB5RApp3dcpDYXYXmKYUG7mN">P9ZveNqMmSSB5RApp3dcpDYXYXmKYUG7mN</a>
 			</p>
 			<br/>
 		</div><!-- /container -->
@@ -218,15 +216,15 @@
 			<div class="col-lg-4 centered">
 				<div class="alert alert-success">
 				<h4>Convinced <b>you</b>?</h4>
-			    	<p>Time to download the client, and try it yourself. If you have any questions just ask on the
-			    		<a href="http://www.peercointalk.org/">forum</a>, or the social links below.</p>
-			        <a href="downloads" class="btn btn-primary btn-large"><i class="fui-link"></i> Download Wallet!</a>
+				<p>Time to download the client, and try it yourself.</p>
+			        <p><a href="downloads" class="btn btn-primary btn-large"><i class="fui-link"></i> Download Wallet!</a></p>
+				<p>If you have any questions just ask on the <a href="http://www.peercointalk.org/">forum</a>, or our social networks:</p>
 			        <div class="social">
-			<a href="https://www.facebook.com/Peercoin"><img src="assets/img/icons/social-fb.png" alt="Visit us on Facebook"></a>
-			<a href="http://www.reddit.com/r/peercoin"><img src="assets/img/icons/social-reddit.png" alt="Reddit"></a>
-			<a href="https://twitter.com/PeercoinPPC"><img src="assets/img/icons/social-twitter.png" alt="Follow us on Twitter"></a>
-			<a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT"><img src="assets/img/icons/social-yt.png" alt="Watch videos on YouTube"></a>
-		   </div>
+					<a href="https://www.facebook.com/Peercoin"><img src="assets/img/icons/social-fb.png" alt="Visit us on Facebook"></a>
+					<a href="http://www.reddit.com/r/peercoin"><img src="assets/img/icons/social-reddit.png" alt="Reddit"></a>
+					<a href="https://twitter.com/PeercoinPPC"><img src="assets/img/icons/social-twitter.png" alt="Follow us on Twitter"></a>
+					<a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT"><img src="assets/img/icons/social-yt.png" alt="Watch videos on YouTube"></a>
+				</div>
 			     </div>
 
 			</div>
