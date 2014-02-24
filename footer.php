@@ -3,7 +3,7 @@
 		<!-- Portfolio Section -->
 <div class="container">
 	<div class="row centered">
-		<h2>Tutorials</h2>
+		<h2><?php echo $Locale->getText("tutorials"); ?></h2>
 		<div class="ch-grid">
 			<div class="col-lg-4">
 				<ul>
@@ -11,11 +11,11 @@
 						<div class="ch-item ch-img-1">
 							<a href="downloads">
 								<div class="ch-info">
-									<h3>Installing a Wallet</h3>
+									<h3><?php echo $Locale->getText("installing_wallet"); ?></h3>
 								</div>
 							</a>
 						</div><!-- /ch-img-1 -->
-						<h4><a href="downloads">Installing a Wallet</a></h4>
+						<h4><a href="downloads"><?php echo $Locale->getText("installing_wallet"); ?></a></h4>
 					</li>
 				</ul>
 			</div><!-- /col-lg-4 -->
@@ -26,11 +26,11 @@
 						<div class="ch-item ch-img-2">
 							<a href="downloads#config">
 								<div class="ch-info">
-									<h3>Setting Up Wallet</h3>
+									<h3><?php echo $Locale->getText("setting_up_wallet"); ?></h3>
 								</div>
 							</a>
 						</div><!-- /ch-img-1 -->
-						<h4><a href="downloads#config">Setting Up Wallet</a></h4>
+						<h4><a href="downloads#config"><?php echo $Locale->getText("setting_up_wallet"); ?></a></h4>
 					</li>
 			</div><!-- /col-lg-4 -->
 
@@ -40,11 +40,11 @@
 					<div class="ch-item ch-img-3">
 						<a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT">
 							<div class="ch-info">
-								<h3>More...</h3>
+								<h3><?php echo $Locale->getText("more_ellipsis"); ?></h3>
 							</div>
 						</a>
 					</div><!-- /ch-img-1 -->
-					<h4><a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT">More...</a></h4>
+					<h4><a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT"><?php echo $Locale->getText("more_ellipsis"); ?></a></h4>
 				</li>
 			</ul>
 		</div><!-- /col-lg-4 -->
@@ -59,7 +59,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3">
-					<h2>Links</h2>
+					<h2><?php echo $Locale->getText("links"); ?></h2>
 					<ul>
 						<li><a href="https://github.com/ppcoin/ppcoin">Source Code (Github)</a></li>
 						<li><a href="https://github.com/ppcoin/ppcoin/wiki">Wiki</a></li>
@@ -68,7 +68,7 @@
 					</ul>
 				</div>
 				<div class="col-lg-3">
-					<h2>Tools</h2>
+					<h2><?php echo $Locale->getText("tools"); ?></h2>
 					<ul>
 						<li><a href="http://wallet.peercointalk.org/">Wallet Generator (Beta!)</a></li>
 						<li><a href="http://ppc.blockr.io/">Block Explorer</a></li>
@@ -78,7 +78,7 @@
 				</div>
 
 				<div class="col-lg-3">
-					<h2>Exchanges</h2>
+					<h2><?php echo $Locale->getText("exchanges"); ?></h2>
 					<ul>
 						
 						<li><a href="https://www.cryptsy.com/markets/view/28">Cryptsy</a></li>
@@ -89,7 +89,7 @@
 				</div>
 
 				<div class="col-lg-3">
-					<h2>Mining</h2>
+					<h2><?php echo $Locale->getText("mining"); ?></h2>
 					<ul>
 						<li><a href="http://peercoin.ecoining.com/">Ecoining Pool</a></li>
 						<li><a href="https://www.coinotron.com/">Coinotron</a></li>
@@ -98,6 +98,16 @@
 					</ul>
 				</div>
 			</div><!-- /row -->
+
+			<div class="row">
+				<div id="footer-language-bar" class="col-lg-12">
+	            	<span><?php echo $Locale->getText("languages"); ?></span>
+
+	            	<?php foreach($Locale->getLanguages() as $language_code => $language_text): ?>
+	            	<a href="<?php echo $_SERVER['PHP_SELF']; ?>?locale=<?php echo $language_code; ?>"><?php echo $language_text; ?></a>
+	            	<?php endforeach; ?>
+	        	</div>
+			</div>
 
 		</div><!-- /container -->
 	</footer>
