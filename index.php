@@ -1,3 +1,8 @@
+<?php
+	include ('locale/locale.php');
+	$Locale = new Locale();
+?>
+
 <?php include ('header.php'); ?>
 
   <!-- Headerwrap -->
@@ -5,30 +10,29 @@
     	<div class="container">
 			<div class="row">
 				<h1>
-		          Secure. Sustainable.
-		          <span><strong>Peercoin</strong> is here.</span>
+		          <?php echo $Locale->getText("big_welcome_header"); ?>
 		        </h1>
-				<a href="#cta" class="btn btn-embossed btn-primary smoothScroll">Why Peercoin?</a>
-		        <a href="downloads" target="_blank" class="btn btn-embossed btn-primary">Download Wallet!</a>
+				<a href="#cta" class="btn btn-embossed btn-primary smoothScroll"><?php echo $Locale->getText("why_peercoin_button"); ?></a>
+		        <a href="downloads" target="_blank" class="btn btn-embossed btn-primary"><?php echo $Locale->getText("download_wallet"); ?>!</a>
 
 		        <div class="marketcap">
 			        <ul>
 				        <li>
 					        <span id="current-price"></span>
-				        	<span>Price</span>
+				        	<span><?php echo $Locale->getText("price"); ?></span>
 				        </li>
 				        <li>
 					        <span id="market-cap"></span>
-					        <span>Market cap</span>
+					        <span><?php echo $Locale->getText("market_cap"); ?></span>
 				        </li>
 				        <li>
 					        <span id="total-supply"></span>
-					        <span>Total supply</span>
+					        <span><?php echo $Locale->getText("total_supply"); ?></span>
 				        </li>
 			        </ul>
 			        <div class="updated">
-				        <span>Last updated: </span>
-	        	        <span id="seconds-since-update">never</span>
+				        <span><?php echo $Locale->getText("ticker_last_updated"); ?></span>
+	        	        <span id="seconds-since-update"><?php echo $Locale->getText("ticker_last_updated_never"); ?></span>
 			        </div>
 		        </div>
 
@@ -39,8 +43,8 @@
     <!-- Call To Action -->
 	<div id="cta" name="cta">
 		<div class="container centered">
-			<h2 class="col-lg-4">Why <span>Peercoin?</span></h2>
-			<p class="col-lg-8">Through an innovative minting algorithm, the Peercoin network consumes far less energy, maintains stronger security, and rewards users in more sustainable ways than other cryptocurrencies.</p>
+			<h2 class="col-lg-4"><?php echo $Locale->getText("why_peercoin_title"); ?></h2>
+			<p class="col-lg-8"><?php echo $Locale->getText("why_peercoin_desc"); ?></p>
 			<br>
 
 		</div><!-- /container -->
@@ -53,26 +57,20 @@
 
 			<div class="col-lg-4">
 				<img src="assets/images/icons/rocket.svg" alt="Original Innovation">
-				<h4>Original <b>Innovation</b></h4>
-				<p>Peercoin's original innovation is the <a href="/bin/peercoin-paper.pdf">proof-of-stake/proof-of-work hybrid</a> system. Like other <a href="https://en.wikipedia.org/wiki/Cryptocurrency">cryptocurrencies</a>, initial coins can be mined, but the core network is maintained
-				by coin holders, rather than the fastest <a href="https://en.bitcoin.it/wiki/Pooled_mining">pool</a>. </p>
+				<h4><?php echo $Locale->getText("why_peercoin_header_innovation"); ?></h4>
+				<p><?php echo $Locale->getText("why_peercoin_desc_innovation"); ?></p>
 			</div><!-- col-lg-4 -->
 
 			<div class="col-lg-4">
 				<img src="assets/images/icons/key.svg" alt="Increased Security">
-				<h4>Increased <b>Security</b></h4>
-				<p>Maintaining the network through the hybrid proof-of-work/proof-of-stake algorithm reduces the risk of the
-				<a href="http://www.pcworld.com/article/2060840/selfish-miner-attack-could-devastate-bitcoin-researchers-say.html">
-				Selfish-Miner Flaw</a>, <a href="https://en.bitcoin.it/wiki/Weaknesses">51% attacks</a>, and the block bloating that have been used to exploit other currencies.</p>
+				<h4><?php echo $Locale->getText("why_peercoin_header_security"); ?></h4>
+				<p><?php echo $Locale->getText("why_peercoin_desc_security"); ?></p>
 			</div><!-- col-lg-4 -->
 
 			<div class="col-lg-4">
 				<img src="assets/images/icons/earth.svg" alt="Energy and Cost Efficiency">
-				<h4>Energy and Cost <b>Efficiency</b></h4>
-				<p>Maintaining the network requires far less energy than generating hardware-intensive proof-of-work hashes.
-				Proof-of-stake also does away with the <a href="http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/">
-				~$1 billion "tax"</a> on the Bitcoin network through proof-of-work blocks.
-				</p>
+				<h4><?php echo $Locale->getText("why_peercoin_header_efficiency"); ?></h4>
+				<p><?php echo $Locale->getText("why_peercoin_desc_efficiency"); ?></p>
 			</div><!-- col-lg-4 -->
 
 		</div><!-- /row -->
@@ -87,13 +85,13 @@
 		   <!-- Call To Action -->
 	<div id="cta" name="cta">
 		<div class="container centered">
-			<h2 class="col-lg-4">Fund <span>Peercoin.</span></h2>
+			<h2 class="col-lg-4"><?php echo $Locale->getText("fund_peercoin"); ?></h2>
 			<p class="col-lg-8">
-				We are now accepting donations towards the Peercoin Development and Web Fund. <br/>
-				BTC Donations: 1MKMndP5iXKtdDd5M6bcsxVmLAirHW1j7i - 
-				<a href="http://blockr.io/address/info/1MKMndP5iXKtdDd5M6bcsxVmLAirHW1j7i">Block Explorer</a><br/>
-				PPC Donations: P9ZveNqMmSSB5RApp3dcpDYXYXmKYUG7mN - 
-				<a href="http://ppc.blockr.io/address/info/P9ZveNqMmSSB5RApp3dcpDYXYXmKYUG7mN">Block Explorer</a>
+				<?php echo $Locale->getText("fund_peercoin_accepting_donations"); ?><br/>
+				<?php echo $Locale->getText("fund_peercoin_donations_btc"); ?> 1MKMndP5iXKtdDd5M6bcsxVmLAirHW1j7i - 
+				<a href="http://blockr.io/address/info/1MKMndP5iXKtdDd5M6bcsxVmLAirHW1j7i"><?php echo $Locale->getText("block_explorer"); ?></a><br/>
+				<?php echo $Locale->getText("fund_peercoin_donations_ppc"); ?> P9ZveNqMmSSB5RApp3dcpDYXYXmKYUG7mN - 
+				<a href="http://ppc.blockr.io/address/info/P9ZveNqMmSSB5RApp3dcpDYXYXmKYUG7mN"><?php echo $Locale->getText("block_explorer"); ?></a>
 			</p>
 			<br/>
 		</div><!-- /container -->
@@ -102,7 +100,7 @@
 
 
 <div class="faq container">
-		<h2 class="centered">Frequently <span>asked questions</span></h2>
+		<h2 class="centered"><?php echo $Locale->getText("faq_header"); ?></h2>
 		<div class="row">
 			<div class="col-lg-8">
 				<div class="panel-group" id="accordion">
@@ -110,15 +108,13 @@
 				    <div class="panel-heading">
 				      <h4 class="panel-title">
 				        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-				          <span class="fui-plus"></span> Tell me more about Original Innovation.
+				          <span class="fui-plus"></span> <?php echo $Locale->getText("faq_q_title_innovation"); ?>
 				        </a>
 				      </h4>
 				    </div>
 				    <div id="collapseOne" class="panel-collapse collapse">
 				      <div class="panel-body">
-				        <p>Peercoin's original and noteworthy innovation is the proof-of-stake/proof-of-work hybrid system.</p>
-						<p>Like other cryptocurrencies, initial coins can be mined through the more commonly used proof-of-work hashing process. However unlike other coins, as the hashing difficulty increases over time, users continue to be rewarded with coins generated by the additional proof-of-stake algorithm. Anyone holding 1% of the currency will be compensated with 1% of all proof-of-stake coin blocks.</p>
-						<p>In addition to increased security and improved energy efficiency, the hybrid proof-of-work/proof-of-stake algorithm combats the deflationary tendencies that cryptocurrencies can suffer because of their hard mintage caps.</p>
+				        <?php echo $Locale->getText("faq_q_desc_innovation"); ?>
 				      </div>
 				    </div>
 				  </div>
@@ -126,15 +122,13 @@
 				    <div class="panel-heading">
 				      <h4 class="panel-title">
 				        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-				          <span class="fui-plus"></span> Tell me more about Increased Security.
+				          <span class="fui-plus"></span> <?php echo $Locale->getText("faq_q_title_security"); ?>
 				        </a>
 				      </h4>
 				    </div>
 				    <div id="collapseTwo" class="panel-collapse collapse">
 				      <div class="panel-body">
-				        <p>Generating blocks through the hybrid proof-of-work/proof-of-stake algorithm reduces the risk of the Selfish-Miner Cornell Flaw, ">50%" attacks, and the block bloating that have been used to exploit other currencies.</p>
-						<p>The proof-of-stake portion of the algorithm stands at the heart of this security because it drastically raises the cost of an attack. Acquiring 51% of all existing coins requires more effort and resources than acquiring 51% of all mining power. Further, in a ">50%" stake attack, the attacker's investment will be, by definition, at risk of great loss because the attacker will be holding a majority of the coins that they are attacking. This risk of loss reduces the incentive to attempt such an attack in the first place.</p>
-						<p>Peercoin also employs other advanced security features including enforcing transaction fees at protocol level to defend against block bloating attacks.</p>
+				        <?php echo $Locale->getText("faq_q_desc_security"); ?>
 				      </div>
 				    </div>
 				  </div>
@@ -142,14 +136,13 @@
 				    <div class="panel-heading">
 				      <h4 class="panel-title">
 				        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-				          <span class="fui-plus"></span> Tell me more about Energy and Cost Efficiency.
+				          <span class="fui-plus"></span> <?php echo $Locale->getText("faq_q_title_efficiency"); ?>
 				        </a>
 				      </h4>
 				    </div>
 				    <div id="collapseThree" class="panel-collapse collapse">
 				      <div class="panel-body">
-				        <p>Generating proof-of-stake blocks requires far less energy than generating hardware-intensive proof-of-work hashes. This means that over time, the Peercoin network will consume less energy as proof-of-work blocks become less rewarding and blocks are generated instead by the proof-of-stake portion of the algorithm.</p>
-				        <p>Proof-of-stake also does away with the ~$1 billion "tax" on the Bitcoin network through proof-of-work blocks. You can read more about that <a href="http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/">here</a>.</p>
+				        <?php echo $Locale->getText("faq_q_desc_efficiency"); ?>
 				      </div>
 				    </div>
 				  </div>
@@ -157,17 +150,13 @@
 				    <div class="panel-heading">
 				      <h4 class="panel-title">
 				        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-				          <span class="fui-plus"></span> Myth #1 - Peercoin is just a clone of Bitcoin.
+				          <span class="fui-plus"></span> <?php echo $Locale->getText("faq_q_title_myth1"); ?>
 				        </a>
 				      </h4>
 				    </div>
 				    <div id="collapseFour" class="panel-collapse collapse">
 				      <div class="panel-body">
-				        <p>Peercoin is one of the truly unique coins that are not just a clone of the original Bitcoin code.
-				           Peercoin is the first coin to introduce a proof-of-stake/proof-of-work combination along with other energy efficient mechanisms. In fact, many altcoins are now integrating Peercoin's proof-of-stake into their codebase.
-				           <br/> <br/>
-						   Source: <a href="http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features">http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features</a>
-						</p>
+				        <?php echo $Locale->getText("faq_q_desc_myth1"); ?>
 				      </div>
 				    </div>
 				  </div>
@@ -175,18 +164,13 @@
 				    <div class="panel-heading">
 				      <h4 class="panel-title">
 				        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-				          <span class="fui-plus"></span> Myth #2 - Peercoin is a centralized coin because of checkpointing.
+				          <span class="fui-plus"></span> <?php echo $Locale->getText("faq_q_title_myth2"); ?>
 				        </a>
 				      </h4>
 				    </div>
 				    <div id="collapseFive" class="panel-collapse collapse">
 				      <div class="panel-body">
-				        <p>Checkpoints are an additional security measure and were introduced to protect the Peercoin network from attacks when it was in its infancy. Sunny King explains:
-					<br/><br/>
-					&quot;The risk of 51% denial-of-service attack on block chain is real, especially to a smaller network. In fact I wouldn’t exclude such a possibility to even bitcoin. Of course such an attack on bitcoin would likely not come from an individual due to the resource required. But it’s irresponsible to say that’s not possible. Just imagine what would happen if bitcoin stops processing transactions for a few days.&quot;
-					<br/><br/>
-					As Peercoin's network has grown substantially in the past year, checkpoints will be phased out in one of the next versions, probably in PPC 0.5.
-					</p>
+				        <?php echo $Locale->getText("faq_q_desc_myth2"); ?>
 				      </div>
 				    </div>
 				  </div>
@@ -194,20 +178,13 @@
 				    <div class="panel-heading">
 				      <h4 class="panel-title">
 				        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-				          <span class="fui-plus"></span> Myth #3 - Peercoin is extremely inflationary in nature.
+				          <span class="fui-plus"></span> <?php echo $Locale->getText("faq_q_title_myth3"); ?>
 				        </a>
 				      </h4>
 				    </div>
 				    <div id="collapseSix" class="panel-collapse collapse" >
 				      <div class="panel-body" >
-				        <p>
-				        Nope. If Peercoin grows rapidly, stake minting may temporarily decrease as coin days are lost when trading. This would cause Peercoin to become deflationary. The flat nature of the transaction fees is intended to counter this by decreasing total transaction volume. Proponents of Peercoin argue that this will decrease deflation.
-				        <br/><br/>
-				        Furthermore, Bitcoin currently experiences <a href="http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/">a ~10%</a> inflation per year as it approaches its total supply of 21 million. It is <b>hoped</b>
-				        that when the total supply is reached that the transactions fees will be enough to sustain a secure network.
-				        <br/><br/>
-				        To maintain a secure network in the future, Peercoin has a 1% a year inflation (proof-of-stake reward) to make sure there will be a secure network, no matter the transaction fees. As stated before this may become deflationary, as Bitcoin aims to be, during high volumes of transactions.
-						</p>
+				        <?php echo $Locale->getText("faq_q_desc_myth3"); ?>
 				      </div>
 				    </div>
 				  </div>
@@ -217,10 +194,9 @@
 
 			<div class="col-lg-4 centered">
 				<div class="alert alert-success">
-				<h4>Convinced <b>you</b>?</h4>
-			    	<p>Time to download the client, and try it yourself. If you have any questions just ask on the
-			    		<a href="http://www.peercointalk.org/">forum</a>, or the social links below.</p>
-			        <a href="downloads" class="btn btn-primary btn-large"><i class="fui-link"></i> Download Wallet!</a>
+				<h4><?php echo $Locale->getText("convinced_you_header"); ?></h4>
+			    	<p><?php echo $Locale->getText("convinced_you_desc"); ?></p>
+			        <a href="downloads" class="btn btn-primary btn-large"><i class="fui-link"></i> <?php echo $Locale->getText("download_wallet"); ?>!</a>
 			        <div class="social">
 			<a href="https://www.facebook.com/Peercoin"><img src="assets/img/icons/social-fb.png" alt="Visit us on Facebook"></a>
 			<a href="http://www.reddit.com/r/peercoin"><img src="assets/img/icons/social-reddit.png" alt="Reddit"></a>
