@@ -50,7 +50,7 @@ $locale_strings['en']['faq_q_desc_myth1'] = "
 $locale_strings['en']['faq_q_title_myth2'] = "Myth #2 - Peercoin is a centralized coin because of checkpointing.";
 $locale_strings['en']['faq_q_desc_myth2'] = "
 						<p>Checkpoints are an additional security measure and were introduced to protect the Peercoin network from attacks when it was in its infancy. Sunny King explains:</p>
-						<p>&quot;The risk of 51% denial-of-service attack on block chain is real, especially to a smaller network. In fact I wouldn’t exclude such a possibility to even bitcoin. Of course such an attack on bitcoin would likely not come from an individual due to the resource required. But it’s irresponsible to say that’s not possible. Just imagine what would happen if bitcoin stops processing transactions for a few days.&quot;</p>
+						<p>&quot;The risk of 51% denial-of-service attack on block chain is real, especially to a smaller network. In fact I wouldn’t exclude such a possibility to even bitcoin. Of course such an attack on bitcoin would likely not come from an individual due to the resources required. But it’s irresponsible to say that’s not possible. Just imagine what would happen if bitcoin stops processing transactions for a few days.&quot;</p>
 						<p>As Peercoin's network has grown substantially in the past year, checkpoints will be phased out in one of the next versions, probably in PPC 0.5.</p>";
 $locale_strings['en']['faq_q_title_myth3'] = "Myth #3 - Peercoin is extremely inflationary in nature.";
 $locale_strings['en']['faq_q_desc_myth3'] = "
