@@ -14,7 +14,17 @@ If you have a simple change to the website, we ask that you put in a pull reques
 If don't know how to submit a pull request use these helpful guides: [one](https://help.github.com/articles/using-pull-requests) and [two](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/). 
 
 ## Installing and Running
-Below are just some notes for running the website yourself. We run the website on a simple [Apache2](https://httpd.apache.org/) server with [PHP5](http://php.net/) installed.  
+Below are just some notes for running the website yourself. We run the website on a simple [Apache2](https://httpd.apache.org/) server with [PHP5](http://php.net/) installed.
+
+#### Locale Class Issue
+Due to the naming of the ```Locale``` class, you may encounter a ```Cannot redeclare class``` PHP error.
+This is caused by PHP running the extension ```intl``` ([Internationalization extension](http://www.php.net/manual/en/intro.intl.php)) and declaring its own version of a ```Locale``` class.
+
+This can be worked around by disabling this extension.
+
+* Modify ```/etc/php5/mods-available/intl.ini```
+* Comment out the line ```extension=intl.so``` with a semicolon at the start
+* Reload Apache to reflect this change ```sudo service apache2 reload```
 
 ### Deploy
 URL Rewriting via Apache's ```mod_rewrite``` module has issues when the ```MultiViews``` [option](https://httpd.apache.org/docs/2.2/mod/core.html#options) is set in any of the config files in the ```sites-available``` directory. Ensure this option is removed from your site's config files or errors will occur with URL rewriting (```/mining.php -> /mining```)
