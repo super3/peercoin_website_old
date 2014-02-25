@@ -1347,3 +1347,18 @@ a:hover {
 	font-size: 16px;
 }
 
+
+
+
+#footer-language-bar a
+{
+	display: inline-block;
+	margin: 0 0.75em;
+}
+
+#footer-language-bar
+{
+	color: #FFF;
+	background: rgba(0, 0, 0, 0.1);
+	padding: 1em;
+}
