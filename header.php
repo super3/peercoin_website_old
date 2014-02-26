@@ -1,3 +1,8 @@
+<?php
+  include ('locale/locale.php');
+  $Locale = new Locale();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>

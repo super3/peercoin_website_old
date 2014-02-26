@@ -1,8 +1,3 @@
-<?php
-	include ('locale/locale.php');
-	$Locale = new Locale();
-?>
-
 <?php include ('header.php'); ?>
 
   <!-- Headerwrap -->
