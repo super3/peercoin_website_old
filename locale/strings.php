@@ -78,3 +78,34 @@ $locale_strings['fr']['big_welcome_header'] = "Sûr. Durable. <span><strong>Peer
 
 
 $locale_strings['es']['big_welcome_header'] = "Seguro. Sostenible. <span><strong>Peercoin</strong> está aquí.";
+
+
+
+$locale_strings['nl']['languages'] = "Talen: ";
+$locale_strings['nl']['download_wallet'] = "Download Portemonnee";
+$locale_strings['nl']['price'] = "Prijs";
+$locale_strings['nl']['market_cap'] = "Markt Cap";
+$locale_strings['nl']['total_supply'] = "Totale Voorraad";
+$locale_strings['nl']['big_welcome_header'] = "Veilig. Duurzaam. <span><strong>Peercoin</strong> is hier.";
+$locale_strings['nl']['ticker_last_updated'] = "Laatste update: ";
+$locale_strings['nl']['ticker_last_updated_never'] = "nooit";
+
+$locale_strings['nl']['why_peercoin_header_innovation'] = "Originele <b>Innovatie</b>";
+$locale_strings['nl']['why_peercoin_header_security'] = "Verhoogde <b>Veiligheid</b>";
+$locale_strings['nl']['why_peercoin_button'] = "Waarom Peercoin?";
+$locale_strings['nl']['why_peercoin_title'] = "Waarom <span>Peercoin</span>?";
+
+$locale_strings['nl']['fund_peercoin'] = "Financier <span>Peercoin.</span>";
+$locale_strings['nl']['fund_peercoin_accepting_donations'] = "We accepteren nu donaties voor de Peercoin Ontwikkeling and Web Fonds.";
+$locale_strings['nl']['fund_peercoin_donations_btc'] = "BTC Donaties: ";
+$locale_strings['nl']['fund_peercoin_donations_ppc'] = "PPC Donaties: ";
+$locale_strings['nl']['block_explorer'] = "Blok Verkenner";
+
+$locale_strings['nl']['tutorials'] = "Tutorials";
+$locale_strings['nl']['installing_wallet'] = "Installeren van Portemonnee";
+$locale_strings['nl']['setting_up_wallet'] = "Instellen van Portemonnee";
+$locale_strings['nl']['more_ellipsis'] = "Meer...";
+$locale_strings['nl']['links'] = "Links";
+$locale_strings['nl']['tools'] = "Gereedschap";
+$locale_strings['nl']['exchanges'] = "Exchanges";
+$locale_strings['nl']['mining'] = "Mining";
