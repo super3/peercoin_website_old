@@ -24,7 +24,7 @@
 	<meta property="og:description" content="Peercoin - the secure and sustainable cryptocoin." />
 
 	<meta name="google-site-verification" content="-GOUzkxsjMUypgT8xj6GD4W9xNv_SMeorTZtOKPRzg8" />
-	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
  	<!-- Bootstrap core CSS -->
  	<link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -90,7 +90,7 @@
                 ?>
                 <li><a href="mailto:sunnyking9999@gmail.com?cc=john.manglaviti@gmail.com&subject=Sunny%20King%20Interview%20Request">Interview Sunny King</a></li>
                 <?php } else { ?>
-                <li><a href="/interview">Interview Sunny King</a></li>
+                <li><a href="interview">Interview Sunny King</a></li>
                 <?php } ?>
               </ul>
             </li>

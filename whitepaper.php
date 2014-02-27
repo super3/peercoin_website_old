@@ -19,37 +19,37 @@
 					<li class="pdf">
 						<div class="inner">
 							<h2>English</h2>
-							<a href="http://peercoin.net/bin/peercoin-paper.pdf" target="_blank">Download PDF</a>
+							<a href="bin/peercoin-paper.pdf" target="_blank">Download PDF</a>
 						</div>
 					</li>
 					<li class="pdf">
 						<div class="inner">
  							<h2>Spanish</h2>
- 						        <a href="http://peercoin.net/bin/peercoin-paper-es.pdf" target="_blank">Download PDF</a>
+ 						        <a href="bin/peercoin-paper-es.pdf" target="_blank">Download PDF</a>
 						</div>
 					</li>
 					<li class="pdf">
 						<div class="inner">
 							<h2>German</h2>
- 						       <a href="http://peercoin.net/bin/peercoin-paper-de.pdf" target="_blank">Download PDF</a>
+ 						       <a href="bin/peercoin-paper-de.pdf" target="_blank">Download PDF</a>
 						</div>
 					</li>
 					<li class="pdf">
 						<div class="inner">
 							<h2>French</h2>
-						        <a href="http://peercoin.net/bin/peercoin-paper-fr.pdf" target="_blank">Download PDF</a>
+						        <a href="bin/peercoin-paper-fr.pdf" target="_blank">Download PDF</a>
 						</div>
 					</li>
 					<li class="pdf">
 						<div class="inner">
 							<h2>Dutch</h2>
-					       		<a href="http://peercoin.net/bin/peercoin-paper-nl.pdf" target="_blank">Download PDF</a>
+					       		<a href="bin/peercoin-paper-nl.pdf" target="_blank">Download PDF</a>
 						</div>
 					</li>
 					<li class="pdf">
 						<div class="inner">
 							<h2>Korean</h2>
-       							<a href="http://peercoin.net/bin/peercoin-paper-kr.pdf" target="_blank">Download PDF</a>
+       							<a href="bin/peercoin-paper-kr.pdf" target="_blank">Download PDF</a>
 						</div>
 					</li>
 				</ul>
