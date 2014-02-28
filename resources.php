@@ -13,14 +13,19 @@
 							Even with powerful hardware it is difficult to mine alone.	Mining pools combine the power of all participants to find block, and share the reward based on shares. Read the instructions of each pool carefully as connection protocols and software
 							use can change between pools. </p>
 
-					        <p><strong>This is a list of pools mining PCC:</strong></p>
+					        <p><strong>This is a list of pools dedicated for mining PPC:</strong></p>
 					        <ul style="list-style-type: circle;">
-						  <li><a href="http://peercoin.ecoining.com/">http://peercoin.ecoining.com</a> -  0% fee, Proportional Payment System</li>
-					          <li><a href="https://ppcoin.d7.lt/">https://ppcoin.d7.lt/</a> -  1.25% fee, PPLNS: payout per share of the last N rounds</li>
-					          <li><a href="https://www.coinotron.com/coinotron/">Coinotron</a> -  Multicoin Pool, Pay Per Share: 12% fee, Round-Based Pay Per Share: 2% </li>
-					          <li><a href="http://ppc.fixx.ru/">http://ppc.fixx.ru/</a> -  1% fee, PPLNS: payout per share of the last N rounds</li>
-					          <li><a href="https://hynodeva.com/">https://hynodeva.com/</a> - Currently under upgrade</li>
+						  	  <li><a href="http://peercoin.ecoining.com/">Ecoining</a> -  0% fee, Proportional Payment System</li>
+					          <li><a href="https://ppcoin.d7.lt/">D7</a> -  1.25% fee, PPLNS: payout per share of the last N rounds</li>
+					          <li><a href="http://ppc.fixx.ru/">Fixx</a> -  1% fee, PPLNS: payout per share of the last N rounds</li>
+					          <li><a href="https://hynodeva.com/">Hynodeva</a> - Currently under upgrade</li>
 					        </ul>
+					        <p><strong>One can also mine PPC via multicoin pools</strong></p>
+					        <ul style="list-style-type: circle;">
+							  <li><a href="https://www.coinotron.com/coinotron/">Coinotron</a> - Pay Per Share: 12% fee, Round-Based Pay Per Share: 2% </li>
+					          <li><a href="http://multipool.us/">Multipool.us</a> - 1.5% fee, Pay Per Share
+					        </ul>
+
 				        </div>
 
 				        <div class="item">
@@ -52,7 +57,7 @@
 					        <ul style="list-style-type: circle;">
 					            <li><a href="https://www.youtube.com/watch?v=TjL2AgCQDJ0">What is Peercoin?</a> -  Youtube Introduction into Peercoin; What makes it different from BTC?</li>
 					            <li><a href="http://www.ppcointalk.org/">Peercoin Talk</a> -  Peercoin Talk - Official Peercoin Forum</li>
-					            <li><a href="http://www.reddit.com/r/ppcoin">Reddit Peercoin forum</a> -  Peercoin sub-Reddit</li>
+					            <li><a href="http://www.reddit.com/r/peercoin">Reddit Peercoin forum</a> -  Peercoin sub-Reddit</li>
 					            <li><a href="https://bitcointalk.org/index.php?board=67.0">Bitcoin Talk</a> -  BitcoinTalk Alternative Cryptocurrencies forum</li>
 					        </ul>
 				        </div>
@@ -67,7 +72,24 @@
 								<li><a href="http://bitinfocharts.com/">http://bitinfocharts.com/</a> -  Compare Peercoin statistics to other cryptocurrencies</li>
 								<li><a href="http://www.coinwarz.com/calculators/peercoin-mining-calculator">Coinwarz Mining Calculator</a> -  Calculate expected return on PPC mining</li>
 					        </ul>
-					       </div>
+					    </div>
+					    
+					    <div class="item">
+					    	<h2> Shops, Retail product and Services accepting peercoin</h2>
+					    	<p><strong>Use your peercoins for purchase and trade and make peercoin commonly used world wide</strong></p>
+					    	<p><strong>Physical goods</strong></p>
+					    	<ul style="list-style-type: circle;">
+					    		<li><a href="//www.allthingsluxury.biz/Pay-With-AltCoins.html">All Things Luxury</a> - British Columbia based discount fashion jewelry and luxury goods business.
+					    		<li><a href="//www.beesbros.com/">Bees Brothers</a> - Honey and Honey Products (Toffees, roasted almonds, lotion, etc..)
+					    		<li><a href="//bitelectronics.net">BitElectronics</a> - Consumer electronics & PC part shop. Worldwide shipping
+					    		<li><a href="//directvoltage.com">Direct Voltage</a> - Solar power generators and alternative energy equipment.
+				    			<li><a href="//distinguishedimports.com/shop/">Distinguished Imports</a> - Online home goods retailer focused on old-world quality and craftsmanship.
+				    			<li><a href="//jaysjerkyandgoodies.com">Jays Jerky and Goodies</a> - Natural Buffalo Jerky, Beef Jerky, Seasonings and Herbs and Homemade Satin Fudge for Peercoin.
+					    		<li><a href="//btcpipeshop.com">Pipe Shop</a> - Pipes for smoking.
+					    		<li><a href="//wrol.info">Without Rule of Law</a> - Survival gear shop.
+					    	</ul>
+					    	<!-- TODO: add more shops in here -->
+					    </div>
 				        <p>Happy minting!</p>
 
 			</div><!-- end col -->
