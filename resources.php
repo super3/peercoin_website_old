@@ -72,7 +72,24 @@
 								<li><a href="http://bitinfocharts.com/">http://bitinfocharts.com/</a> -  Compare Peercoin statistics to other cryptocurrencies</li>
 								<li><a href="http://www.coinwarz.com/calculators/peercoin-mining-calculator">Coinwarz Mining Calculator</a> -  Calculate expected return on PPC mining</li>
 					        </ul>
-					       </div>
+					    </div>
+					    
+					    <div class="item">
+					    	<h2> Shops, Retail product and Services accepting peercoin</h2>
+					    	<p><strong>Use your peercoins for purchase and trade and make peercoin commonly used world wide</strong></p>
+					    	<p><strong>Physical goods</strong></p>
+					    	<ul style="list-style-type: circle;">
+					    		<li><a href="//www.allthingsluxury.biz/Pay-With-AltCoins.html">All Things Luxury</a> - British Columbia based discount fashion jewelry and luxury goods business.
+					    		<li><a href="//www.beesbros.com/">Bees Brothers</a> - Honey and Honey Products (Toffees, roasted almonds, lotion, etc..)
+					    		<li><a href="//bitelectronics.net">BitElectronics</a> - Consumer electronics & PC part shop. Worldwide shipping
+					    		<li><a href="//directvoltage.com">Direct Voltage</a> - Solar power generators and alternative energy equipment.
+				    			<li><a href="//distinguishedimports.com/shop/">Distinguished Imports</a> - Online home goods retailer focused on old-world quality and craftsmanship.
+				    			<li><a href="//jaysjerkyandgoodies.com">Jays Jerky and Goodies</a> - Natural Buffalo Jerky, Beef Jerky, Seasonings and Herbs and Homemade Satin Fudge for Peercoin.
+					    		<li><a href="//btcpipeshop.com">Pipe Shop</a> - Pipes for smoking.
+					    		<li><a href="//wrol.info">Without Rule of Law</a> - Survival gear shop.
+					    	</ul>
+					    	<!-- TODO: add more shops in here -->
+					    </div>
 				        <p>Happy minting!</p>
 
 			</div><!-- end col -->

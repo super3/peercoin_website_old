@@ -107,6 +107,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contribute <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform">Volunteer</a></li>
+                <li><a href="participate">Participate</a>
                 <!-- TODO: add more ways to contribute and support the peercoin community -->
               </ul>
             </li>
