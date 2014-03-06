@@ -15,7 +15,7 @@
 
 					        <p><strong>This is a list of pools dedicated for mining PPC:</strong></p>
 					        <ul style="list-style-type: circle;">
-						  	  <li><a href="http://peercoin.ecoining.com/">Ecoining</a> -  0% fee, Proportional Payment System</li>
+						  	  <li><a href="https://peercoin.ecoining.com/">Ecoining</a> -  0% fee, Proportional Payment System</li>
 					          <li><a href="https://ppcoin.d7.lt/">D7</a> -  1.25% fee, PPLNS: payout per share of the last N rounds</li>
 					          <li><a href="http://ppc.fixx.ru/">Fixx</a> -  1% fee, PPLNS: payout per share of the last N rounds</li>
 					          <li><a href="https://hynodeva.com/">Hynodeva</a> - Currently under upgrade</li>
@@ -23,7 +23,7 @@
 					        <p><strong>One can also mine PPC via multicoin pools</strong></p>
 					        <ul style="list-style-type: circle;">
 							  <li><a href="https://www.coinotron.com/coinotron/">Coinotron</a> - Pay Per Share: 12% fee, Round-Based Pay Per Share: 2% </li>
-					          <li><a href="http://multipool.us/">Multipool.us</a> - 1.5% fee, Pay Per Share
+					          <li><a href="http://www.multipool.us/">Multipool.us</a> - 1.5% fee, Pay Per Share
 					        </ul>
 
 				        </div>
@@ -37,15 +37,15 @@
 							<p><strong>Buying with Fiat Money (e.g. Dollar or Euro):</strong></p>
 					        <ul style="list-style-type: circle;">
 					            <li><a href="https://www.vaultofsatoshi.com/orderbook">Vault Of Satoshi</a> -  Canadian/US exchange</li>
-					            <li><a href="https://crypto-trade.com/trade/ppc_usd">Crypto Trade</a> -  First fiat/ppc exchange</li>
-					            <li><a href="http://www.btc-e.com/">BTC-e</a> -  Russian exchange, largest trading volume</li>
+					            <li><a href="https://crypto-trade.com/trade/ppc_usd">Crypto Trade</a> -  First fiat/PPC exchange</li>
+					            <li><a href="https://btc-e.com/">BTC-e</a> -  Russian exchange, largest trading volume</li>
 								<li><a href="https://coinmkt.com/#/">CoinMarket Exchange</a> -  US-based exchange</li>
 					        </ul>
 
 							<p><strong>Buying with cryptocurrency:</strong></p>
 					        <ul style="list-style-type: circle;">
 					            <li><a href="https://vircurex.com/welcome/index?alt=ppc&amp;base=btc">Vircurex exchange</a> - High volume PPC/BTC exchange</li>
-					            <li><a href="https://www.cryptsy.com/">Cryptsy exchange</a> - Support for almost all popular Alt-coins. Lots of trading pairs.</li>
+					            <li><a href="https://www.cryptsy.com/">Cryptsy exchange</a> - Support for almost all popular altcoins. Lots of trading pairs.</li>
 								<li><a href="http://cryptonit.net/">Cryptonit exchange</a> -  Low Fee exchange</li>
 					            <li><a href="https://www.btc38.com/">Btc38 exchange</a> - Chinese exchange</li>
 					        </ul>
@@ -55,9 +55,9 @@
 					       <h2> Getting started</h2>
 							<p><strong>Here are some tutorials that can help you out if you are new to cryptocurrencies as Peercoin.</strong></p>
 					        <ul style="list-style-type: circle;">
-					            <li><a href="https://www.youtube.com/watch?v=TjL2AgCQDJ0">What is Peercoin?</a> -  Youtube Introduction into Peercoin; What makes it different from BTC?</li>
+					            <li><a href="https://www.youtube.com/watch?v=TjL2AgCQDJ0">What is Peercoin?</a> -  YouTube Introduction into Peercoin; What makes it different from BTC?</li>
 					            <li><a href="http://www.ppcointalk.org/">Peercoin Talk</a> -  Peercoin Talk - Official Peercoin Forum</li>
-					            <li><a href="http://www.reddit.com/r/peercoin">Reddit Peercoin forum</a> -  Peercoin sub-Reddit</li>
+					            <li><a href="http://www.reddit.com/r/peercoin">Reddit Peercoin forum</a> -  Peercoin subreddit</li>
 					            <li><a href="https://bitcointalk.org/index.php?board=67.0">Bitcoin Talk</a> -  BitcoinTalk Alternative Cryptocurrencies forum</li>
 					        </ul>
 				        </div>
@@ -75,18 +75,18 @@
 					    </div>
 					    
 					    <div class="item">
-					    	<h2> Shops, Retail product and Services accepting peercoin</h2>
-					    	<p><strong>Use your peercoins for purchase and trade and make peercoin commonly used world wide</strong></p>
+					    	<h2> Shops, Retail product and Services accepting Peercoin</h2>
+					    	<p><strong>Use your peercoins for purchase and trade and make Peercoin commonly used world wide</strong></p>
 					    	<p><strong>Physical goods</strong></p>
 					    	<ul style="list-style-type: circle;">
-					    		<li><a href="//www.allthingsluxury.biz/Pay-With-AltCoins.html">All Things Luxury</a> - British Columbia based discount fashion jewelry and luxury goods business.
-					    		<li><a href="//www.beesbros.com/">Bees Brothers</a> - Honey and Honey Products (Toffees, roasted almonds, lotion, etc..)
-					    		<li><a href="//bitelectronics.net">BitElectronics</a> - Consumer electronics & PC part shop. Worldwide shipping
-					    		<li><a href="//directvoltage.com">Direct Voltage</a> - Solar power generators and alternative energy equipment.
-				    			<li><a href="//distinguishedimports.com/shop/">Distinguished Imports</a> - Online home goods retailer focused on old-world quality and craftsmanship.
-				    			<li><a href="//jaysjerkyandgoodies.com">Jays Jerky and Goodies</a> - Natural Buffalo Jerky, Beef Jerky, Seasonings and Herbs and Homemade Satin Fudge for Peercoin.
-					    		<li><a href="//btcpipeshop.com">Pipe Shop</a> - Pipes for smoking.
-					    		<li><a href="//wrol.info">Without Rule of Law</a> - Survival gear shop.
+					    		<li><a href="http://www.allthingsluxury.biz/Pay-With-AltCoins.html">All Things Luxury</a> - British Columbia based discount fashion jewelry and luxury goods business.
+					    		<li><a href="http://www.beesbros.com/">Bees Brothers</a> - Honey and Honey Products (Toffees, roasted almonds, lotion, etc..)
+					    		<li><a href="http://bitelectronics.net">BitElectronics</a> - Consumer electronics &amp; PC part shop. Worldwide shipping
+					    		<li><a href="https://directvoltage.com">Direct Voltage</a> - Solar power generators and alternative energy equipment.
+				    			<li><a href="https://distinguishedimports.com/shop/">Distinguished Imports</a> - Online home goods retailer focused on old-world quality and craftsmanship.
+				    			<li><a href="http://jaysjerkyandgoodies.com">Jays Jerky and Goodies</a> - Natural Buffalo Jerky, Beef Jerky, Seasonings and Herbs and Homemade Satin Fudge for Peercoin.
+					    		<li><a href="http://btcpipeshop.com">Pipe Shop</a> - Pipes for smoking.
+					    		<li><a href="http://wrol.info">Without Rule of Law</a> - Survival gear shop.
 					    	</ul>
 					    	<!-- TODO: add more shops in here -->
 					    </div>
