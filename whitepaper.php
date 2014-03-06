@@ -6,8 +6,8 @@
 				<h1>Whitepaper</h1>
 				<div class="item">
 					<div class="col-lg-12">
-					<p><strong>Please select your prefered language!</strong></p>
-					<p>The Whitepapers are available in 
+					<p><strong>Please select your preferred language!</strong></p>
+					<p>The whitepapers are available in 
 					   Portable Document Format (PDF). Please use your preferred <a 
 					   href="http://pdfreaders.org/">software for reading</a>.</p>
 					</div>

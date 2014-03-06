@@ -83,7 +83,7 @@
 								The wallet encryption option can be found under the settings tab in the PeercoinQt wallet program. </p>
 								<h4>Configure the software: </h4>
 								<p>Open up explorer and select the navigation bar. Type in: %appdata%/PPCoin</p>
-								<img src="img/minting1.png" alt="Minting" />
+								<img src="assets/img/minting1.png" alt="Minting" />
 							</div>
 						</div>
 						<div class="item">
@@ -113,7 +113,7 @@
 							<div class="col-lg-12">
 								<h4>Set-up the minting daemon: </h4>
 								<p>Go back to the Peercoin-Qt wallet folder and go to the daemon folder. Create a new text document. Copy over this information:</p>
-								<img src="img/minting2.png" alt="Minting" />
+								<img src="assets/img/minting2.png" alt="Minting" />
 							</div>
 						</div>
 						<div class="item">
@@ -131,9 +131,9 @@
 								<p>Save the document and rename it to Minting.bat<br />
 								<h4>Start minting:</h4>
 								Run the PeercoinQt wallet. The bottom left should display a message that the wallet is locked and the minting process is suspended.</p>
-								<img src="img/minting3.png" alt="Minting" />
+								<img src="assets/img/minting3.png" alt="Minting" />
 								<p>Now double click the minting.bat file and enter your passphrase.<br /></p>
-								<img src="img/minting4.png" alt="Minting" /><br />
+								<img src="assets/img/minting4.png" alt="Minting" /><br />
 								<p>If the bottom right corner shows a unlocked padlock after 30 seconds you are now minting. <strong>Congratulations!</strong></p>
 							</div>
 						</div>
@@ -148,7 +148,7 @@
 							<div class="col-lg-12">
 								<p> For this tutorial we'll assume the binaries are installed. If you have you can skip the next few lines. Otherwise use the binaries provided on the sourceforge page, click to download them: <a href="http://sourceforge.net/projects/ppcoin/files/0.3.0/ppcoin-0.3.0-linux.tar.gz/download">here</a>.
 								<br> Download the compressed binaries either by command line or via the browser. Decompress the binaries and copy over the contents of either the 32bit or 64bit folder (depending on your CPU) to the usr/bin directory or whichever directory you prefer for your binaries.
-								We'll use the QT version of peercoin: ppcoin-qt. Navigate to the /usr/bin folder and execute the ppcoin-qt binary. This will set-up the required folders. Encrypt the wallet and write down the passphrase. Don't lose it!
+								We'll use the QT version of Peercoin: ppcoin-qt. Navigate to the /usr/bin folder and execute the ppcoin-qt binary. This will set-up the required folders. Encrypt the wallet and write down the passphrase. Don't lose it!
 								Now close the Peercoin-QT client.</p>
 								<p>Open a terminal and copy/type this block of text. Before you execute the command be sure to edit the password!</p>
 <pre>
@@ -169,7 +169,7 @@
 	#reservebalance=25
 	' &gt; .ppcoin/ppcoin.conf
 </pre>
-					<p>Start the Peercoin-QT client. The bottom left should display a message that the wallet is locked and the minting process is suspended. Type this in the terminal: (If you have not installed peercoin system-wide, you need to first go to the directory you installed it in)</p>
+					<p>Start the Peercoin-QT client. The bottom left should display a message that the wallet is locked and the minting process is suspended. Type this in the terminal: (If you have not installed Peercoin system-wide, you need to first go to the directory you installed it in)</p>
 <pre>
 	ppcoind walletpassphrase &lt;secretpasswordtoyourwallet&gt; 9999999 true
 </pre>
@@ -189,7 +189,7 @@
 						<div class="col-lg-12">
 							<p>A Mac OS X tutorial, visually supported with step-by-step images,
 										will follow soon. Step by step command line instructions for Mac Peercoin
-										minting are available at the peercointalk forum <a
+										minting are available at the PeercoinTalk forum <a
 										href="http://www.peercointalk.org/index.php?topic=1104.0">here</a>.</p>
 						</div>
 					</div>

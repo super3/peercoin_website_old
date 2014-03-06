@@ -88,7 +88,7 @@
                 <?php
                 if (!file_exists('include/recaptcha_keys.php')) {
                 ?>
-                <li><a href="mailto:sunnyking9999@gmail.com?cc=john.manglaviti@gmail.com&subject=Sunny%20King%20Interview%20Request">Interview Sunny King</a></li>
+                <li><a href="mailto:sunnyking9999@gmail.com?cc=john.manglaviti@gmail.com&amp;subject=Sunny%20King%20Interview%20Request">Interview Sunny King</a></li>
                 <?php } else { ?>
                 <li><a href="interview">Interview Sunny King</a></li>
                 <?php } ?>
@@ -100,7 +100,7 @@
 		            <li><a href="mining">Mine Peercoins</a></li>
         		    <li><a href="minting">Mint Peercoins</a></li>
         		    <li><a href="buying">Buy Peercoins</a></li>
-                <li><a href="//peer4commit.com">Peer4commit</a></li>
+                <li><a href="http://peer4commit.com">Peer4commit</a></li>
               </ul>
             </li>
             <li class="dropdown">
@@ -108,7 +108,7 @@
               <ul class="dropdown-menu">
                 <li><a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform">Volunteer</a></li>
                 <li><a href="participate">Participate</a>
-                <!-- TODO: add more ways to contribute and support the peercoin community -->
+                <!-- TODO: add more ways to contribute and support the Peercoin community -->
               </ul>
             </li>
             
