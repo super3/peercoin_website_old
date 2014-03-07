@@ -16,8 +16,8 @@
 		        </div>
 
 		        <div class="item">
-		        	<h2>Improve peercoin.net</h2>
-		        	<p>peercoin.net is the Peercoin portal and the first result when googling Peercoin. You could help improve this website by translating it to other languages, add content and help maintain it. If you'll do a good job, who knows, you might get tipped for it ;).</p>
+		        	<h2>Improve Peercoin.net</h2>
+		        	<p>Peercoin.net is the Peercoin portal and the first result when searching Peercoin. You could help improve this website by translating it to other languages, add content and help maintain it. If you'll do a good job, who knows, you might get tipped for it ;).</p>
 		        	<p><a href="https://github.com/super3/peercoin.net">Peercoin.net source code</a></p>
 		        </div>
 
