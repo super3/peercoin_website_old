@@ -15,7 +15,7 @@
 
 					        <p><strong>This is a list of pools dedicated for mining PPC:</strong></p>
 					        <ul style="list-style-type: circle;">
-						  	  <li><a href="https://peercoin.ecoining.com/">Ecoining</a> -  0% fee, Proportional Payment System</li>
+						  <li><a href="https://peercoin.ecoining.com/">Ecoining</a> -  1% fee, Dynamic PPLNS Payment System</li>
 					          <li><a href="https://ppcoin.d7.lt/">D7</a> -  1.25% fee, PPLNS: payout per share of the last N rounds</li>
 					          <li><a href="http://ppc.fixx.ru/">Fixx</a> -  1% fee, PPLNS: payout per share of the last N rounds</li>
 					          <li><a href="https://hynodeva.com/">Hynodeva</a> - Currently under upgrade</li>
