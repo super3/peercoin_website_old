@@ -1,6 +1,6 @@
 <?php
   include ('locale/locale.php');
-  $Locale = new Locale();
+  $Locale = new Loc();
 ?>
 
 <!DOCTYPE html>
