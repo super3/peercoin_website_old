@@ -5,7 +5,7 @@ $locale_strings['en']['download_wallet'] = "Download Wallet";
 $locale_strings['en']['price'] = "Price";
 $locale_strings['en']['market_cap'] = "Market Cap";
 $locale_strings['en']['total_supply'] = "Total Supply";
-$locale_strings['en']['big_welcome_header'] = "Secure. Sustainable. <span><strong>Peercoin</strong> is here.";
+$locale_strings['en']['big_welcome_header'] = "Secure. Sustainable. <span><strong>Peercoin</strong> is here.</span>";
 $locale_strings['en']['ticker_last_updated'] = "Last updated: ";
 $locale_strings['en']['ticker_last_updated_never'] = "never";
 
@@ -73,8 +73,8 @@ $locale_strings['en']['mining'] = "Mining";
 
 
 
-$locale_strings['fr']['big_welcome_header'] = "Sûr. Durable. <span><strong>Peercoin</strong> est ici.";
+$locale_strings['fr']['big_welcome_header'] = "Sûr. Durable. <span><strong>Peercoin</strong> est ici.</span>";
 
 
 
-$locale_strings['es']['big_welcome_header'] = "Seguro. Sostenible. <span><strong>Peercoin</strong> está aquí.";
+$locale_strings['es']['big_welcome_header'] = "Seguro. Sostenible. <span><strong>Peercoin</strong> está aquí.</span>";

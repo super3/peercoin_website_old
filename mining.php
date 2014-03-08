@@ -47,7 +47,7 @@
 					
 					<div class="item">
 						<p>
-							<strong>·</strong> Go to the pool website: <a href="http://peercoin.ecoining.com">http://peercoin.ecoining.com</a> and sign up [1]. A valid email address is not required, but it is recommended if you wish to receive worker and pool notifications or reset your password in the future. You should also enter a 4 number PIN that will be required to change your payout address and for manual payouts. Don't forget to read and accept the Terms and Conditions [2].
+							<strong>·</strong> Go to the pool website: <a href="https://peercoin.ecoining.com">https://peercoin.ecoining.com</a> and sign up [1]. A valid email address is not required, but it is recommended if you wish to receive worker and pool notifications or reset your password in the future. You should also enter a 4 number PIN that will be required to change your payout address and for manual payouts. Don't forget to read and accept the Terms and Conditions [2].
 						</p>
 						<a href="assets/img/mining7.png" target="_blank"><img src="assets/img/mining7.png" alt="Mining" /></a>
 					</div>
@@ -120,7 +120,7 @@
 
 					<div class="item">
 						<p>
-							Now to add another worker, create a worker on the pool website and remember the details. Right click the start.bat file and click edit, press ok on the dialog. Now edit the text behind the -u (see [3]) and -p (see [4]) flags to the settings of the new worker.
+							Now to add another worker, create a worker on the pool website and remember the details. Right click the start.bat file and click edit, press OK on the dialog. Now edit the text behind the -u (see [3]) and -p (see [4]) flags to the settings of the new worker.
 							<br />Save, hit start.bat and you are mining!
 							<br />You can see your results on the first page, see image one!
 							<br />

@@ -1,59 +1,4 @@
 <!-- Grey Wrap / Site Stats -->
-<div class="tuts">
-		<!-- Portfolio Section -->
-<div class="container">
-	<div class="row centered">
-		<h2><?php echo $Locale->getText("tutorials"); ?></h2>
-		<div class="ch-grid">
-			<div class="col-lg-4">
-				<ul>
-					<li>
-						<div class="ch-item ch-img-1">
-							<a href="downloads">
-								<div class="ch-info">
-									<h3><?php echo $Locale->getText("installing_wallet"); ?></h3>
-								</div>
-							</a>
-						</div><!-- /ch-img-1 -->
-						<h4><a href="downloads"><?php echo $Locale->getText("installing_wallet"); ?></a></h4>
-					</li>
-				</ul>
-			</div><!-- /col-lg-4 -->
-
-			<div class="col-lg-4">
-				<ul>
-					<li>
-						<div class="ch-item ch-img-2">
-							<a href="downloads#config">
-								<div class="ch-info">
-									<h3><?php echo $Locale->getText("setting_up_wallet"); ?></h3>
-								</div>
-							</a>
-						</div><!-- /ch-img-1 -->
-						<h4><a href="downloads#config"><?php echo $Locale->getText("setting_up_wallet"); ?></a></h4>
-					</li>
-			</div><!-- /col-lg-4 -->
-
-		<div class="col-lg-4">
-			<ul>
-				<li>
-					<div class="ch-item ch-img-3">
-						<a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT">
-							<div class="ch-info">
-								<h3><?php echo $Locale->getText("more_ellipsis"); ?></h3>
-							</div>
-						</a>
-					</div><!-- /ch-img-1 -->
-					<h4><a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT"><?php echo $Locale->getText("more_ellipsis"); ?></a></h4>
-				</li>
-			</ul>
-		</div><!-- /col-lg-4 -->
-		</div><!-- /ch-igrid -->
-	</div><!-- /row -->
-</div><!-- /container -->
-
-</div><!-- /G Wrap -->
-
 	<!-- FOOTER -->
 	<footer class="footer">
 		<div class="container">
@@ -91,7 +36,7 @@
 				<div class="col-lg-3">
 					<h2><?php echo $Locale->getText("mining"); ?></h2>
 					<ul>
-						<li><a href="http://peercoin.ecoining.com/">Ecoining Pool</a></li>
+						<li><a href="https://peercoin.ecoining.com/">Ecoining Pool</a></li>
 						<li><a href="https://www.coinotron.com/">Coinotron</a></li>
 						<li><a href="https://ppcoin.d7.lt/">D7 Pool</a></li>
 						<li><a href="http://ppc.fixx.ru/index">Fixx</a></li>

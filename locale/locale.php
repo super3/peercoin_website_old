@@ -1,6 +1,6 @@
 <?php
 
-class Locale
+class Loc
 {
 	/**
 	* @var	string	The locale/language code to use
