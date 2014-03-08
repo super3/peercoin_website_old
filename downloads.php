@@ -53,7 +53,7 @@
 				      <div class="panel-body">
 				        <p>The MIT License (MIT)</p>
 
-                        <p>Copyright &copy; 2011-<?php echo(date("Y")); ?> PPCoin Developers</p>
+                        <p>Copyright &copy; 2011-<?php echo(date("Y")); ?> Peercoin Developers</p>
                         <p>Copyright &copy; 2009-2012 Bitcoin Developers</p>
 
                         <p>Permission is hereby granted, free of charge, to any person obtaining a copy
