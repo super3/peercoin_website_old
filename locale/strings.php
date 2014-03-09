@@ -72,9 +72,75 @@ $locale_strings['en']['mining'] = "Mining";
 
 
 
-
+$locale_strings['fr']['languages'] = "Langues: ";
+$locale_strings['fr']['download_wallet'] = "Télécharger le Portefeuille";
+$locale_strings['fr']['price'] = "Prix";
+$locale_strings['fr']['market_cap'] = "Masse monétaire";
+$locale_strings['fr']['total_supply'] = "Quantité totale";
 $locale_strings['fr']['big_welcome_header'] = "Sûr. Durable. <span><strong>Peercoin</strong> est ici.</span>";
+$locale_strings['fr']['ticker_last_updated'] = "Dernière mise à jour: ";
+$locale_strings['fr']['ticker_last_updated_never'] = "jamais";
 
+$locale_strings['fr']['why_peercoin_header_innovation'] = "<b>Innovation</b> originale";
+$locale_strings['fr']['why_peercoin_desc_innovation'] = "L'innovation originale de Peercoin est le système <a href='/bin/peercoin-paper-fr.pdf'>hybride preuve-de-part/preuve-de-travail</a>. Comme d'autres <a href='https://fr.wikipedia.org/wiki/Crypto-monnaie'>crypto-monnaies</a>, la monnaie initiale peut être générée par extraction (minage), mais le coeur du réseau est maintenu par les possesseurs de monnaie, plutôt que par la <a href='https://en.bitcoin.it/wiki/Pooled_mining'>coopérative de mineurs</a> la plus rapide.";
+$locale_strings['fr']['why_peercoin_header_security'] = "<b>Sécurité</b> accrue";
+$locale_strings['fr']['why_peercoin_desc_security'] = "Maintenir le réseau avec l'algorithme hybride preuve-de-part/preuve-de-travail réduit les risques d'<a href='http://www.pcworld.com/article/2060840/selfish-miner-attack-could-devastate-bitcoin-researchers-say.html'> attaque par mineur égoïste</a>, d'<a href='https://en.bitcoin.it/wiki/Weaknesses'>attaque des 51%</a>, et de congestion de bloc qui ont été utilisées pour exploiter les autres crypto-monnaies.";
+$locale_strings['fr']['why_peercoin_header_efficiency'] = "<b>Efficacité</b> en terme d'énergie et de coût";
+$locale_strings['fr']['why_peercoin_desc_efficiency'] = "Maintenir le réseau demande bien moins d'énergie que la génération intensive de preuves-de-travail (hachages). La preuve-de-part se débarrasse également de <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>\"l'impôt\" d'un milliard de dollars</a> du réseau Bitcoin avec sa preuve-de-travail.";
+$locale_strings['fr']['why_peercoin_button'] = "Pourquoi Peercoin?";
+$locale_strings['fr']['why_peercoin_title'] = "Pourquoi <span>Peercoin</span>?";
+$locale_strings['fr']['why_peercoin_desc'] = "Grâce à un algorithme innovant de création de monnaie, le réseau Peercoin consomme bien moins d'énergie, maintient une meilleure sécurité, et récompense les utilisateurs d'une manière plus durable que les autres crypto-monnaies.";
+
+$locale_strings['fr']['fund_peercoin'] = "Financer <span>Peercoin.</span>";
+$locale_strings['fr']['fund_peercoin_accepting_donations'] = "Nous acceptons maintenant les dons pour le développement de Peercoin et du site web.";
+$locale_strings['fr']['fund_peercoin_donations_btc'] = "Dons en BTC: ";
+$locale_strings['fr']['fund_peercoin_donations_ppc'] = "Dons en PPC: ";
+$locale_strings['fr']['block_explorer'] = "Explorateur de blocs";
+
+$locale_strings['fr']['faq_header'] = "<span>Questions</span> fréquemment posées";
+$locale_strings['fr']['faq_q_title_innovation'] = "Dites m'en plus à propos de l'Innovation originale.";
+$locale_strings['fr']['faq_q_desc_innovation'] = "
+						<p>L'innovation originale notable de Peercoin est le système hybride preuve-de-part/preuve-de-travail.</p>
+						<p>Comme d'autres crypto-monnaies, la monnaie initiale peut être extraite par le processus communément utilisé de preuve-de-travail par hachage. Cependant contrairement aux autres monnaies, quand la difficulté d'extraction augmente avec le temps, les utilisateurs continuent à être récompensés avec la monnaie générée par l'algorithme additionnel de preuve-de-part. Une personne détenant 1% de la monnaie sera récompensée par 1% de la monnaie générée par les bloc preuve-de-part.</p>
+						<p>De plus, afin d'accroître la sécurité et l'efficacité énergétique, l'algorithme hybride preuve-de-part/preuve-de-travail combat les tendances déflationnistes dont souffrent les crypto-monnaies ayant une masse monétaire maximale fixée.</p>";
+$locale_strings['fr']['faq_q_title_security'] = "Dites m'en plus à propos de la Sécuritée accrue.";
+$locale_strings['fr']['faq_q_desc_security'] = "
+						<p>Générer les blocs par l'algorithme hybride preuve-de-part/preuve-de-travail réduit les risques d'attaque par mineur égoïste, d'attaque \">50%\", et de congéstion de bloc qui ont été utilisées pour exploiter les autres crypto-monnaies.</p>
+						<p>La portion preuve-de-part de l'algorithme est au coeur de cette sécurité car elle augmente drastiquement le coût d'une attaque. Acquerir 51% de toute la monnaie requiert plus d'efforts et de ressources qu'acquerir 51% de toute la puissance d'extraction. De plus, dans une attaque de part \">50%\", par définition l'attaquant a un fort risque de perdre son investissement, puisqu'il détient la majorité de la monnaie qu'il attaque. Ce risque de perte réduit la motivation à tenter une telle attaque en premier lieu.</p>
+						<p>Peercoin utilise aussi d'autres techniques pour la sécurité, comme les frais de transaction fixés au niveau du protocole pour se défendre contre les attaques par congéstion de bloc.</p>";
+$locale_strings['fr']['faq_q_title_efficiency'] = "Dites m'en plus à propos de l'Efficacité en terme d'énergie et de coût.";
+$locale_strings['fr']['faq_q_desc_efficiency'] = "
+						<p>Générer des blocs par preuve-de-part nécessite bien moins d'énergie que par la génération intensive de hachages pour la preuve-de-travail. Ceci signifie qu'à long terme, le réseau Peercoin consommera moins d'énergie puisque la récompense de la preuve-de-travail sera moins intéressante et que les blocs seront générés à la place par la preuve-de-part.</p>
+				        <p>La preuve-de-part de débarrasse aussi de \"l'impôt\" d'environ un milliard de dollars du réseau Bitcoin avec sa preuve-de-travail. Vous pouvez en savoir plus à ce sujet en lisant <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>ceci</a>.</p>";
+$locale_strings['fr']['faq_q_title_myth1'] = "Mythe #1 - Peercoin est juste un clone de Bitcoin.";
+$locale_strings['fr']['faq_q_desc_myth1'] = "
+						<p>Peercoin est l'une des monnaies vraiment uniques qui ne sont pas juste un clone du code original de Bitcoin.
+				           Peercoin est la première monnaie à introduire une combinaison preuve-de-part/preuve-de-travail ainsi que d'autres mécanismes d'efficacité énergétique. En fait, de nombreuses autres crypto-monnaies alternatives intègrent maintenant la preuve-de-part de Peercoin dans leur code de base.
+				           <br/> <br/>
+						   Source: <a href='http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features'>http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features</a>
+						</p>";
+$locale_strings['fr']['faq_q_title_myth2'] = "Mythe #2 - Peercoin est une monnaie centralisée à cause des points de contrôle.";
+$locale_strings['fr']['faq_q_desc_myth2'] = "
+						<p>Les points de contrôle sont une mesure de sécurité supplémentaire qui ont été introduits pour protéger le réseau Peercoin des attaques quand il était dans son enfance. Sunny King explique:</p>
+						<p>&quot;Le risque d'une attaque des 51% par déni-de-service sur la chaîne de blocs est réel, surtout pour un petit réseau. En fait je n'exclurait pas une telle possibilité même pour Bitcoin. Bien sûr une telle attaque sur Bitcoin ne viendrait probablement pas d'un unique individu à cause des ressources requises. Mais il est irresponsable de dire que ce n'est pas possible. Imaginez juste ce qui se passerait si Bitcoin arrêtait de traiter les transactions pendant quelques jours.&quot;</p>
+						<p>Puisque le réseau Peercoin a grandi substantiellement dans l'année passée, les points de contrôle seront supprimés dans l'une des versions à venir, probablement dans PPC 0.5.</p>";
+$locale_strings['fr']['faq_q_title_myth3'] = "Mythe #3 - Peercoin est extrèmement inflationniste par nature.";
+$locale_strings['fr']['faq_q_desc_myth3'] = "
+						<p>Non. Si Peercoin grandit rapidement, la génération de monnaie par preuve-de-part peut diminuer temporairement car des jours-pièces sont perdus dans les échanges. Ceci rendrait Peercoin déflationniste. Les frais de transaction fixes sont prévus pour contrer ceci en reduisant le volume total de transactions. Les promoteurs de Peercoin considèrent que cela réduira la déflation.</p>
+						<p>De plus, Bitcoin connaît actuellement une inflation <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>d'environ 10%</a> par an alors qu'il approche de sa masse monétaire totale de 21 millions. Les gens <b>espèrent</b> que lorsque la masse monétaire maximale sera atteinte, les frais de transaction seront suffisants pour maintenir la sécurité du réseau.</p>
+						<p>Pour maintenir la sécurité du réseau dans le futur, Peercoin a une inflation annuelle de 1% (récompense de preuve-de-part) afin de s'assurer un réseau sûr, quels que soient les frais de transaction. Comme indiqué précedemment ceci pourrait rendre Peercoin déflationniste, comme Bitcoin vise à l'être, pendant les hauts volumes de transactions.</p>";
+
+$locale_strings['fr']['convinced_you_header'] = "<b>Convaincu</b>?";
+$locale_strings['fr']['convinced_you_desc'] = "Il est temps de télécharger le client, et de l'essayer par vous-même. Si vous avez des questions, posez les sur le <a href='http://www.peercointalk.org/'>forum</a>, ou sur les réseaux sociaux ci-dessous.";
+
+$locale_strings['fr']['tutorials'] = "Tutoriels";
+$locale_strings['fr']['installing_wallet'] = "Installer le Portefeuille";
+$locale_strings['fr']['setting_up_wallet'] = "Configurer le Portefeuille";
+$locale_strings['fr']['more_ellipsis'] = "Plus...";
+$locale_strings['fr']['links'] = "Liens";
+$locale_strings['fr']['tools'] = "Outils";
+$locale_strings['fr']['exchanges'] = "Échanges";
+$locale_strings['fr']['mining'] = "Extraction";
 
 
 $locale_strings['es']['languages'] = "Idiomas: ";
