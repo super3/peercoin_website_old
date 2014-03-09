@@ -48,9 +48,13 @@
 				<div id="footer-language-bar" class="col-lg-12">
 	            	<span><?php echo $Locale->getText("languages"); ?></span>
 
-	            	<?php foreach($Locale->getLanguages() as $language_code => $language_text): ?>
-	            	<a href="<?php echo $_SERVER['PHP_SELF']; ?>?locale=<?php echo $language_code; ?>"><?php echo $language_text; ?></a>
-	            	<?php endforeach; ?>
+	            	<?php
+		            	foreach($Locale->getLanguages() as $language_code => $language_text):
+			            	if($Locale->locale_code!=$language_code){
+			            		echo "<a href=\"".$_SERVER['PHP_SELF']."?locale=".$language_code."\">".$language_text."</a>";
+			            	}
+		            	endforeach;
+	            	?>
 	        	</div>
 			</div>
 
