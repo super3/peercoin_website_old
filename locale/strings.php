@@ -285,3 +285,76 @@ $locale_strings['gr']['links'] = "Σύνδεσμοι";
 $locale_strings['gr']['tools'] = "Εργαλεία";
 $locale_strings['gr']['exchanges'] = "Ανταλλαγές";
 $locale_strings['gr']['mining'] = "Εξόρυξη";
+
+
+
+
+$locale_strings['cat']['languages'] = "Idiomes: ";
+$locale_strings['cat']['download_wallet'] = "Descarregar Moneder";
+$locale_strings['cat']['price'] = "Preu";
+$locale_strings['cat']['market_cap'] = "Capitalització total";
+$locale_strings['cat']['total_supply'] = "Subministrament total";
+$locale_strings['cat']['big_welcome_header'] = "Segur. Sostenible. <span><strong>Peercoin</strong> és aquí.</span>";
+$locale_strings['cat']['ticker_last_updated'] = "Darrera actualització: ";
+$locale_strings['cat']['ticker_last_updated_never'] = "mai";
+
+$locale_strings['cat']['why_peercoin_header_innovation'] = "<b>Innovació</b> original";
+$locale_strings['cat']['why_peercoin_desc_innovation'] = "L'innovació original de Peercoin és el sistema <a href='/bin/peercoin-paper-es.pdf'>híbrid proof-of-stake/proof-of-work</a>. Com en d'altres <a href='https://en.wikipedia.org/wiki/Cryptocurrency'>criptomonedes</a>, les monedes inicials poden ser minades, però la xarxa principal és mantenida pels propietaris de monedes, en lloc dels <a href='https://en.bitcoin.it/wiki/Pooled_mining'>pools</a> més ràpids.";
+$locale_strings['cat']['why_peercoin_header_security'] = "Més <b>Segur</b>";
+$locale_strings['cat']['why_peercoin_desc_security'] = "Mantenint la xarxa a través de l'algoritme híbrid proof-of-work/proof-of-stake, es redueix el risc d'aprofitament del <a href='http://www.pcworld.com/article/2060840/selfish-miner-attack-could-devastate-bitcoin-researchers-say.html'> defecte del Miner Egoista</a>, els <a href='https://en.bitcoin.it/wiki/Weaknesses'>atacs del 51%</a>, i l'inflat de monedes que s'ha utilitzat per atacar a d'altres monedes.";
+$locale_strings['cat']['why_peercoin_header_efficiency'] = "<b>Eficiència</b> i reducció del cost energètic";
+$locale_strings['cat']['why_peercoin_desc_efficiency'] = "El manteniment de la xarxa requereix molta menys energia que la generació de hashes proof-of-work mitjançant hardware especialitzat. El Proof-of-stake també es desfà de <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'> l'\"impost\"de ~$1000 milions </a> de la xarxa Bitcoin mitjançant els blocs proof-of-work.";
+$locale_strings['cat']['why_peercoin_button'] = "¿Per què Peercoin?";
+$locale_strings['cat']['why_peercoin_title'] = "¿Per què <span>Peercoin</span>?";
+$locale_strings['cat']['why_peercoin_desc'] = "Mitjançant un innovatiu algoritme d'encunyament, la xarxa Peercoin consumeix molta menys energia, té una seguretat més forta i recompensa els seus usuaris d'una forma més sostenible que altres criptomonedes.";
+
+$locale_strings['cat']['fund_peercoin'] = "Financia <span>Peercoin.</span>";
+$locale_strings['cat']['fund_peercoin_accepting_donations'] = " Aceptem donacions per al dessenvolupament de Peercoin i la plana web.";
+$locale_strings['cat']['fund_peercoin_donations_btc'] = "Donacions amb BTC: ";
+$locale_strings['cat']['fund_peercoin_donations_ppc'] = "Donacions amb PPC: ";
+$locale_strings['cat']['block_explorer'] = "Explorador de blocs";
+
+$locale_strings['cat']['faq_header'] = "<span>Preguntes</span> freqüents";
+$locale_strings['cat']['faq_q_title_innovation'] = "Explica'm més sobre l'Innovació Original.";
+$locale_strings['cat']['faq_q_desc_innovation'] = "
+						<p>La més notoria innovació original de Peercoin és el sistema híbrid proof-of-stake/proof-of-work.</p>
+						<p>Com d'altres criptomonedes, les monedes inicials poden ser minades amb el sistema tradicional de processat de hashing mitjançant el proof-of-work. No obstant, a diferència d'altres monedes, mentre la dificultat de hashing augmenta amb el temps, els usuaris continuen sent recompensats amb monedes generades amb l'algoritme adicional del proof-of-stake. Cualsevol que tingui moneda, serà recompensat amb un 1% del total mitjançant blocs proof-of-stake.</p>
+						<p>Adicionalment a l'augment de seguretat i la millorada eficiència energética, el sistema híbrid de l'algoritme proof-of-work/proof-of-stake combat les tendencies deflacionaries que les criptomonedes poden patir degut al seu límit d'encunyament preestablert.</p>";
+$locale_strings['cat']['faq_q_title_security'] = "Explica'm més sobre la Seguretat Millorada.";
+$locale_strings['cat']['faq_q_desc_security'] = "
+						<p>La generació de blocs mitjançant l'algoritme híbrid proof-of-work/proof-of-stake redueix el risc del defecte del Miner Egoísta de Cornell, atacs de\">50%\", i l'inflat de blocs que s'ha utilitzat per aprofitar-se d'altres monedes.</p>
+						<p>La porció proof-of-stake de l'algoritme és al cor de les mesures de seguretat perquè augmenta considerablement el cost d'un atac. Adquirir el 51% de totes les monedes existents requereix de més esforç i recursos que adquirir el 51% de tot el poder de minat. Ademés, en un atac stake de \">50%\", l'inversió de l'atacant serà, per definició, un gran risc de pèrdua, perque l'atacant tindrà la major part de les monedes que està atacant. Aquest risc de pèrdua redueix l'incentiu d'intentar aquest tipus d'atac en primer lloc.</p>
+						<p>Peercoin també fa servir altres mesures de seguretat avançades, com forçar tases de transacció a nivell de protocol per defendre's d'atacs d'inflat de monedes.</p>";
+$locale_strings['cat']['faq_q_title_efficiency'] = "Explica'm més sobre l'eficiència energética.";
+$locale_strings['cat']['faq_q_desc_efficiency'] = "
+						<p>La generació de blocs mitjançant proof-of-stake requereix molta menys energia que generar hashes amb hardware especialitzat mitjançant el proof-of-work. Això significa que amb el temps, la xarxa Peercoin consumirà molta menys energia a mesura que els blocs generats mitjançant proof-of-work siguin menys rentables que els blocs generats mitjançant la porció de l'algoritme del proof-of-stake.</p>
+				        <p>Ademés el Proof-of-stake es desfà de l'\"impost\" de ~$1000 milions de la xarxa Bitcoin mitjançant els blocs proof-of-work. Pots llegir més sobre això <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>aquí</a>.</p>";
+$locale_strings['cat']['faq_q_title_myth1'] = "Mite #1 - Peercoin és només un clon de Bitcoin.";
+$locale_strings['cat']['faq_q_desc_myth1'] = "
+						<p>Peercoin és una de les poques monedes úniques que no són tan sols un clon del codi de Bitcoin.
+				           Peercoin és la primera moneda en introduïr una combinació de proof-of-stake/proof-of-work conjuntament amb d'altres mecanismes energèticamente eficients. De fet, moltes monedes alternatives estan integrant avuí en dia en els seus codis el proof-of-stake de Peercoin.
+				           <br/> <br/>
+						   Font: <a href='http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features'>http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features</a>
+						</p>";
+$locale_strings['cat']['faq_q_title_myth2'] = "Mite #2 - Peercoin és una moneda centralitzada degut als punts de control.";
+$locale_strings['cat']['faq_q_desc_myth2'] = "
+						<p>Els punts de control centralitzats són una mesura de seguretat adicional i van ser introduïts per protegir la xarxa Peercoin d'atacs mentre la xarxa està a la seva infancia. Sunny King ho explica:</p>
+						<p>&quot;El risc d'un atac de denegació de servei del 51% a la cadena de blocs és real, especialment a una xarxa petita. De fet, no excloeixo aquesta posibilitat fins i tot a la xarxa Bitcoin. Per suposat aquest atac a Bitcoin no vindria d'una persona individual degut a la quantitat de recursos necessaris per dur a terme tal atac. Però seria irresponsable dir que no és una possibilitat real. Tan sols cal imaginar qué pasaria si la xarxa deixara de processar transaccions durant uns pocos dies.&quot;</p>
+						<p>Ja que la xarxa Peercoin ha crescut substancialment durant l'ultim any, els punts de control s'eliminaran gradualment en una de les pròximes versions de Peercoin, probablement la 0.5.</p>";
+$locale_strings['cat']['faq_q_title_myth3'] = "Mite #3 - Peercoin té una naturalesa extremadament inflacionària.";
+$locale_strings['cat']['faq_q_desc_myth3'] = "
+						<p>No. Si Peercoin creix ràpidament, l'encunyament mitjançant Stake es reduirà temporalment mentre els dies de moneda es perden degut al comerç d'aquestes. Això causaria que Peercoin fora deflacionària. La naturalesa de les tases de transacció fixes es va disenyar com a mesura de contrarestar això, reduint el volum del total de transaccions. Els defensors de Peercoin argumenten que això disminuirà la deflació.</p>
+						<p>Ademés, Bitcoin experimenta actualment <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>un ~10%</a> d'inflació anual mentre s'acosta al seu subministrament total de 21 milions de monedes. S'<b>espera</b> que quan s'arribi al subministrament total de monedes les tases de transacció seran suficients per mantenir una xarxa segura.</p>
+						<p>Per mantenir una xarxa segura en el futur, Peercoin proveeix una inflació anual de l'1% (recompensa per proof-of-stake) per asegurar-se que hi haurà una xarxa segura, independientement de les tases de transacció. Com s'ha comentat abans, això tornarà la moneda deflacionaria, igual que Bitcoin pretén ser, durant nivells de transaccions alts.</p>";
+
+$locale_strings['cat']['convinced_you_header'] = "¿<b>Convençut</b>?";
+$locale_strings['cat']['convinced_you_desc'] = "Es l'hora de descarregar el client i probar-ho tu mateix. Si tens algun dubte simplement pregunta al <a href='http://www.peercointalk.org/'>forum</a>, o als enllaços de xarxes socials de més avall.";
+
+$locale_strings['cat']['tutorials'] = "Tutorials";
+$locale_strings['cat']['installing_wallet'] = "Instal·lar moneder";
+$locale_strings['cat']['setting_up_wallet'] = "Configurar moneder";
+$locale_strings['cat']['more_ellipsis'] = "Més...";
+$locale_strings['cat']['links'] = "Enllaços";
+$locale_strings['cat']['tools'] = "Eines";
+$locale_strings['cat']['exchanges'] = "Exchanges";
+$locale_strings['cat']['mining'] = "Minar";
