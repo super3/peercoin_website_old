@@ -7,7 +7,7 @@
 				      	<h1>A list of Peercoin resources</h1>
 
 				      	<div class="item">
-					      	<h2>Mining Pools</h2>
+					      	<h2 name="#pools">Mining Pools</h2>
 							<p>Peercoin started as a Proof-Of-Work coin. As there are now a lot of coins generated, the network is slowly switching to Proof-Of-Stake minting. Bitcoin ASIC hardware also works
 							on the Peercoin network. With this, the increasing popularity of Peercoin, increased minting rate, and the decreasing return on mining, competition for blocks becomes fiercer.
 							Even with powerful hardware it is difficult to mine alone.	Mining pools combine the power of all participants to find block, and share the reward based on shares. Read the instructions of each pool carefully as connection protocols and software

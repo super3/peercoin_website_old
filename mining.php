@@ -10,13 +10,15 @@
 
 			<div class="col-lg-6">
 				<p>
-					Peercoin is a hybrid Proof-Of-Work / Proof-Of-Stake coin that uses the same proof-of-work algorithm as Bitcoin. This means you can mine Peercoin with GPUs, FGPAs and ASICs using Bitcoin mining software. Through Peercoin's increasing popularity, the transition to proof-of-stake, and the decreasing return on mining, competition for blocks becomes more fierce.
+					Peercoin is a hybrid Proof-Of-Work / Proof-Of-Stake coin that uses the same proof-of-work algorithm as Bitcoin. This means you can mine Peercoin with GPUs, FGPAs and ASICs using Bitcoin mining software.
+					Through Peercoin's increasing popularity, the transition to proof-of-stake, and the decreasing return on mining, competition for blocks becomes more fierce.
 				</p>
 			</div>
 
 			<div class="col-lg-6">
 				<p>
-					Even with powerful hardware it is difficult to mine alone.	Mining pools combine the power of all participants to find blocks, and share the reward proportionally based on shares. These guides show you how to poolmine at some of the largest PPC pools.
+					Even with powerful hardware it is difficult to mine alone.	Mining pools combine the power of all participants to find blocks, and share the reward proportionally based on shares. These guides
+					show you how to poolmine at some of the largest PPC pools. Also make sure to take a look at our <a href="/minting">Minting Guide</a>, as you can also earn up 1% on top of your mining rewards. 
 				</p>
 			</div>
 		</div>
@@ -25,15 +27,15 @@
 			<div class="col-lg-12">
 				<div class="item">
 					<p>
-						<strong>Setting up the PPC wallet</strong><br />
-						Download the Peercoin wallet if you did not do this already. Install, let it sync, and secure the wallet with a good password. You can find your wallet address on the receive tab. You can follow <a href="downloads">this guide</a> to download and configure it.
+						<strong>1) Set up a Peercoin wallet</strong><br />
+						<a href="downloads">Download the Peercoin wallet</a> if you did not do this already.
 					</p>
 				</div>
 
 				<div class="item">
 					<p>
-						<strong>Sign Up in a Pool</strong><br />
-						You can find a list of pools in the <a href="resources">resources page</a>. Here you can find instructions to join some of these pools.
+						<strong>2) Sign up at a mining pool</strong><br />
+						You can find a list of pools in the <a href="resources#pools">resources page</a>. Here you can find instructions to join some of these pools.
 					</p>
 				</div>
 				<div class="panel-group" id="accordion">
