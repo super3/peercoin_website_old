@@ -54,6 +54,13 @@
                         target="_blank">Download PDF</a>
                     </div>
                 </li>
+
+                 <li class="col-lg-3 pdf">
+                    <div class="inner">
+                        <h2>Chinese</h2><a href="bin/peercoin-paper-cn.pdf"
+                        target="_blank">Download PDF</a>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>
