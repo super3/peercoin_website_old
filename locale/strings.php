@@ -3,7 +3,7 @@
 //title
 
 $locale_strings['en']['homepage_title'] = "Peercoin - The Secure &amp; Sustainable Cryptocoin.";
-$locale_strings['fr']['homepage_title'] = "Peercoin - The Secure &amp; Sustainable Cryptocoin.";
+$locale_strings['fr']['homepage_title'] = "Peercoin - La Crypto-monnaie Sûre &amp; Durable.";
 $locale_strings['es']['homepage_title'] = "Peercoin - The Secure &amp; Sustainable Cryptocoin.";
 $locale_strings['gr']['homepage_title'] = "Peercoin - Το ασφαλές &amp; Ανεκτό Κρυπτονόμισμα.";
 $locale_strings['cat']['homepage_title'] = "Peercoin - The Secure &amp; Sustainable Cryptocoin.";
@@ -12,14 +12,14 @@ $locale_strings['zh']['homepage_title'] = "Peercoin - The Secure &amp; Sustainab
 //dropdown menu (header)
 
 $locale_strings['en']['dropdown_title_docs_and_press'] = "Docs";
-$locale_strings['fr']['dropdown_title_docs_and_press'] = "Docs";
+$locale_strings['fr']['dropdown_title_docs_and_press'] = "Documents";
 $locale_strings['es']['dropdown_title_docs_and_press'] = "Docs";
 $locale_strings['gr']['dropdown_title_docs_and_press'] = "Έγγραφα";
 $locale_strings['cat']['dropdown_title_docs_and_press'] = "Docs";
 $locale_strings['zh']['dropdown_title_docs_and_press'] = "Docs";
 
 $locale_strings['en']['dropdown_docs_and_press_whitepaper'] = "Peercoin Whitepaper";
-$locale_strings['fr']['dropdown_docs_and_press_whitepaper'] = "Peercoin Whitepaper";
+$locale_strings['fr']['dropdown_docs_and_press_whitepaper'] = "Livre Blanc Peercoin";
 $locale_strings['es']['dropdown_docs_and_press_whitepaper'] = "Peercoin Whitepaper";
 $locale_strings['gr']['dropdown_docs_and_press_whitepaper'] = "Το Whitepaper του Peercoin";
 $locale_strings['cat']['dropdown_docs_and_press_whitepaper'] = "Peercoin Whitepaper";
@@ -33,84 +33,84 @@ $locale_strings['cat']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
 $locale_strings['zh']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
 
 $locale_strings['en']['dropdown_docs_and_press_resources'] = "List of Resources";
-$locale_strings['fr']['dropdown_docs_and_press_resources'] = "List of Resources";
+$locale_strings['fr']['dropdown_docs_and_press_resources'] = "Liste de Ressources";
 $locale_strings['es']['dropdown_docs_and_press_resources'] = "List of Resources";
 $locale_strings['gr']['dropdown_docs_and_press_resources'] = "Λίστα Πόρων";
 $locale_strings['cat']['dropdown_docs_and_press_resources'] = "List of Resources";
 $locale_strings['zh']['dropdown_docs_and_press_resources'] = "List of Resources";
 
 $locale_strings['en']['dropdown_docs_and_press_kit'] = "Press Kit";
-$locale_strings['fr']['dropdown_docs_and_press_kit'] = "Press Kit";
+$locale_strings['fr']['dropdown_docs_and_press_kit'] = "Kit Presse";
 $locale_strings['es']['dropdown_docs_and_press_kit'] = "Press Kit";
 $locale_strings['gr']['dropdown_docs_and_press_kit'] = "Συλλογή Τύπου";
 $locale_strings['cat']['dropdown_docs_and_press_kit'] = "Press Kit";
 $locale_strings['zh']['dropdown_docs_and_press_kit'] = "Press Kit";
 
 $locale_strings['en']['dropdown_docs_and_press_articles_interviews'] = "Articles and Interviews";
-$locale_strings['fr']['dropdown_docs_and_press_articles_interviews'] = "Articles and Interviews";
+$locale_strings['fr']['dropdown_docs_and_press_articles_interviews'] = "Articles et Interviews";
 $locale_strings['es']['dropdown_docs_and_press_articles_interviews'] = "Articles and Interviews";
 $locale_strings['gr']['dropdown_docs_and_press_articles_interviews'] = "Άρθρα και Συνεντεύξεις";
 $locale_strings['cat']['dropdown_docs_and_press_articles_interviews'] = "Articles and Interviews";
 $locale_strings['zh']['dropdown_docs_and_press_articles_interviews'] = "Articles and Interviews";
 
 $locale_strings['en']['dropdown_docs_and_press_sunny_king_interview'] = "Interview Sunny King";
-$locale_strings['fr']['dropdown_docs_and_press_sunny_king_interview'] = "Interview Sunny King";
+$locale_strings['fr']['dropdown_docs_and_press_sunny_king_interview'] = "Interviewer Sunny King";
 $locale_strings['es']['dropdown_docs_and_press_sunny_king_interview'] = "Interview Sunny King";
 $locale_strings['gr']['dropdown_docs_and_press_sunny_king_interview'] = "Πάρε συνέντευξη από τον Sunny King";
 $locale_strings['cat']['dropdown_docs_and_press_sunny_king_interview'] = "Interview Sunny King";
 $locale_strings['zh']['dropdown_docs_and_press_sunny_king_interview'] = "Interview Sunny King";
 
 $locale_strings['en']['dropdown_title_use_peercoins'] = "Use Peercoins";
-$locale_strings['fr']['dropdown_title_use_peercoins'] = "Use Peercoins";
+$locale_strings['fr']['dropdown_title_use_peercoins'] = "Utiliser des Peercoins";
 $locale_strings['es']['dropdown_title_use_peercoins'] = "Use Peercoins";
 $locale_strings['gr']['dropdown_title_use_peercoins'] = "Χρησιμοποίησε Peercoins";
 $locale_strings['cat']['dropdown_title_use_peercoins'] = "Use Peercoins";
 $locale_strings['zh']['dropdown_title_use_peercoins'] = "Use Peercoins";
 
 $locale_strings['en']['dropdown_title_peercoins'] = "Get Peercoins";
-$locale_strings['fr']['dropdown_title_peercoins'] = "Get Peercoins";
+$locale_strings['fr']['dropdown_title_peercoins'] = "Obtenir des Peercoins";
 $locale_strings['es']['dropdown_title_peercoins'] = "Get Peercoins";
 $locale_strings['gr']['dropdown_title_peercoins'] = "Πάρε Peercoins";
 $locale_strings['cat']['dropdown_title_peercoins'] = "Get Peercoins";
 $locale_strings['zh']['dropdown_title_peercoins'] = "Get Peercoins";
 
 $locale_strings['en']['dropdown_peercoins_mine'] = "Mine Peercoins";
-$locale_strings['fr']['dropdown_peercoins_mine'] = "Mine Peercoins";
+$locale_strings['fr']['dropdown_peercoins_mine'] = "Extraire des Peercoins";
 $locale_strings['es']['dropdown_peercoins_mine'] = "Mine Peercoins";
 $locale_strings['gr']['dropdown_peercoins_mine'] = "Εξόρυξε Peercoins";
 $locale_strings['cat']['dropdown_peercoins_mine'] = "Mine Peercoins";
 $locale_strings['zh']['dropdown_peercoins_mine'] = "Mine Peercoins";
 
 $locale_strings['en']['dropdown_peercoins_mint'] = "Mint Peercoins";
-$locale_strings['fr']['dropdown_peercoins_mint'] = "Mint Peercoins";
+$locale_strings['fr']['dropdown_peercoins_mint'] = "Frapper des Peercoins";
 $locale_strings['es']['dropdown_peercoins_mint'] = "Mint Peercoins";
 $locale_strings['gr']['dropdown_peercoins_mint'] = "Κόψε Peercoins";
 $locale_strings['cat']['dropdown_peercoins_mint'] = "Mint Peercoins";
 $locale_strings['zh']['dropdown_peercoins_mint'] = "Mint Peercoins";
 
 $locale_strings['en']['dropdown_peercoins_buy'] = "Buy Peercoins";
-$locale_strings['fr']['dropdown_peercoins_buy'] = "Buy Peercoins";
+$locale_strings['fr']['dropdown_peercoins_buy'] = "Acheter des Peercoins";
 $locale_strings['es']['dropdown_peercoins_buy'] = "Buy Peercoins";
 $locale_strings['gr']['dropdown_peercoins_buy'] = "Αγόρασε Peercoins";
 $locale_strings['cat']['dropdown_peercoins_buy'] = "Buy Peercoins";
 $locale_strings['zh']['dropdown_peercoins_buy'] = "Buy Peercoins";
 
 $locale_strings['en']['dropdown_title_contribute'] = "Contribute";
-$locale_strings['fr']['dropdown_title_contribute'] = "Contribute";
+$locale_strings['fr']['dropdown_title_contribute'] = "Contribuer";
 $locale_strings['es']['dropdown_title_contribute'] = "Contribute";
 $locale_strings['gr']['dropdown_title_contribute'] = "Συνέβαλε";
 $locale_strings['cat']['dropdown_title_contribute'] = "Contribute";
 $locale_strings['zh']['dropdown_title_contribute'] = "Contribute";
 
 $locale_strings['en']['dropdown_contribute_volunteer'] = "Volunteer";
-$locale_strings['fr']['dropdown_contribute_volunteer'] = "Volunteer";
+$locale_strings['fr']['dropdown_contribute_volunteer'] = "Se porter volontaire";
 $locale_strings['es']['dropdown_contribute_volunteer'] = "Volunteer";
 $locale_strings['gr']['dropdown_contribute_volunteer'] = "Εθελοντική Εργασία";
 $locale_strings['cat']['dropdown_contribute_volunteer'] = "Volunteer";
 $locale_strings['zh']['dropdown_contribute_volunteer'] = "Volunteer";
 
 $locale_strings['en']['dropdown_contribute_participate'] = "Participate";
-$locale_strings['fr']['dropdown_contribute_participate'] = "Participate";
+$locale_strings['fr']['dropdown_contribute_participate'] = "Participer";
 $locale_strings['es']['dropdown_contribute_participate'] = "Participate";
 $locale_strings['gr']['dropdown_contribute_participate'] = "Συμμετοχή";
 $locale_strings['cat']['dropdown_contribute_participate'] = "Participate";
@@ -147,14 +147,14 @@ $locale_strings['cat']['price'] = "Preu";
 $locale_strings['zh']['price'] = "价格";
 
 $locale_strings['en']['market_cap'] = "Market Cap";
-$locale_strings['fr']['market_cap'] = "Masse monétaire";
+$locale_strings['fr']['market_cap'] = "Capitalisation";
 $locale_strings['es']['market_cap'] = "Capitalización total";
 $locale_strings['gr']['market_cap'] = "Κεφαλαιοποίηση";
 $locale_strings['cat']['market_cap'] = "Capitalització total";
 $locale_strings['zh']['market_cap'] = "市值";
 
 $locale_strings['en']['total_supply'] = "Total Supply";
-$locale_strings['fr']['total_supply'] = "Quantité totale";
+$locale_strings['fr']['total_supply'] = "Masse monétaire";
 $locale_strings['es']['total_supply'] = "Suministro total";
 $locale_strings['gr']['total_supply'] = "Συνολική Προσφορά";
 $locale_strings['cat']['total_supply'] = "Subministrament total";
@@ -543,14 +543,14 @@ $locale_strings['zh']['languages'] = "语言: ";
 //javascript
 
 $locale_strings['en']['second_ago'] = "second ago";
-$locale_strings['fr']['second_ago'] = "second ago";
+$locale_strings['fr']['second_ago'] = "seconde";
 $locale_strings['es']['second_ago'] = "second ago";
 $locale_strings['gr']['second_ago'] = "δευτερόλεπτο πριν";
 $locale_strings['cat']['second_ago'] = "second ago";
 $locale_strings['zh']['second_ago'] = "second ago";
 
 $locale_strings['en']['seconds_ago'] = "seconds ago";
-$locale_strings['fr']['seconds_ago'] = "seconds ago";
+$locale_strings['fr']['seconds_ago'] = "secondes";
 $locale_strings['es']['seconds_ago'] = "seconds ago";
 $locale_strings['gr']['seconds_ago'] = "δευτερόλεπτα πριν";
 $locale_strings['cat']['seconds_ago'] = "seconds ago";
