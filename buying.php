@@ -22,6 +22,7 @@
 							<li><a href="http://cryptonit.net/exchange/btc/ppc">Cryptonit</a></li>
 							<li><a href="https://www.cryptsy.com/markets/view/28">Cryptsy</a></li>
 							<li><a href="https://www.coins-e.com/exchange/PPC_BTC/">Coins-e</a></li>
+							<li><a href="https://796.com/ppcusd/market">796</a></li>			
 							<li>many more...</li>
 						</ul>
 

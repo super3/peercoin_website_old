@@ -38,6 +38,7 @@
 					            <li><a href="https://crypto-trade.com/trade/ppc_usd">Crypto Trade</a> -  First fiat/PPC exchange</li>
 					            <li><a href="https://btc-e.com/">BTC-e</a> -  Russian exchange, largest trading volume</li>
 								<li><a href="https://coinmkt.com/#/">CoinMarket Exchange</a> -  US-based exchange</li>
+								<li><a href="https://796.com/ppcusd/market">796 - Hong Kong Exchange</a></li>	
 					        </ul>
 
 							<p><strong>Buying with cryptocurrency:</strong></p>
