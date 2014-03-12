@@ -4,12 +4,6 @@
     <div class="row">
         <div class="col-lg-12">
             <h1>Peercoin-Qt Downloads</h1>
-
-            <p><strong>Please select your preferred language!</strong></p>
-
-            <p>The whitepapers are available in Portable Document Format
-            (PDF). Please use your preferred <a href=
-            "http://pdfreaders.org/">software for reading</a>.</p>
         </div>
 
         <div class="col-lg-12 downloads">
@@ -37,7 +31,6 @@
                 </li>
                 <li class="col-lg-3">
                     <div class="inner">
-                        <span class="icon"></span>
                         <h2>Source Code</h2>
                         <a href="https://github.com/ppcoin/ppcoin">Go to Github</a>
                     </div>
@@ -47,14 +40,14 @@
     </div>
 
     <div class="row">
-        <div class="col-lg-9">
+        <div class="col-lg-12">
             <div class="panel-group" id="accordion">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title"><a class=
                         "accordion-toggle collapsed" data-parent="#accordion"
                         data-toggle="collapse" href=
-                        "#collapseOne">License</a></h4>
+                        "#collapseOne"><span class="fui-plus"></span> License</a></h4>
                     </div>
 
                     <div class="panel-collapse collapse" id="collapseOne">

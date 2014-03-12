@@ -676,8 +676,52 @@ a:hover {
 	height: 100%;
 }
 
+/* 2.9a Whitepaper */
+.whitepapers {}
+.whitepapers ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
 
-/* 2.9 Wallet downloads */
+.content .whitepapers ul li {
+	margin: 0;
+	margin-top: 50px;
+	display: inline-block;
+	position: relative;
+	padding-left:0px;
+	padding-right:35px;
+}
+
+.whitepapers li:last-child {
+	margin-right: 0;
+}
+
+.whitepapers li .inner {
+	padding: 30px;
+	background-color: #1abc9c;
+	color: #fff;
+	border-radius: 3px;
+}
+
+.whitepapers h2 {
+	font-size: 26px;
+	margin-bottom: 35px;
+}
+
+.whitepapers a {
+	display: block;
+	background-color: #fff;
+	padding: 10px 10px;
+	border-radius: 3px;
+}
+
+.whitepapers a:hover {
+	background-color: #13856f;
+	color: #fff;
+}
+
+/* 2.9b Wallet downloads */
 .downloads {}
 .downloads ul {
 	list-style-type: none;
@@ -690,6 +734,8 @@ a:hover {
 	margin-top: 50px;
 	display: inline-block;
 	position: relative;
+	padding-left:0px;
+	padding-right:35px;
 }
 
 .downloads li:last-child {
