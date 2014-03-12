@@ -69,6 +69,10 @@
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/retina.js"></script>
+    <script type="text/javascript">
+        var secondText = "<?php echo $Locale->getText("second_ago"); ?>";
+        var secondsText = "<?php echo $Locale->getText("seconds_ago"); ?>";
+    </script>
     <script src="assets/js/ticker.js"></script>
 	<script src="assets/js/jquery.themepunch.revolution.min.js"></script>
 	<script src="assets/js/jquery.themepunch.plugins.min.js"></script>
