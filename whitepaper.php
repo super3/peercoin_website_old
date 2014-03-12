@@ -11,7 +11,7 @@
             "http://pdfreaders.org/">software for reading</a>.</p>
         </div>
 
-        <div class="col-lg-12 downloads">
+        <div class="col-lg-12 whitepapers">
             <ul>
                 <li class="col-lg-3 pdf">
                     <div class="inner">
