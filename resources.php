@@ -29,7 +29,7 @@
 				        </div>
 
 				        <div class="item">
-					        <h2> Exchanges</h2>
+					        <h2 name="#exchanges"> Exchanges</h2>
 
 					        <p>Exchanges are the trading websites where you can buy or sell Peercoin. Be careful not to place large sums of Peercoin on exchanges without adequate security measures such as a good password and 2-factor authentication.
 							Minting coins is also impossible on exchanges.</p><br>
@@ -52,7 +52,7 @@
 				        </div>
 
 				        <div class="item">
-					       <h2> Getting started</h2>
+					       <h2 name="#gettingstarted"> Getting started</h2>
 							<p><strong>Here are some tutorials that can help you out if you are new to cryptocurrencies as Peercoin.</strong></p>
 					        <ul style="list-style-type: circle;">
 					            <li><a href="https://www.youtube.com/watch?v=TjL2AgCQDJ0">What is Peercoin?</a> -  YouTube Introduction into Peercoin; What makes it different from BTC?</li>
@@ -63,7 +63,7 @@
 				        </div>
 
 				        <div class="item">
-					        <h2> Peercoin Tools</h2>
+					        <h2 name="tools"> Peercoin Tools</h2>
 					       <p><strong>These tools provide statistics on the network, allow you to track payments or calculate mining returns.</strong></p>
 					        <ul style="list-style-type: circle;">
 					            <li><a href="http://blockexplorer.ppcointalk.org/">http://blockexplorer.ppcointalk.org/</a> -  Blockchain Viewer: View transactions on the blockchain</li>
@@ -75,7 +75,7 @@
 					    </div>
 					    
 					    <div class="item">
-					    	<h2> Shops, Retail product and Services accepting Peercoin</h2>
+					    	<h2 name"retail"> Shops, Retail product and Services accepting Peercoin</h2>
 					    	<p><strong>Use your peercoins for purchase and trade and make Peercoin commonly used world wide</strong></p>
 					    	<p><strong>Physical goods</strong></p>
 					    	<ul style="list-style-type: circle;">
@@ -90,7 +90,6 @@
 					    	</ul>
 					    	<!-- TODO: add more shops in here -->
 					    </div>
-				        <p>Happy minting!</p>
 
 			</div><!-- end col -->
 		</div><!-- end row -->
