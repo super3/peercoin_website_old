@@ -4,12 +4,17 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3">
-					<h2><?php echo $Locale->getText("links"); ?></h2>
+					<h2>Press</h2>
 					<ul>
-						<li><a href="https://github.com/ppcoin/ppcoin">Source Code (Github)</a></li>
-						<li><a href="https://github.com/ppcoin/ppcoin/wiki">Wiki</a></li>
-						<li><a href="http://www.peercointalk.org/">Forum</a></li>
-						<li><a href="http://peercoinmyths.com/">Myths</a></li>
+						<li><a href="http://www.peercointalk.org/index.php?topic=1616.0">Press Kit</a></li>
+		                <li><a href="http://www.peercointalk.org/index.php?topic=2219.0">Articles and Interviews</a></li>
+		               	<?php
+		                if (!file_exists('include/recaptcha_keys.php')) {
+		                ?>
+              		 	 <li><a href="mailto:sunnyking9999@gmail.com?cc=john.manglaviti@gmail.com&amp;subject=Sunny%20King%20Interview%20Request">Interview Sunny King</a></li>
+		                <?php } else { ?>
+		                <li><a href="interview">Interview Sunny King</a></li>
+		                <?php } ?>
 					</ul>
 				</div>
 				<div class="col-lg-3">

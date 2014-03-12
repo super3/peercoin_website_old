@@ -73,27 +73,13 @@
           <ul class="nav navbar-nav pull-right">
 
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Docs <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Docs &amp; Press<b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="whitepaper">Peercoin Whitepaper</a></li>
                 <li><a href="https://github.com/ppcoin/ppcoin/wiki">Wiki (Github)</a></li>
-                <li><a href="resources">List of Resources</a></li>
               </ul>
             </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Press <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="http://www.peercointalk.org/index.php?topic=1616.0">Press Kit</a></li>
-                <li><a href="http://www.peercointalk.org/index.php?topic=2219.0">Articles and Interviews</a></li>
-                <?php
-                if (!file_exists('include/recaptcha_keys.php')) {
-                ?>
-                <li><a href="mailto:sunnyking9999@gmail.com?cc=john.manglaviti@gmail.com&amp;subject=Sunny%20King%20Interview%20Request">Interview Sunny King</a></li>
-                <?php } else { ?>
-                <li><a href="interview">Interview Sunny King</a></li>
-                <?php } ?>
-              </ul>
-            </li>
+            <li><a href="http://peercoin.net/resources">Use Peercoins</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Peercoins <b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -111,9 +97,8 @@
                 <!-- TODO: add more ways to contribute and support the Peercoin community -->
               </ul>
             </li>
-            
             <li><a href="http://www.peercointalk.org/">Forum</a></li>
-            <li class="wallet"><a class="btn btn-primary btn-lg" role="button" href="downloads" target="_blank">Download Wallet!</a></li>
+            <li class="wallet"><a class="btn btn-primary btn-lg" role="button" href="downloads">Download Wallet!</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

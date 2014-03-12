@@ -4,7 +4,7 @@
 			<div class="col-lg-12">
 				<h1>Buying Peercoins</h1>
 				<div class="item">
-					<div class="col-lg-12">
+					<div>
 						<p>Peercoins are traded on various virtual currency exchanges. The most common exchange method is to 
 						exchange Bitcoin into Peercoin. You can buy Bitcoins by using services like <a 
 						href="https://coinbase.com" target="_blank">coinbase</a> or <a href="https://www.bitstamp.net/" target="_blank">bitstamp</a>.

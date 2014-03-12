@@ -730,12 +730,9 @@ a:hover {
 }
 
 .content .downloads ul li {
-	margin: 0;
-	margin-top: 50px;
+	margin: 50px 0px 0px 0px;
 	display: inline-block;
 	position: relative;
-	padding-left:0px;
-	padding-right:35px;
 }
 
 .downloads li:last-child {
