@@ -36,7 +36,7 @@
                     </div>
                 </li>
             </ul>
-        </div> 
+        </div>
     </div>
 
     <div class="row">
@@ -47,10 +47,42 @@
                         <h4 class="panel-title"><a class=
                         "accordion-toggle collapsed" data-parent="#accordion"
                         data-toggle="collapse" href=
-                        "#collapseOne"><span class="fui-plus"></span> License</a></h4>
+                        "#collapseSignatures"><span class="fui-plus"></span> Signatures</a></h4>
                     </div>
 
-                    <div class="panel-collapse collapse" id="collapseOne">
+                    <div class="panel-collapse collapse" id="collapseSignatures">
+                        <div class="panel-body">
+                            <table>
+                                <tr>
+                                    <th>File</th>
+                                    <th>SHA-256</th>
+                                </tr>
+                                <tr>
+                                    <td><code>ppcoin-0.3.0-win32-setup.exe</code></td>
+                                    <td>47ede22cce02b77566258ced1131ce91a6c7fe872af9a10c8bd5034678fd7d07</td>
+                                </tr>
+                                <tr>
+                                    <td><code>PPcoin-Qt.dmg</code></td>
+                                    <td>ca9d89439a915ff222d4792617aa34f6be5c62a2b36dfaf2a3298c5cf70cee2a</td>
+                                </tr>
+                                <tr>
+                                    <td><code>ppcoin-0.3.0-linux.tar.gz</code></td>
+                                    <td>919bb1c60eeebdd173ddcd4c83264f745bbf2af29410ded062f6c6bfce44f694</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title"><a class=
+                        "accordion-toggle collapsed" data-parent="#accordion"
+                        data-toggle="collapse" href=
+                        "#collapseLicense"><span class="fui-plus"></span> License</a></h4>
+                    </div>
+
+                    <div class="panel-collapse collapse" id="collapseLicense">
                         <div class="panel-body">
                             <p>The MIT License (MIT)</p>
 
