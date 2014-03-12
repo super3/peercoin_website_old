@@ -46,12 +46,12 @@ $locale_strings['gr']['dropdown_docs_and_press_kit'] = "Συλλογή Τύπο�
 $locale_strings['cat']['dropdown_docs_and_press_kit'] = "Press Kit";
 $locale_strings['zh']['dropdown_docs_and_press_kit'] = "Press Kit";
 
-$locale_strings['en']['dropdown_docs_and_press_articles'] = "Articles and Interviews";
-$locale_strings['fr']['dropdown_docs_and_press_articles'] = "Articles and Interviews";
-$locale_strings['es']['dropdown_docs_and_press_articles'] = "Articles and Interviews";
-$locale_strings['gr']['dropdown_docs_and_press_articles'] = "Άρθρα και Συνεντεύξεις";
-$locale_strings['cat']['dropdown_docs_and_press_articles'] = "Articles and Interviews";
-$locale_strings['zh']['dropdown_docs_and_press_articles'] = "Articles and Interviews";
+$locale_strings['en']['dropdown_docs_and_press_articles_interviews'] = "Articles and Interviews";
+$locale_strings['fr']['dropdown_docs_and_press_articles_interviews'] = "Articles and Interviews";
+$locale_strings['es']['dropdown_docs_and_press_articles_interviews'] = "Articles and Interviews";
+$locale_strings['gr']['dropdown_docs_and_press_articles_interviews'] = "Άρθρα και Συνεντεύξεις";
+$locale_strings['cat']['dropdown_docs_and_press_articles_interviews'] = "Articles and Interviews";
+$locale_strings['zh']['dropdown_docs_and_press_articles_interviews'] = "Articles and Interviews";
 
 $locale_strings['en']['dropdown_docs_and_press_sunny_king_interview'] = "Interview Sunny King";
 $locale_strings['fr']['dropdown_docs_and_press_sunny_king_interview'] = "Interview Sunny King";
