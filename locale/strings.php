@@ -18,6 +18,14 @@ $locale_strings['gr']['dropdown_title_docs_and_press'] = "Έγγραφα";
 $locale_strings['cat']['dropdown_title_docs_and_press'] = "Docs";
 $locale_strings['zh']['dropdown_title_docs_and_press'] = "Docs";
 
+
+$locale_strings['en']['dropdown_docs_news'] = "Peercoin In The News";
+$locale_strings['fr']['dropdown_docs_news'] = "Documents";
+$locale_strings['es']['dropdown_docs_news'] = "Docs";
+$locale_strings['gr']['dropdown_docs_news'] = "Έγγραφα";
+$locale_strings['cat']['dropdown_docs_news'] = "Docs";
+$locale_strings['zh']['dropdown_docs_news'] = "Docs";
+
 $locale_strings['en']['dropdown_docs_and_press_whitepaper'] = "Peercoin Whitepaper";
 $locale_strings['fr']['dropdown_docs_and_press_whitepaper'] = "Livre Blanc Peercoin";
 $locale_strings['es']['dropdown_docs_and_press_whitepaper'] = "Peercoin Whitepaper";
