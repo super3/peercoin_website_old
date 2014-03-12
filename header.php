@@ -8,7 +8,7 @@
   <head>
 	<meta charset="UTF-8">
 	<!-- Title here -->
-	<title>Peercoin - The Secure &amp; Sustainable Cryptocoin.</title>
+	<title><?php echo $Locale->getText("homepage_title"); ?></title>
 
 	<!-- Description, Keywords and Author -->
 	<meta name="description" content="Peercoin - the secure and sustainable cryptocoin." />
@@ -66,48 +66,48 @@
           </button>
           <a class="navbar-brand" href="/">
             <img src="assets/images/logos/Dark-Text-350.png" width="110" alt="Peercoin">
-            <span>The Secure &amp; Sustainable Cryptocoin</span>
+            <span><?php echo $Locale->getText("homepage_title"); ?></span>
           </a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav pull-right">
 
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Docs &amp; Press<b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("dropdown_title_docs_and_press"); ?><b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="whitepaper">Peercoin Whitepaper</a></li>
-                <li><a href="https://github.com/ppcoin/ppcoin/wiki">Wiki (Github)</a></li>
-                <li><a href="http://www.peercointalk.org/index.php?topic=1616.0">Press Kit</a></li>
-                <li><a href="http://www.peercointalk.org/index.php?topic=2219.0">Articles and Interviews</a></li>
+                <li><a href="whitepaper"><?php echo $Locale->getText("dropdown_docs_and_press_whitepaper"); ?></a></li>
+                <li><a href="https://github.com/ppcoin/ppcoin/wiki"><?php echo $Locale->getText("dropdown_docs_and_press_wiki"); ?></a></li>
+                <li><a href="http://www.peercointalk.org/index.php?topic=1616.0"><?php echo $Locale->getText("dropdown_docs_and_press_kit"); ?></a></li>
+                <li><a href="http://www.peercointalk.org/index.php?topic=2219.0"><?php echo $Locale->getText("dropdown_docs_and_press_articles_interviews"); ?></a></li>
                 <?php
                 if (!file_exists('include/recaptcha_keys.php')) {
                 ?>
-                 <li><a href="mailto:sunnyking9999@gmail.com?cc=john.manglaviti@gmail.com&amp;subject=Sunny%20King%20Interview%20Request">Interview Sunny King</a></li>
+                 <li><a href="mailto:sunnyking9999@gmail.com?cc=john.manglaviti@gmail.com&amp;subject=Sunny%20King%20Interview%20Request"><?php echo $Locale->getText("dropdown_docs_and_press_sunny_king_interview"); ?></a></li>
                 <?php } else { ?>
-                <li><a href="interview">Interview Sunny King</a></li>
+                <li><a href="interview"><?php echo $Locale->getText("dropdown_docs_and_press_sunny_king_interview"); ?></a></li>
                 <?php } ?>
               </ul>
             </li>
-            <li><a href="http://peercoin.net/resources">Use Peercoins</a></li>
+            <li><a href="http://peercoin.net/resources"><?php echo $Locale->getText("dropdown_title_use_peercoins"); ?></a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Peercoins <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("dropdown_title_peercoins"); ?> <b class="caret"></b></a>
               <ul class="dropdown-menu">
-		            <li><a href="mining">Mine Peercoins</a></li>
-        		    <li><a href="minting">Mint Peercoins</a></li>
-        		    <li><a href="buying">Buy Peercoins</a></li>
+		            <li><a href="mining"><?php echo $Locale->getText("dropdown_peercoins_mine"); ?></a></li>
+        		    <li><a href="minting"><?php echo $Locale->getText("dropdown_peercoins_mint"); ?></a></li>
+        		    <li><a href="buying"><?php echo $Locale->getText("dropdown_peercoins_buy"); ?></a></li>
                 <li><a href="http://peer4commit.com">Peer4commit</a></li>
               </ul>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contribute <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("dropdown_title_contribute"); ?> <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform">Volunteer</a></li>
-                <li><a href="participate">Participate</a>
+                <li><a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform"><?php echo $Locale->getText("dropdown_contribute_volunteer"); ?></a></li>
+                <li><a href="participate"><?php echo $Locale->getText("dropdown_contribute_participate"); ?></a>
                 <!-- TODO: add more ways to contribute and support the Peercoin community -->
               </ul>
             </li>
             <li><a href="http://www.peercointalk.org/">Forum</a></li>
-            <li class="wallet"><a class="btn btn-primary btn-lg" role="button" href="downloads">Download Wallet!</a></li>
+            <li class="wallet"><a class="btn btn-primary btn-lg" role="button" href="downloads"><?php echo $Locale->getText("download_wallet"); ?>!</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
