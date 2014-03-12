@@ -1,157 +1,231 @@
 <?php include ('header.php'); ?>
+<div class="container content">
 
-	<div class="container content">
-		<div class="row">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1>Peercoin-Qt Downloads</h1>
 
-			<div class="col-lg-12">
-				<h1>Peercoin Downloads</h1>
-			</div>
-		</div>
+            <p><strong>Please select your preferred language!</strong></p>
 
-		<div class="row">
-
-			<div class="downloads">
-				<ul>
-					<li class="windows">
-						<div class="inner">
-							<span class="icon"></span>
-							<h2>Windows</h2>
-							<a href="http://sourceforge.net/projects/ppcoin/files/0.3.0/ppcoin-0.3.0-win32-setup.exe/download">Download Windows Wallet</a>
-						</div>
-					</li>
-					<li class="mac">
-						<div class="inner">
-							<span class="icon"></span>
-							<h2>Mac</h2>
-							<a href="https://mega.co.nz/#!gQwxGTJC!B6D6f1RWbFRBTp-4U0KYYAmAfzEz-myKVzyIPEppHfk">Download Mac Wallet</a>
-						</div>
-					</li>
-					<li class="linux">
-						<div class="inner">
-							<span class="icon"></span>
-							<h2>Linux</h2>
-							<a href="http://sourceforge.net/projects/ppcoin/files/0.3.0/ppcoin-0.3.0-linux.tar.gz/download">Download Linux Wallet</a>
-						</div>
-					</li>
-				</ul>
-			</div> <!-- end downloads -->
-			
-		</div><!-- end row -->
-		
-		<div class="row">
-		    <div class="col-lg-9">
-				<div class="panel-group" id="accordion">
-				  <div class="panel panel-default">
-				    <div class="panel-heading">
-				      <h4 class="panel-title">
-				        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-				          <span class="fui-plus"></span> License
-				        </a>
-				      </h4>
-				    </div>
-				    <div id="collapseOne" class="panel-collapse collapse">
-				      <div class="panel-body">
-				        <p>The MIT License (MIT)</p>
-
-                        <p>Copyright &copy; 2011-<?php echo(date("Y")); ?> Peercoin Developers</p>
-                        <p>Copyright &copy; 2009-2012 Bitcoin Developers</p>
-
-                        <p>Permission is hereby granted, free of charge, to any person obtaining a copy
-                        of this software and associated documentation files (the "Software"), to deal
-                        in the Software without restriction, including without limitation the rights
-                        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-                        copies of the Software, and to permit persons to whom the Software is
-                        furnished to do so, subject to the following conditions:</p>
-
-                        <p>The above copyright notice and this permission notice shall be included in
-                        all copies or substantial portions of the Software.</p>
-
-                        <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-                        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-                        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-                        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-                        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-                        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-                        THE SOFTWARE.</p>
-				      </div>
-				    </div>
-				  </div>
-				</div>
-            </div>
+            <p>The whitepapers are available in Portable Document Format
+            (PDF). Please use your preferred <a href=
+            "http://pdfreaders.org/">software for reading</a>.</p>
         </div>
 
-		<div class="row">
-			<div class="col-lg-12">
-				<h2 class="maintitle">Installation Instructions</h2>
+        <div class="col-lg-12 downloads">
+            <ul>
+                <li class="col-lg-3 windows">
+                    <div class="inner">
+                        <span class="icon"></span>
+                        <h2>Windows</h2>
+                        <a href="http://sourceforge.net/projects/ppcoin/files/0.3.0/ppcoin-0.3.0-win32-setup.exe/download">Download Windows Wallet</a>
+                    </div>
+                </li>
+                <li class="col-lg-3 mac">
+                    <div class="inner">
+                        <span class="icon"></span>
+                        <h2>Mac</h2>
+                        <a href="https://mega.co.nz/#!gQwxGTJC!B6D6f1RWbFRBTp-4U0KYYAmAfzEz-myKVzyIPEppHfk">Download Mac Wallet</a>
+                    </div>
+                </li>
+                <li class="col-lg-3 linux">
+                    <div class="inner">
+                        <span class="icon"></span>
+                        <h2>Linux</h2>
+                        <a href="http://sourceforge.net/projects/ppcoin/files/0.3.0/ppcoin-0.3.0-linux.tar.gz/download">Download Linux Wallet</a>
+                    </div>
+                </li>
+                <li class="col-lg-3">
+                    <div class="inner">
+                        <span class="icon"></span>
+                        <h2>Source Code</h2>
+                        <a href="https://github.com/ppcoin/ppcoin">Go to Github</a>
+                    </div>
+                </li>
+            </ul>
+        </div> 
+    </div>
 
-				<div class="item">
-				<div class="markdown-body">
+    <div class="row">
+        <div class="col-lg-9">
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title"><a class=
+                        "accordion-toggle collapsed" data-parent="#accordion"
+                        data-toggle="collapse" href=
+                        "#collapseOne">License</a></h4>
+                    </div>
 
-				<div class="item">
-					<h3>Windows</h3>
-					<ul>
-						<li>Install <code>ppcoin-0.3.0-win32-setup.exe</code> (<a href="http://cryptocurrencynews.wordpress.com/2013/04/19/getting-started-with-ppcoin/">guide</a>)</li>
-						<li>Default installation directory is <code>C:\Program Files\PPCoin</code></li>
-						<li>Run <code>ppcoin-qt</code> from the Start menu or the installation directory</li>
-					</ul>
-					<h4>Daemon</h4>
-					<ul>
-						<li>Create <code><a class="internal present" href="#ppconf">ppcoin.conf</a></code> in <code>%APPDATA%\PPCoin</code></li>
-						<li>Run <code>daemon\ppcoind</code></li>
-					</ul>
-					<p>Your wallet is located in <code>C:\Users\&lt;username&gt;\AppData</code> <em>(hidden folder)</em>. Open the folder with <code>Start menu -&gt; Run...</code> (or press <code>Winkey-R</code>), type <code>%APPDATA%\PPCoin</code> into the field, and press <code>Enter</code>.</p>
-				</div>
+                    <div class="panel-collapse collapse" id="collapseOne">
+                        <div class="panel-body">
+                            <p>The MIT License (MIT)</p>
 
-				<div class="item">
-					<h3>OS X</h3>
-					<ul>
-						<li>Mount <code>PPCoin-Qt.dmg</code> by opening it</li>
-						<li>Drag <code>PPCoin-Qt.app</code> to <code>Applications</code></li>
-						<li>Go to <code>Applications</code> and open <code>PPCoin-Qt.app</code></li>
-					</ul>
-					<h4>Daemon</h4>
-					<ul>
-						<li>Unzip <code>ppcoind.zip</code></li>
-						<li>Create <code><a class="internal present" href="#ppconf">ppcoin.conf</a></code> in <code>~/Library/Application Support/PPCoin</code></li>
-						<li>Run <code>ppcoind</code></li>
-					</ul>
-					<p>Your wallet is located in <code>~/Library/Application Support/PPCoin</code>.
-					To open the folder, press <code>Command-Shift-G</code> in Finder, insert the path, and press <code>Enter</code>.</p>
-				</div>
+                            <p>Copyright © 2011-<?php echo(date("Y")); ?>
+                            Peercoin Developers</p>
 
-				<div class="item">
-					<h3>Linux</h3>
-					<ul>
-					<li>Unpack <code>ppcoin-0.3.0-linux.tar.gz</code></li>
-					<li>Run <code>bin/32/ppcoin-qt</code> <em>(requires libqt4-gui)</em></li>
-					</ul>
-					<h4>Daemon</h4>
+                            <p>Copyright © 2009-2012 Bitcoin Developers</p>
 
-					<ul>
-						<li>Create <code><a class="internal present" href="#ppconf">ppcoin.conf</a></code> in <code>~/.ppcoin</code></li>
-						<li>Run <code>bin/32/ppcoind</code></li>
-					</ul>
-					<p>Your wallet is located in <code>~/.ppcoin</code>.</p>
+                            <p>Permission is hereby granted, free of charge, to
+                            any person obtaining a copy of this software and
+                            associated documentation files (the "Software"), to
+                            deal in the Software without restriction, including
+                            without limitation the rights to use, copy, modify,
+                            merge, publish, distribute, sublicense, and/or sell
+                            copies of the Software, and to permit persons to
+                            whom the Software is furnished to do so, subject to
+                            the following conditions:</p>
 
-					<p><em>Note: 64 bit binaries available in <code>bin/64/{ppcoin-qt,ppcoind}</code>.</em></p>
-				</div>
+                            <p>The above copyright notice and this permission
+                            notice shall be included in all copies or
+                            substantial portions of the Software.</p>
 
-				<div class="item">
-					<h2 id="config">Configuration</h2>
-					<p><em>Note: Optional if you only use PPCoin-Qt.</em></p>
-					<p>Create <code><a class="internal present" href="#ppconf">ppcoin.conf</a></code> in the wallet directory.</p>
-				</div>
+                            <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT
+                            WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+                            BUT NOT LIMITED TO THE WARRANTIES OF
+                            MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
+                            AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS
+                            OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+                            DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+                            CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF
+                            OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+                            OTHER DEALINGS IN THE SOFTWARE.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-				<div class="item">
-					<h3>Enable RPC query capabilities with PPCoin-Qt</h3>
-					<p>Change or add <code>server=1</code> to <code>ppcoin.conf</code>.</p>
-				</div>
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="maintitle">Installation Instructions</h2>
 
-				<div class="item">
-				<h3 id="ppconf">Sample PPCoin configuration</h3>
-				<p>You have to set <code>rpcpassword</code> to something secure. If you run <code>ppcoind</code> without setting it you will get a computer generated password.</p>
+            <div class="item">
+                <div class="markdown-body">
+                    <div class="item">
+                        <h3>Windows</h3>
 
-<pre><code># ppcoin.conf configuration file. Lines beginning with # are comments.
+                        <ul>
+                            <li>Install
+                            <code>ppcoin-0.3.0-win32-setup.exe</code> (<a href=
+                            "http://cryptocurrencynews.wordpress.com/2013/04/19/getting-started-with-ppcoin/">guide</a>)</li>
+
+                            <li>Default installation directory is
+                            <code>C:\Program Files\PPCoin</code></li>
+
+                            <li>Run <code>ppcoin-qt</code> from the Start menu
+                            or the installation directory</li>
+                        </ul>
+
+                        <h4>Daemon</h4>
+
+                        <ul>
+                            <li>Create <code><a class="internal present" href=
+                            "#ppconf">ppcoin.conf</a></code> in
+                            <code>%APPDATA%\PPCoin</code></li>
+
+                            <li>Run <code>daemon\ppcoind</code></li>
+                        </ul>
+
+                        <p>Your wallet is located in
+                        <code>C:\Users\&lt;username&gt;\AppData</code>
+                        <em>(hidden folder)</em>. Open the folder with
+                        <code>Start menu -&gt; Run...</code> (or press
+                        <code>Winkey-R</code>), type
+                        <code>%APPDATA%\PPCoin</code> into the field, and press
+                        <code>Enter</code>.</p>
+                    </div>
+
+                    <div class="item">
+                        <h3>OS X</h3>
+
+                        <ul>
+                            <li>Mount <code>PPCoin-Qt.dmg</code> by opening
+                            it</li>
+
+                            <li>Drag <code>PPCoin-Qt.app</code> to
+                            <code>Applications</code></li>
+
+                            <li>Go to <code>Applications</code> and open
+                            <code>PPCoin-Qt.app</code></li>
+                        </ul>
+
+                        <h4>Daemon</h4>
+
+                        <ul>
+                            <li>Unzip <code>ppcoind.zip</code></li>
+
+                            <li>Create <code><a class="internal present" href=
+                            "#ppconf">ppcoin.conf</a></code> in
+                            <code>~/Library/Application
+                            Support/PPCoin</code></li>
+
+                            <li>Run <code>ppcoind</code></li>
+                        </ul>
+
+                        <p>Your wallet is located in
+                        <code>~/Library/Application Support/PPCoin</code>. To
+                        open the folder, press <code>Command-Shift-G</code> in
+                        Finder, insert the path, and press
+                        <code>Enter</code>.</p>
+                    </div>
+
+                    <div class="item">
+                        <h3>Linux</h3>
+
+                        <ul>
+                            <li>Unpack
+                            <code>ppcoin-0.3.0-linux.tar.gz</code></li>
+
+                            <li>Run <code>bin/32/ppcoin-qt</code> <em>(requires
+                            libqt4-gui)</em></li>
+                        </ul>
+
+                        <h4>Daemon</h4>
+
+                        <ul>
+                            <li>Create <code><a class="internal present" href=
+                            "#ppconf">ppcoin.conf</a></code> in
+                            <code>~/.ppcoin</code></li>
+
+                            <li>Run <code>bin/32/ppcoind</code></li>
+                        </ul>
+
+                        <p>Your wallet is located in
+                        <code>~/.ppcoin</code>.</p>
+
+                        <p><em>Note: 64 bit binaries available in
+                        <code>bin/64/{ppcoin-qt,ppcoind}</code>.</em></p>
+                    </div>
+
+                    <div class="item">
+                        <h2 id="config">Configuration</h2>
+
+                        <p><em>Note: Optional if you only use
+                        PPCoin-Qt.</em></p>
+
+                        <p>Create <code><a class="internal present" href=
+                        "#ppconf">ppcoin.conf</a></code> in the wallet
+                        directory.</p>
+                    </div>
+
+                    <div class="item">
+                        <h3>Enable RPC query capabilities with PPCoin-Qt</h3>
+
+                        <p>Change or add <code>server=1</code> to
+                        <code>ppcoin.conf</code>.</p>
+                    </div>
+
+                    <div class="item">
+                        <h3 id="ppconf">Sample PPCoin configuration</h3>
+
+                        <p>You have to set <code>rpcpassword</code> to
+                        something secure. If you run <code>ppcoind</code>
+                        without setting it you will get a computer generated
+                        password.</p>
+                        <pre>
+<code># ppcoin.conf configuration file. Lines beginning with # are comments.
 
 ### Network-related settings
 
@@ -262,19 +336,24 @@
 # Reserve amount of PPCoins to not use in proof-of-stake
 # (stake is withheld from spending for 520 blocks)
 #reservebalance=0
-</code></pre>
+</code>
+</pre>
+                    </div>
+
+                    <h2>Mining</h2>
+
+                    <p>You should be able to use most <a href=
+                    "https://en.bitcoin.it/wiki/Category:Miners">Bitcoin
+                    miners</a>. Default RPC port is 9902 for
+                    <code>ppcoind</code>.</p>
+
+                    <p><em>Note: Peercoin does not support <a href=
+                    "http://dot-bit.org/Merged_Mining">merged mining</a> with
+                    Bitcoin.</em></p>
+                </div>
+            </div>
+        </div><!-- end col -->
+    </div><!-- end row -->
+
 </div>
-
-				<h2>Mining</h2>
-				<p>You should be able to use most <a href="https://en.bitcoin.it/wiki/Category:Miners">Bitcoin miners</a>. Default RPC port is 9902 for <code>ppcoind</code>.</p>
-				<p><em>Note: Peercoin does not support <a href="http://dot-bit.org/Merged_Mining">merged mining</a> with Bitcoin.</em></p>
-			    </div>
-				</div>
-
-			</div><!-- end col -->
-		</div><!-- end row -->
-
-
-	</div>
-
-	<?php include ('footer.php'); ?>
+<?php include ('footer.php'); ?>
