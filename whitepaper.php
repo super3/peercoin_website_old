@@ -55,9 +55,16 @@
                     </div>
                 </li>
 
-                 <li class="col-lg-3 pdf">
+                <li class="col-lg-3 pdf">
                     <div class="inner">
                         <h2>Chinese</h2><a href="bin/peercoin-paper-cn.pdf"
+                        target="_blank">Download PDF</a>
+                    </div>
+                </li>
+
+                <li class="col-lg-3 pdf">
+                    <div class="inner">
+                        <h2>Japanese</h2><a href="bin/peercoin-paper-jp.pdf"
                         target="_blank">Download PDF</a>
                     </div>
                 </li>

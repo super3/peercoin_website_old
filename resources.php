@@ -4,10 +4,8 @@
 		<div class="row">
 
 			<div class="col-lg-12">
-				      	<h1>A list of Peercoin resources</h1>
-
 				      	<div class="item">
-					      	<h2 name="#pools">Mining Pools</h2>
+					      	<h2 name="pools">Mining Pools</h2>
 							<p>Peercoin started as a Proof-Of-Work coin. As there are now a lot of coins generated, the network is slowly switching to Proof-Of-Stake minting. Bitcoin ASIC hardware also works
 							on the Peercoin network. With this, the increasing popularity of Peercoin, increased minting rate, and the decreasing return on mining, competition for blocks becomes fiercer.
 							Even with powerful hardware it is difficult to mine alone.	Mining pools combine the power of all participants to find block, and share the reward based on shares. Read the instructions of each pool carefully as connection protocols and software
@@ -29,7 +27,7 @@
 				        </div>
 
 				        <div class="item">
-					        <h2 name="#exchanges"> Exchanges</h2>
+					        <h2 name="exchanges"> Exchanges</h2>
 
 					        <p>Exchanges are the trading websites where you can buy or sell Peercoin. Be careful not to place large sums of Peercoin on exchanges without adequate security measures such as a good password and 2-factor authentication.
 							Minting coins is also impossible on exchanges.</p><br>
@@ -52,7 +50,7 @@
 				        </div>
 
 				        <div class="item">
-					       <h2 name="#gettingstarted"> Getting started</h2>
+					       <h2 name="gettingstarted"> Getting started</h2>
 							<p><strong>Here are some tutorials that can help you out if you are new to cryptocurrencies as Peercoin.</strong></p>
 					        <ul style="list-style-type: circle;">
 					            <li><a href="https://www.youtube.com/watch?v=TjL2AgCQDJ0">What is Peercoin?</a> -  YouTube Introduction into Peercoin; What makes it different from BTC?</li>
@@ -63,7 +61,7 @@
 				        </div>
 
 				        <div class="item">
-					        <h2 name="tools"> Peercoin Tools</h2>
+					       <h2 name="tools"> Peercoin Tools</h2>
 					       <p><strong>These tools provide statistics on the network, allow you to track payments or calculate mining returns.</strong></p>
 					        <ul style="list-style-type: circle;">
 					            <li><a href="http://blockexplorer.ppcointalk.org/">http://blockexplorer.ppcointalk.org/</a> -  Blockchain Viewer: View transactions on the blockchain</li>

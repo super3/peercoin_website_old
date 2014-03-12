@@ -77,6 +77,15 @@
               <ul class="dropdown-menu">
                 <li><a href="whitepaper">Peercoin Whitepaper</a></li>
                 <li><a href="https://github.com/ppcoin/ppcoin/wiki">Wiki (Github)</a></li>
+                <li><a href="http://www.peercointalk.org/index.php?topic=1616.0">Press Kit</a></li>
+                <li><a href="http://www.peercointalk.org/index.php?topic=2219.0">Articles and Interviews</a></li>
+                <?php
+                if (!file_exists('include/recaptcha_keys.php')) {
+                ?>
+                 <li><a href="mailto:sunnyking9999@gmail.com?cc=john.manglaviti@gmail.com&amp;subject=Sunny%20King%20Interview%20Request">Interview Sunny King</a></li>
+                <?php } else { ?>
+                <li><a href="interview">Interview Sunny King</a></li>
+                <?php } ?>
               </ul>
             </li>
             <li><a href="http://peercoin.net/resources">Use Peercoins</a></li>
