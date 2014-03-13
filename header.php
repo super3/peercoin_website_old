@@ -11,7 +11,7 @@
 	<title><?php echo $Locale->getText("homepage_title"); ?></title>
 
 	<!-- Description, Keywords and Author -->
-	<meta name="description" content="Peercoin - the secure and sustainable cryptocoin." />
+	<meta name="description" content="Secure and sustainable cryptocoin." />
 	<meta name="keywords" content="peercoin, bitcoin, litecoin, primecoin, cryptocurrency, sustainable, cryptocoin">
 	<meta name="author" content="Peercoin">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +21,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="http://peercoin.net" />
 	<meta property="og:image" content="http://peercoin.net/img/logo.png"/>
-	<meta property="og:description" content="Peercoin - the secure and sustainable cryptocoin." />
+	<meta property="og:description" content="Secure and sustainable cryptocoin." />
 
 	<meta name="google-site-verification" content="-GOUzkxsjMUypgT8xj6GD4W9xNv_SMeorTZtOKPRzg8" />
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
