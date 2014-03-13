@@ -99,31 +99,31 @@
 
             <ul style="list-style-type: circle;">
               <li>
-                <a href="https://www.vaultofsatoshi.com/orderbook">Vault Of Satoshi</a> -  USD / CAD / BTC / LTC / Other Cryptocurrency
+                <a href="https://www.vaultofsatoshi.com/orderbook">Vault Of Satoshi</a> - USD / CAD / BTC / LTC / Other Cryptocurrency
               </li>
               <li>
-                <a href="https://crypto-trade.com/trade/ppc_usd">Crypto Trade</a> -  USD / EUR / BTC / LTC / Other Cryptocurrency
+                <a href="https://crypto-trade.com/trade/ppc_usd">Crypto Trade</a> - USD / EUR / BTC / LTC / Other Cryptocurrency
               </li>
               <li>
-                <a href="https://btc-e.com/">BTC-e</a> -  USD / EUR / RUR / BTC / LTC / Other Cryptocurrency
+                <a href="https://btc-e.com/">BTC-e</a> - USD / EUR / RUR / BTC / LTC / Other Cryptocurrency
               </li>
               <li>
-                <a href="https://coinmkt.com/#/">CoinMarket Exchange</a> -  BTC / LTC / NMC / FTC / Other Cryptocurrency
+                <a href="https://coinmkt.com/#/">CoinMarket</a> - BTC / LTC / NMC / FTC / Other Cryptocurrency
               </li>
               <li>
-                <a href="https://796.com/ppcusd/market">796 - Hong Kong Exchange</a> - USD / BTC / LTC
+                <a href="https://796.com/ppcusd/market">796</a> - USD / BTC / LTC
               </li>
               <li>
-                <a href="https://vircurex.com/welcome/index?alt=ppc&amp;base=btc">Vircurex exchange</a> - High volume PPC/BTC exchange
+                <a href="https://vircurex.com/welcome/index?alt=ppc&amp;base=btc">Vircurex</a> - USD / EUR / BTC / LTC / NMC / Other Cryptocurrency
               </li>
               <li>
-                <a href="https://www.cryptsy.com/">Cryptsy exchange</a> - Support for almost all popular altcoins. Lots of trading pairs.
+                <a href="https://www.cryptsy.com/">Cryptsy</a> - Almost all popular cryptocurrencies.
               </li>
               <li>
-                <a href="http://cryptonit.net/">Cryptonit exchange</a> -  Low Fee exchange
+                <a href="http://cryptonit.net/">Cryptonit</a> - USD / EUR / BTC / LTC / Other Cryptocurrency
               </li>
               <li>
-                <a href="https://www.btc38.com/">Btc38 exchange</a> - Chinese exchange
+                <a href="https://www.btc38.com/">Btc38 (Chinese)</a> - BTC / LTC / Other Cryptocurrency
               </li>
             </ul>
           </div>
