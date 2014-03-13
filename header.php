@@ -102,7 +102,8 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("dropdown_title_contribute"); ?> <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform"><?php echo $Locale->getText("dropdown_contribute_volunteer"); ?></a></li>
-                <li><a href="participate"><?php echo $Locale->getText("dropdown_contribute_participate"); ?></a>
+                <li><a href="participate"><?php echo $Locale->getText("dropdown_contribute_participate"); ?></a></li>
+                <li><a href="sponsor">Sponsor</a></li>
                 <!-- TODO: add more ways to contribute and support the Peercoin community -->
               </ul>
             </li>
