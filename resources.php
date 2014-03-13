@@ -6,7 +6,7 @@
         <div class="item col-md-6">
           <h2 name="gettingstarted">Getting Started</h2>
           <p>
-            <strong>Here are some tutorials that can help you out if you are new to cryptocurrencies like Peercoin.</strong>
+            <strong>Here are some tutorials that can help you out if you are new to cryptocurrencies.</strong>
           </p>
           <ul style="list-style-type: circle;">
             <li>
