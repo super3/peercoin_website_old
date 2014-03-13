@@ -2,12 +2,12 @@
 
 //title
 
-$locale_strings['en']['homepage_title'] = "Peercoin - The Secure &amp; Sustainable Cryptocoin.";
-$locale_strings['fr']['homepage_title'] = "Peercoin - La Crypto-monnaie Sûre &amp; Durable.";
-$locale_strings['es']['homepage_title'] = "Peercoin - The Secure &amp; Sustainable Cryptocoin.";
-$locale_strings['gr']['homepage_title'] = "Peercoin - Το ασφαλές &amp; Ανεκτό Κρυπτονόμισμα.";
-$locale_strings['cat']['homepage_title'] = "Peercoin - The Secure &amp; Sustainable Cryptocoin.";
-$locale_strings['zh']['homepage_title'] = "Peercoin - The Secure &amp; Sustainable Cryptocoin.";
+$locale_strings['en']['homepage_title'] = "Secure &amp; Sustainable Cryptocoin.";
+$locale_strings['fr']['homepage_title'] = "Crypto-monnaie Sûre &amp; Durable.";
+$locale_strings['es']['homepage_title'] = "Secure &amp; Sustainable Cryptocoin.";
+$locale_strings['gr']['homepage_title'] = "ασφαλές &amp; Ανεκτό Κρυπτονόμισμα.";
+$locale_strings['cat']['homepage_title'] = "Secure &amp; Sustainable Cryptocoin.";
+$locale_strings['zh']['homepage_title'] = "Secure &amp; Sustainable Cryptocoin.";
 
 //dropdown menu (header)
 
