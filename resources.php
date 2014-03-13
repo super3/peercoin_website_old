@@ -4,9 +4,9 @@
       <div class="row">
 
         <div class="item col-md-6">
-          <h2 name="gettingstarted"> Getting started</h2>
+          <h2 name="gettingstarted">Getting Started</h2>
           <p>
-            <strong>Here are some tutorials that can help you out if you are new to cryptocurrencies as Peercoin.</strong>
+            <strong>Here are some tutorials that can help you out if you are new to cryptocurrencies.</strong>
           </p>
           <ul style="list-style-type: circle;">
             <li>
@@ -16,7 +16,7 @@
               <a href="http://www.ppcointalk.org/">Peercoin Talk</a> -  Peercoin Talk - Official Peercoin Forum
             </li>
             <li>
-              <a href="http://www.reddit.com/r/peercoin">Reddit Peercoin forum</a> -  Peercoin subreddit
+              <a href="http://www.reddit.com/r/peercoin">Reddit /r/Peercoin</a> -  Peercoin subreddit
             </li>
             <li>
               <a href="https://bitcointalk.org/index.php?board=67.0">Bitcoin Talk</a> -  BitcoinTalk Alternative Cryptocurrencies forum
@@ -30,16 +30,16 @@
           </p>
           <ul style="list-style-type: circle;">
             <li>
-              <a href="http://blockexplorer.ppcointalk.org/">http://blockexplorer.ppcointalk.org/</a> -  Blockchain Viewer: View transactions on the blockchain
+              <a href="http://blockexplorer.ppcointalk.org/">PPCointalk Explorer</a> -  Blockchain Viewer: View transactions on the blockchain
             </li>
             <li>
-              <a href="http://ppc.cryptocoinexplorer.com/">http://ppc.cryptocoinexplorer.com/</a> -  Blockchain Explorer: View transactions by PPC address
+              <a href="http://ppc.cryptocoinexplorer.com/">Cryptocoin Explorer/</a> -  Blockchain Explorer: View transactions by PPC address
             </li>
             <li>
-              <a href="http://bitinfocharts.com/comparison/hashrate-ppc.html">http://bitinfocharts.com/comparison/hashrate-ppc.html</a> -  Peercoin Network Statistics
+              <a href="http://bitinfocharts.com/comparison/hashrate-ppc.html">Hahsrate Chart</a> -  Peercoin Network Statistics
             </li>
             <li>
-              <a href="http://bitinfocharts.com/">http://bitinfocharts.com/</a> -  Compare Peercoin statistics to other cryptocurrencies
+              <a href="http://bitinfocharts.com/">BitInfoCharts</a> -  Compare Peercoin statistics to other cryptocurrencies
             </li>
             <li>
               <a href="http://www.coinwarz.com/calculators/peercoin-mining-calculator">Coinwarz Mining Calculator</a> -  Calculate expected return on PPC mining
@@ -70,9 +70,6 @@
             <li>
               <a href="http://ppc.fixx.ru/">Fixx</a> -  1% fee, PPLNS: payout per share of the last N rounds
             </li>
-            <li>
-              <a href="https://hynodeva.com/">Hynodeva</a> - Currently under upgrade
-            </li>
           </ul>
           <p>
             <strong>One can also mine PPC via multicoin pools</strong>
@@ -92,61 +89,50 @@
         <div class="col-lg-12">
 
           <div class="item col-md-6">
-            <h2 name="exchanges"> Exchanges</h2>
+            <h2 name="exchanges">Exchanges</h2>
 
             <p>
-              Exchanges are the trading websites where you can buy or sell Peercoin. Be careful not to place large sums of Peercoin on exchanges without adequate security measures such as a good password and 2-factor authentication.
-              Minting coins is also impossible on exchanges.
+              Exchanges are where you can trade Peercoin for different currencies. Be careful not to place
+              large sums of Peercoin on exchanges, especially without adequate security measures (a good 
+              password and 2-factor authentication).
             </p>
             <br>
 
-              <p>
-                <strong>Buying with Fiat Money (e.g. Dollar or Euro):</strong>
-              </p>
-              <ul style="list-style-type: circle;">
-                <li>
-                  <a href="https://www.vaultofsatoshi.com/orderbook">Vault Of Satoshi</a> -  Canadian/US exchange
-                </li>
-                <li>
-                  <a href="https://crypto-trade.com/trade/ppc_usd">Crypto Trade</a> -  First fiat/PPC exchange
-                </li>
-                <li>
-                  <a href="https://btc-e.com/">BTC-e</a> -  Russian exchange, largest trading volume
-                </li>
-                <li>
-                  <a href="https://coinmkt.com/#/">CoinMarket Exchange</a> -  US-based exchange
-                </li>
-                <li>
-                  <a href="https://796.com/ppcusd/market">796 - Hong Kong Exchange</a>
-                </li>
-              </ul>
-
-              <p>
-                <strong>Buying with cryptocurrency:</strong>
-              </p>
-              <ul style="list-style-type: circle;">
-                <li>
-                  <a href="https://vircurex.com/welcome/index?alt=ppc&amp;base=btc">Vircurex exchange</a> - High volume PPC/BTC exchange
-                </li>
-                <li>
-                  <a href="https://www.cryptsy.com/">Cryptsy exchange</a> - Support for almost all popular altcoins. Lots of trading pairs.
-                </li>
-                <li>
-                  <a href="http://cryptonit.net/">Cryptonit exchange</a> -  Low Fee exchange
-                </li>
-                <li>
-                  <a href="https://www.btc38.com/">Btc38 exchange</a> - Chinese exchange
-                </li>
-              </ul>
-            </div>
+            <ul style="list-style-type: circle;">
+              <li>
+                <a href="https://www.vaultofsatoshi.com/orderbook">Vault Of Satoshi</a> - Candadian / US Exchange (USD / CAD / BTC / LTC / Other Cryptocurrency)
+              </li>
+              <li>
+                <a href="https://crypto-trade.com/trade/ppc_usd">Crypto Trade</a> - First Fiat/PPC Exchange (USD / EUR / BTC / LTC / Other Cryptocurrency)
+              </li>
+              <li>
+                <a href="https://btc-e.com/">BTC-e</a> - Russian Exchange, Highest Volume (USD / EUR / RUR / BTC / LTC / Other Cryptocurrency)
+              </li>
+              <li>
+                <a href="https://coinmkt.com/#/">CoinMarket</a> - US-Based Exchange (BTC / LTC / NMC / FTC / Other Cryptocurrency)
+              </li>
+              <li>
+                <a href="https://796.com/ppcusd/market">796</a> - Hong Kong Exchange (USD / BTC / LTC)
+              </li>
+              <li>
+                <a href="https://vircurex.com/welcome/index?alt=ppc&amp;base=btc">Vircurex</a> - High Volume PPC/BTC Exchange (USD / EUR / BTC / LTC / NMC / Other Cryptocurrency)
+              </li>
+              <li>
+                <a href="https://www.cryptsy.com/">Cryptsy</a> - Support for almost all popular cryptocurrencies.
+              </li>
+              <li>
+                <a href="http://cryptonit.net/">Cryptonit</a> - Low Fee Exchange (USD / EUR / BTC / LTC / Other Cryptocurrency)
+              </li>
+              <li>
+                <a href="https://www.btc38.com/">Btc38</a> - Chinese Exchange (BTC / LTC / Other Cryptocurrency)
+              </li>
+            </ul>
+          </div>
 
           <div class="item col-md-6">
             <h2 name="""retail"> Shops, Retail product and Services accepting Peercoin</h2>
             <p>
               <strong>Use your peercoins for purchase and trade and make Peercoin commonly used world wide</strong>
-            </p>
-            <p>
-              <strong>Physical goods</strong>
             </p>
             <ul style="list-style-type: circle;">
               <li>
