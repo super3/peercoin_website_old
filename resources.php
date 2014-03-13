@@ -88,7 +88,7 @@
         <div class="col-lg-12">
 
           <div class="item col-md-6">
-            <h2 name="exchanges"> Exchanges</h2>
+            <h2 name="exchanges">Exchanges</h2>
 
             <p>
               Exchanges are where you can trade Peercoin for different currencies. Be careful not to place
@@ -99,31 +99,31 @@
 
             <ul style="list-style-type: circle;">
               <li>
-                <a href="https://www.vaultofsatoshi.com/orderbook">Vault Of Satoshi</a> - USD / CAD / BTC / LTC / Other Cryptocurrency
+                <a href="https://www.vaultofsatoshi.com/orderbook">Vault Of Satoshi</a> - Candadian / US Exchange (USD / CAD / BTC / LTC / Other Cryptocurrency)
               </li>
               <li>
-                <a href="https://crypto-trade.com/trade/ppc_usd">Crypto Trade</a> - USD / EUR / BTC / LTC / Other Cryptocurrency
+                <a href="https://crypto-trade.com/trade/ppc_usd">Crypto Trade</a> - First Fiat/PPC Exchange (USD / EUR / BTC / LTC / Other Cryptocurrency)
               </li>
               <li>
-                <a href="https://btc-e.com/">BTC-e</a> - USD / EUR / RUR / BTC / LTC / Other Cryptocurrency
+                <a href="https://btc-e.com/">BTC-e</a> - Russian Exchange, Highest Volume (USD / EUR / RUR / BTC / LTC / Other Cryptocurrency)
               </li>
               <li>
-                <a href="https://coinmkt.com/#/">CoinMarket</a> - BTC / LTC / NMC / FTC / Other Cryptocurrency
+                <a href="https://coinmkt.com/#/">CoinMarket</a> - US-Based Exchange (BTC / LTC / NMC / FTC / Other Cryptocurrency)
               </li>
               <li>
-                <a href="https://796.com/ppcusd/market">796</a> - USD / BTC / LTC
+                <a href="https://796.com/ppcusd/market">796</a> - Hong Kong Exchange (USD / BTC / LTC)
               </li>
               <li>
-                <a href="https://vircurex.com/welcome/index?alt=ppc&amp;base=btc">Vircurex</a> - USD / EUR / BTC / LTC / NMC / Other Cryptocurrency
+                <a href="https://vircurex.com/welcome/index?alt=ppc&amp;base=btc">Vircurex</a> - High Volume PPC/BTC Exchange (USD / EUR / BTC / LTC / NMC / Other Cryptocurrency)
               </li>
               <li>
-                <a href="https://www.cryptsy.com/">Cryptsy</a> - Almost all popular cryptocurrencies.
+                <a href="https://www.cryptsy.com/">Cryptsy</a> - Support for almost all popular cryptocurrencies.
               </li>
               <li>
-                <a href="http://cryptonit.net/">Cryptonit</a> - USD / EUR / BTC / LTC / Other Cryptocurrency
+                <a href="http://cryptonit.net/">Cryptonit</a> - Low Fee Exchange (USD / EUR / BTC / LTC / Other Cryptocurrency)
               </li>
               <li>
-                <a href="https://www.btc38.com/">Btc38 (Chinese)</a> - BTC / LTC / Other Cryptocurrency
+                <a href="https://www.btc38.com/">Btc38</a> - Chinese Exchange (BTC / LTC / Other Cryptocurrency)
               </li>
             </ul>
           </div>
