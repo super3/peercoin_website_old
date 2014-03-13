@@ -10,7 +10,7 @@
         <div class="article_image" style="background-image:url('http://cointrader.org/wp-content/uploads/2014/01/peercoin.png')"></div>
         <div class ="article_summary">
           <div style="color:white;background-color:#1ABC9C;text-align:center; font-weight:bold;margin:0px; padding:0px;">
-            <a style="color:white;" href="http://cointrader.org/peercoin-proof-of-stake-and-bitcoin/" target="_blank">Could Peercoin and "Proof-of-Stake" Turn Bitcoin Into The Myspace of Cryptocurrency?  |  CoinTrader.org</a>
+            <a style="color:white;" href="http://cointrader.org/peercoin-proof-of-stake-and-bitcoin/" target="_blank">Could Peercoin and "Proof-of-Stake" Turn Bitcoin Into The Myspace of Cryptocurrency?</a>
           </div>The thought alone is blasphemy to some.. As crypto explodes and segregates into multiple camps - all touting the supposed superiority of their respective coins - Things are starting to feel very "tribal", to say the least. Discussion of Bitcoin alternatives usually ends up with emotional investment, getting in the way of logical progression.
         </div>
       </div>
@@ -30,8 +30,8 @@
         <div class="article_image" style="background-image:url('http://fortunewallstreet.files.wordpress.com/2013/11/131007094949-bitcoin-620xa1.jpg')"></div>
         <div class ="article_summary">
           <div style="color:white;background-color:#1ABC9C;text-align:center; font-weight:bold;margin:0px; padding:0px;">
-            <a style="color:white;" href="http://finance.fortune.cnn.com/2013/12/24/bitcoin-altcoin-cryptocurrency/" target="_blank">Beyond bitcoin: Inside the cryptocurrency ecosystem - The Term Sheet: Fortune's deals blogTerm Sheet</a>
-          </div>Bitcoin has spawned numerous spinoffs and imitators. Why the sudden proliferation of â€œaltcoinsâ€ â€“ and what are the chances that any of them matter?
+            <a style="color:white;" href="http://finance.fortune.cnn.com/2013/12/24/bitcoin-altcoin-cryptocurrency/" target="_blank">Beyond bitcoin: Inside the cryptocurrency ecosystem</a>
+          </div>Bitcoin has spawned numerous spinoffs and imitators. Why the sudden proliferation of "altcoins" and what are the chances that any of them matter?
         </div>
       </div>
     </div>
@@ -70,8 +70,8 @@
         <div class="article_image" style="background-image:url('http://btcmag.9wizards.netdna-cdn.com/wp-content/uploads/2013/08/ppcoin.png')"></div>
         <div class ="article_summary">
           <div style="color:white;background-color:#1ABC9C;text-align:center; font-weight:bold;margin:0px; padding:0px;">
-            <a style="color:white;" href="http://bitcoinmagazine.com/6528/what-proof-of-stake-is-and-why-it-matters/]http://bitcoinmagazine.com/6528/what-proof-of-stake-is-and-why-it-matters/" target="_blank">What Proof of Stake Is And Why It Matters - Bitcoin Magazine</a>
-          </div>If you have been involved in Bitcoin for any significant length of time, you have probably at least heard of the idea of â€œproof of workâ€. The basic concept behind proof of work is simple: one party (usually called the prover) presents the result of a computation which is known to be hard to compute, but easy to verify, and by verifying the solution anyone else can be sure that the prover performed a certain amount of computational work to generate the result. The first modern application, presented as â€œHashcashâ€ by Adam Back in 1996, uses a SHA256-based proof of work as an anti-spam measure â€“ by requiring all emails to come with a strong proof-of-work attached, the system makes â€¦
+            <a style="color:white;" href="http://bitcoinmagazine.com/6528/what-proof-of-stake-is-and-why-it-matters/]http://bitcoinmagazine.com/6528/what-proof-of-stake-is-and-why-it-matters/" target="_blank">What Proof of Stake Is And Why It Matters</a>
+          </div>If you have been involved in Bitcoin for any significant length of time, you have probably at least heard of the idea of "proof of work." The basic concept behind proof of work is simple: one party (usually called the prover) presents the result of a computation which is known to be hard to compute, but easy to verify, and by verifying the solution anyone else can be sure that the prover performed a certain amount of computational work to generate the result. The first modern application, presented as "Hashcash" by Adam Back in 1996, uses a SHA256-based proof of work as an anti-spam measure by requiring all emails to come with a strong proof-of-work attached, the system makes â€¦
         </div>
       </div>
     </div>
