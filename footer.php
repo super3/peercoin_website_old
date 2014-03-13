@@ -36,10 +36,11 @@
 				<div class="col-lg-3">
 					<h2><?php echo $Locale->getText("mining"); ?></h2>
 					<ul>
+						<li><a href="https://peercoin.blockmines.com/">Blockmines</a></li>
 						<li><a href="https://peercoin.ecoining.com/">Ecoining Pool</a></li>
 						<li><a href="https://www.coinotron.com/">Coinotron</a></li>
 						<li><a href="https://ppcoin.d7.lt/">D7 Pool</a></li>
-						<li><a href="http://ppc.fixx.ru/index">Fixx</a></li>
+						
 					</ul>
 				</div>
 			</div><!-- /row -->
