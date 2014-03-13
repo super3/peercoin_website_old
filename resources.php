@@ -69,11 +69,6 @@
             <li>
               <a href="http://ppc.fixx.ru/">Fixx</a> -  1% fee, PPLNS: payout per share of the last N rounds
             </li>
-            <!-- Pool is dead, why is it here? 
-            <li>
-              <a href="https://hynodeva.com/">Hynodeva</a> - Currently under upgrade
-            </li>
-            -->
           </ul>
           <p>
             <strong>One can also mine PPC via multicoin pools</strong>
