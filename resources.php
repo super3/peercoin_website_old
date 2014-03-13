@@ -4,9 +4,9 @@
       <div class="row">
 
         <div class="item col-md-6">
-          <h2 name="gettingstarted"> Getting started</h2>
+          <h2 name="gettingstarted">Getting Started</h2>
           <p>
-            <strong>Here are some tutorials that can help you out if you are new to cryptocurrencies as Peercoin.</strong>
+            <strong>Here are some tutorials that can help you out if you are new to cryptocurrencies like Peercoin.</strong>
           </p>
           <ul style="list-style-type: circle;">
             <li>
@@ -30,16 +30,16 @@
           </p>
           <ul style="list-style-type: circle;">
             <li>
-              <a href="http://blockexplorer.ppcointalk.org/">http://blockexplorer.ppcointalk.org/</a> -  Blockchain Viewer: View transactions on the blockchain
+              <a href="http://blockexplorer.ppcointalk.org/">PPCointalk Explorer</a> -  Blockchain Viewer: View transactions on the blockchain
             </li>
             <li>
-              <a href="http://ppc.cryptocoinexplorer.com/">http://ppc.cryptocoinexplorer.com/</a> -  Blockchain Explorer: View transactions by PPC address
+              <a href="http://ppc.cryptocoinexplorer.com/">Cryptocoin Explorer/</a> -  Blockchain Explorer: View transactions by PPC address
             </li>
             <li>
-              <a href="http://bitinfocharts.com/comparison/hashrate-ppc.html">http://bitinfocharts.com/comparison/hashrate-ppc.html</a> -  Peercoin Network Statistics
+              <a href="http://bitinfocharts.com/comparison/hashrate-ppc.html">Hahsrate Chart</a> -  Peercoin Network Statistics
             </li>
             <li>
-              <a href="http://bitinfocharts.com/">http://bitinfocharts.com/</a> -  Compare Peercoin statistics to other cryptocurrencies
+              <a href="http://bitinfocharts.com/">BitInfoCharts</a> -  Compare Peercoin statistics to other cryptocurrencies
             </li>
             <li>
               <a href="http://www.coinwarz.com/calculators/peercoin-mining-calculator">Coinwarz Mining Calculator</a> -  Calculate expected return on PPC mining
@@ -97,31 +97,22 @@
             </p>
             <br>
 
-            <p>
-              <strong>Buying with Fiat Money (e.g. Dollar or Euro):</strong>
-            </p>
             <ul style="list-style-type: circle;">
               <li>
-                <a href="https://www.vaultofsatoshi.com/orderbook">Vault Of Satoshi</a> -  Canadian/US exchange
+                <a href="https://www.vaultofsatoshi.com/orderbook">Vault Of Satoshi</a> -  USD / CAD / BTC / LTC / Other Cryptocurrency
               </li>
               <li>
-                <a href="https://crypto-trade.com/trade/ppc_usd">Crypto Trade</a> -  First fiat/PPC exchange
+                <a href="https://crypto-trade.com/trade/ppc_usd">Crypto Trade</a> -  USD / EUR / BTC / LTC / Other Cryptocurrency
               </li>
               <li>
-                <a href="https://btc-e.com/">BTC-e</a> -  Russian exchange, largest trading volume
+                <a href="https://btc-e.com/">BTC-e</a> -  USD / EUR / RUR / BTC / LTC / Other Cryptocurrency
               </li>
               <li>
-                <a href="https://coinmkt.com/#/">CoinMarket Exchange</a> -  US-based exchange
+                <a href="https://coinmkt.com/#/">CoinMarket Exchange</a> -  BTC / LTC / NMC / FTC / Other Cryptocurrency
               </li>
               <li>
-                <a href="https://796.com/ppcusd/market">796 - Hong Kong Exchange</a>
+                <a href="https://796.com/ppcusd/market">796 - Hong Kong Exchange</a> - USD / BTC / LTC
               </li>
-            </ul>
-  
-            <p>
-              <strong>Buying with cryptocurrency:</strong>
-            </p>
-            <ul style="list-style-type: circle;">
               <li>
                 <a href="https://vircurex.com/welcome/index?alt=ppc&amp;base=btc">Vircurex exchange</a> - High volume PPC/BTC exchange
               </li>
