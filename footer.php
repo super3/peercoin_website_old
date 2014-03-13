@@ -40,7 +40,6 @@
 						<li><a href="https://peercoin.ecoining.com/">Ecoining Pool</a></li>
 						<li><a href="https://www.coinotron.com/">Coinotron</a></li>
 						<li><a href="https://ppcoin.d7.lt/">D7 Pool</a></li>
-						
 					</ul>
 				</div>
 			</div><!-- /row -->
