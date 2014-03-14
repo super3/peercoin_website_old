@@ -107,7 +107,7 @@
                 <!-- TODO: add more ways to contribute and support the Peercoin community -->
               </ul>
             </li>
-            <li><a href="http://www.peercointalk.org/">Forum</a></li>
+            <li><a href="http://www.peercointalk.org/"><?php echo $Locale->getText("dropdown_forum"); ?></a></li>
             <li class="wallet"><a class="btn btn-primary btn-lg" role="button" href="downloads"><?php echo $Locale->getText("download_wallet"); ?>!</a></li>
           </ul>
         </div><!--/.nav-collapse -->
