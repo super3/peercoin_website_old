@@ -113,7 +113,7 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
-<?php if($_SERVER['PHP_SELF'] != "/index.php") {echo ' 
+<?php if($_SERVER['PHP_SELF'] != "/") {echo ' 
 <div class="container content">
 <div class="top_social_other">
 Like Peercoin
@@ -129,8 +129,8 @@ Like Peercoin
             <a target="_blank" style="margin:0px; width:50%" href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT">
               <img src="assets/img/icons/social-yt.png" alt="Watch videos on YouTube">
         </a>
-          </div>';}?>
-<?php if($_SERVER['PHP_SELF'] == "/index.php") { echo ' 
+          </div>';} echo $_SERVER['PHP_SELF'];?>
+<?php if($_SERVER['PHP_SELF'] == "/") { echo ' 
      <!-- Headerwrap -->
       <header id="headerwrap-2">
         <div class="container-content">
