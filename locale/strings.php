@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 //title
 
@@ -68,7 +68,7 @@ $locale_strings['gr']['dropdown_docs_and_press_sunny_king_interview'] = "Πάρ�
 $locale_strings['cat']['dropdown_docs_and_press_sunny_king_interview'] = "Entrevista a Sunny King";
 $locale_strings['zh']['dropdown_docs_and_press_sunny_king_interview'] = "Interview Sunny King";
 
-$locale_strings['en']['dropdown_title_use_peercoins'] = "Use Peercoins";
+$locale_strings['en']['dropdown_title_use_peercoins'] = "Resources";
 $locale_strings['fr']['dropdown_title_use_peercoins'] = "Utiliser des Peercoins";
 $locale_strings['es']['dropdown_title_use_peercoins'] = "Usa Peercoins";
 $locale_strings['gr']['dropdown_title_use_peercoins'] = "Χρησιμοποίησε Peercoins";
