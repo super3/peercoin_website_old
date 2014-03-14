@@ -28,22 +28,22 @@
         <!-- Tab panes -->
         <div class="tab-content">
           <div class="tab-pane active fade in" id="start">
-            <?php include ('res_getting_started.php'); ?>
+            <?php include ('page_content/resources/tab_res_getting_started.php'); ?>
           </div>
         <div class="tab-pane active fade" id="tools">
-          <?php include ('res_tools.php'); ?>
+          <?php include ('page_content/resources/tab_res_tools.php'); ?>
           </div>
           <!-- Tab panes -->
           <div class="tab-pane active fade" id="mine">
-            <?php include ('res_mine.php'); ?>
+            <?php include ('page_content/resources/tab_res_mine.php'); ?>
         </div>
           <!-- Tab panes -->
           <div class="tab-pane active fade" id="exchange">
-            <?php include ('res_exchange.php'); ?>
+            <?php include ('page_content/resources/tab_res_exchange.php'); ?>
           </div>
           <!-- Tab panes -->
             <div class="tab-pane active fade" id="shop">
-              <?php include ('res_shop.php'); ?>  
+              <?php include ('page_content/resources/tab_res_shop.php'); ?>  
           </div>
 
         </div>
