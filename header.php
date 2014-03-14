@@ -66,7 +66,7 @@
           </button>
           <a class="navbar-brand" href="/">
             <img src="assets/images/logos/Dark-Text-350.png" width="170" alt="Peercoin">
-            <span><?php echo $Locale->getText("homepage_title"); ?></span>
+            <span style="width=100%; font-size:12px; text-align:center;"><?php echo $Locale->getText("homepage_title"); ?></span>
           </a>
         </div>
         <div class="navbar-collapse collapse">
