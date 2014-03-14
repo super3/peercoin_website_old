@@ -250,7 +250,7 @@ a:hover {
 
 /* 1.5 Content elements (subpages) */
 .content {
-	padding: 70px 0 70px 0;
+	padding: 35px 0 70px 0;
 }
 
 .content h1 {
@@ -679,6 +679,17 @@ a:hover {
 	height: 220px;
 }
 
+/**** 2.8 top social icons ***/
+/*index page*/
+.top_social{
+float:right; 
+margin-top:5px;
+}
+/*all other pages*/
+.top_social_other{
+float:right; 
+margin-top:0px;
+}
 /***** Contact Tweak *****/
 
 .cinfo img {
@@ -894,7 +905,7 @@ a:hover {
 
 	@media (max-width: 999px) {
 		.content {
-			padding: 140px 0 70px 0;
+			padding: 85px 0 70px 0;
 		}
 
 		.content .downloads ul li {
@@ -956,7 +967,21 @@ a:hover {
 			font-size: 17px !important;
 		}
 
+		#headerwrap-2 {
+		padding-top: 100px;
+			}
+
 	}
+	@media (min-width: 768px) {
+		.top_social{
+          margin-top:15px;
+		  }
+	  
+	  #headerwrap-2 {
+		padding-top: 60px;
+			}
+			
+		}
 
 	@media (max-width: 767px) {
 		.navbar {
@@ -972,11 +997,11 @@ a:hover {
 		}
 
 		.content {
-			padding: 70px 0 70px 0;
+			padding: 15px 0 70px 0;
 		}
 
 		#headerwrap-2 {
-			padding-top: 70px;
+			padding-top: 0px;
 		}
 
 		.content .downloads ul li {
@@ -1007,10 +1032,44 @@ a:hover {
 		}
 	}
 
+	@media (min-width: 992px) {
+		#headerwrap-2 {
+			padding-top: 70px;
+		}
+		.top_social
+		{
+		margin-top:40px;
+		}
+		.top_social_other
+		{
+		margin-top:0px;
+		}
+		.content
+		{
+		margin-top:80px;
+		}
+	}
+	@media (min-width: 1200px) {
+		#headerwrap-2 {
+			padding-top: 30px;
+		}
+		.top_social
+		{
+		margin-top:00px;
+		}
+	.top_social_other
+		{
+		margin-top:0px;
+		}
+		.content
+		{
+		margin-top:40px;
+		}
+	}
 	@media only screen and (max-width: 530px) {
 		#headerwrap-2 {
 			min-height: 460px;
-			padding-top: 60px;
+            padding-top: 0px;
 		}
 
 		#headerwrap-2 h1 {

@@ -1,10 +1,8 @@
 <?php include ('header.php'); ?>
 
   <!-- Headerwrap -->
-    <header id="headerwrap-2">
-    	<div class="container">
 			<div class="row">
-				<h1>
+        <h1 style="margin-top:90px;">
 		          <?php echo $Locale->getText("big_welcome_header"); ?>
 		        </h1>
 				<a href="#cta" class="btn btn-embossed btn-primary smoothScroll"><?php echo $Locale->getText("why_peercoin_button"); ?></a>
