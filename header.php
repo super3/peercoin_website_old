@@ -129,7 +129,7 @@ Like Peercoin
             <a target="_blank" style="margin:0px; width:50%" href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT">
               <img src="assets/img/icons/social-yt.png" alt="Watch videos on YouTube">
         </a>
-          </div>';} echo $_SERVER['PHP_SELF'];?>
+          </div>';} ?>
 <?php if($_SERVER['PHP_SELF'] == "/index.php") { echo ' 
      <!-- Headerwrap -->
       <header id="headerwrap-2">
