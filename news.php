@@ -1,6 +1,4 @@
-    <?php include ('header.php'); ?>
-
-<div class="container content">
+﻿    <?php include ('header.php'); ?>
   <!-- Page Title -->
   <h1 style="margin-top:5px;">News & Events</h1>
 

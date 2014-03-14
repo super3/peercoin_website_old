@@ -1,7 +1,6 @@
 <?php include ('header.php'); ?>
 
 <!-- Portfolio Section -->
-	<div class="container">
 		<div class="row centered">
 			<br>
 			<br>

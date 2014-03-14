@@ -1,6 +1,5 @@
     <?php include ('header.php'); ?>
 
-    <div class="container content">
       <h1>Peercoin Marketing Materials</h1>
        <div class="row">
          <h2> Coin Logos</h2>

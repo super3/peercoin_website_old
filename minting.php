@@ -1,6 +1,5 @@
 <?php include ('header.php'); ?>
 
-	<div class="container content">
 		<div class="row">
 			<div class="col-lg-12">
 				<h1>What is Proof-of-Stake/Minting?</h1>

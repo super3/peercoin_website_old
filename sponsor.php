@@ -1,7 +1,6 @@
 <?php include ('header.php'); ?>
 
 <!-- Tri-Leaf Section -->
-<div class="container">
 	<div class="row centered">
 		<br>
 		<br>

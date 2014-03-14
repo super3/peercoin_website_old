@@ -113,7 +113,7 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
-<?php if($_SERVER['PHP_SELF'] != "/peercoinnet/index.php") {echo ' 
+<?php if($_SERVER['PHP_SELF'] != "/index.php") {echo ' 
 <div class="container content">
 <div class="top_social_other">
 Like Peercoin
@@ -130,7 +130,7 @@ Like Peercoin
               <img src="assets/img/icons/social-yt.png" alt="Watch videos on YouTube">
         </a>
           </div>';}?>
-<?php if($_SERVER['PHP_SELF'] == "/peercoinnet/index.php") { echo ' 
+<?php if($_SERVER['PHP_SELF'] == "/index.php") { echo ' 
      <!-- Headerwrap -->
       <header id="headerwrap-2">
         <div class="container-content">

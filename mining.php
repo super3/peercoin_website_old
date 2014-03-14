@@ -1,6 +1,5 @@
-<?php include ('header.php'); ?>
+﻿<?php include ('header.php'); ?>
 
-	<div class="container content">
 		<div class="row">
 
 			<div class="col-lg-12">
