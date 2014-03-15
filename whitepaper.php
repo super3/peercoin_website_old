@@ -20,7 +20,7 @@
                 </li>
                 <li class="col-lg-3 pdf">
                     <div class="inner">
-                        <h2>Dutch/Nederlands</h2><a href="bin/peercoin-paper-nl.pdf"
+                        <h2>Dutch/Netherlands</h2><a href="bin/peercoin-paper-nl.pdf"
                         target="_blank">Download PDF</a>
                     </div>
                 </li>
