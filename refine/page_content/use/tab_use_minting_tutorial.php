@@ -1,0 +1,1 @@
+<h1>minting tutorial outline</h1>

@@ -1,0 +1,1 @@
+explain how to participate in peercoin
