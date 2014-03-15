@@ -5,6 +5,7 @@ $locale_languages = array(
 		'es'	=>	'Español',
 		'fr'	=>	'Français',
 		'gr'	=>	'Ελληνικά',
+		'it'    => 	'Italiano',
 		'cat'	=>	'Català',
 		'zh'	=>	'中文'
 	);
