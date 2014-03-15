@@ -1,14 +1,11 @@
-RewriteEngine	On
+#URL rewrites for ALL pages that end in php, saves time
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
 
-# Quick and dirty URL rewrites for each page
-RewriteRule		^mining$			mining.php			[NC]
-RewriteRule		^minting$			minting.php			[NC]
-RewriteRule		^buying$			buying.php			[NC]
-RewriteRule		^resources$			resources.php		[NC]
-RewriteRule		^news$		   		news.php			[NC]
-RewriteRule		^downloads$			downloads.php		[NC]
-RewriteRule		^interview$			interview.php		[NC]
-RewriteRule		^whitepaper$		whitepaper.php		[NC]
-RewriteRule		^participate$		participate.php		[NC]
-RewriteRule		^sponsor$			sponsor.php			[NC]
-RewriteRule		^projects$			projects.php		[NC]
+# pretty view rewrite rule for single page views of tabbed content. sytax will be.net/page/[param(which is the id of the php page we want]
+RewriteRule ^/?page/([^/d]+)/?$ single.php?doc=$1 [L,QSA]
+
+#Error Documents for pages that don't exist yet
+ErrorDocument 404 /404

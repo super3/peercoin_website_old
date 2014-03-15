@@ -4,24 +4,30 @@
         <!-- Page Title -->
         <h1> Resources</h1>
         <!-- Nav tabs -->
-        <ul class="nav nav-tabs" style="margin-bottom:0px">
+        <ul class="nav nav-tabs">
           <li class="active">
             <a href="#start" data-toggle="tab">
-              Get Started
+              <h2>Get Started</h2>
             </a>
           </li>
           <li>
-          <a href="#tools" data-toggle="tab">Tools</a>
+          <a href="#tools" data-toggle="tab">
+         <h2>Tools</h2>
+          </a>
           <li> 
           <li>
-            <a href="#mine" data-toggle="tab">Mine</a>
+            <a href="#mine" data-toggle="tab">
+          <h2>Mine</h2>
+          </a>
           </li>
             <li>
-              <a href="#exchange" data-toggle="tab">Exchange
+              <a href="#exchange" data-toggle="tab">
+              <h2>Exchange</h2>
               </a>
             </li>
             <li>
-              <a href="#shop" data-toggle="tab">Shop
+              <a href="#shop" data-toggle="tab">
+            <h2>Shop</h2>
               </a>
             </li>
         </ul>
