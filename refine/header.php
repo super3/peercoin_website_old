@@ -73,9 +73,7 @@
           <ul class="nav navbar-nav pull-right">
             <li class="dropdown">
               <a href="understand" class="dropdown-toggle" data-toggle="dropdown" style="padding-top:10px;">
-                <div style="text-align:center; width:100%; margin:0px; padding:0px;">Understand</div>
-                <div style="text-align:center; width:100%; margin:0px; padding:0px;">Peercoin<b class="caret"></b>
-              </div>
+                <div style="text-align:center; width:100%; margin:0px; padding:12px;">Understand<b class="caret"></b></div>
               </a>
               <ul class="dropdown-menu">
                 <li>
@@ -102,9 +100,7 @@
             </li>
             <li class="dropdown">
               <a href="use" class="dropdown-toggle" data-toggle="dropdown" style="padding-top:10px;">
-                <div style="text-align:center; width:100%; margin:0px; padding:0px;">Use</div>
-                <div style="text-align:center; width:100%; margin:0px; padding:0px;">Peercoin<b class="caret"></b>
-              </div>    
+                <div style="text-align:center; width:100%; margin:0px; padding:12px;">Use<b class="caret"></b></div>
               </a>
               <ul class="dropdown-menu">
                 <li>
@@ -130,12 +126,28 @@
               </ul>
             </li>
             <li class="dropdown">
+              <a href="support" class="dropdown-toggle" data-toggle="dropdown" style="padding-top:10px;">
+                <div style="text-align:center; width:100%; margin:0px; padding:12px;">Contribute<b class="caret"></b></div>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform">
+                   Volunteer
+                  </a>
+                </li>
+                <li>
+                  <a href="support#participate">
+                   Participate
+                  </a>
+                </li>
+                <!--<li><a href="sponsor">Sponsor</a></li>-->
+                <!-- TODO: add more ways to contribute and support the Peercoin community -->
+              </ul>
+            </li>
+            <li class="dropdown">
               <a href="community" class="dropdown-toggle" data-toggle="dropdown" style="padding-top:10px;">
-                <div style="text-align:center; width:100%; margin:0px; padding:0px;">Peercoin
-              </div>
-                <div style="text-align:center; width:100%; margin:0px; padding:0px;">Community<b class="caret"></b>
-              </div>
-                </a>
+                <div style="text-align:center; width:100%; margin:0px; padding:12px;">Community<b class="caret"></b></div>
+              </a>
               <ul class="dropdown-menu">
                 <li>
                   <a href="community#overview">
@@ -152,30 +164,6 @@
                     Social Media
                   </a>
                 </li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="support" class="dropdown-toggle" data-toggle="dropdown" style="padding-top:10px;">
-                <div style="text-align:center; width:100%; margin:0px; padding:0px;">
-                  Support
-                </div>
-                <div style="text-align:center; width:100%; margin:0px; padding:0px;">
-                  Peercoin<b class="caret"></b>
-                </div>
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform">
-                   Volunteer
-                  </a>
-                </li>
-                <li>
-                  <a href="support#participate">
-                   Participate
-                  </a>
-                </li>
-                <!--<li><a href="sponsor">Sponsor</a></li>-->
-                <!-- TODO: add more ways to contribute and support the Peercoin community -->
               </ul>
             </li>
             <li class="wallet"><a class="btn btn-primary btn-lg" role="button" href="downloads">
