@@ -62,9 +62,19 @@ $body = file_get_contents('page_content/understand/tab_about_peercoin.php');
 $body = "<h1>About Peercoin</h1>".$body;
 break;
 
+//support
+case 'participate':
+$body = file_get_contents('page_content/support/tab_support_participate.php');
+$body = "<h1>Participate</h1>".$body;
+break;
+
+case 'volunteer':
+$body = file_get_contents('page_content/support/tab_support_participate.php');
+$body = "<h1>Volunteer</h1>".$body;
+break;
 
 default:
-header('location:404.php');//will work on root index
+header('location: http://peercoin.net/404.php');//relative path messed up by rewrite 
 }
 include('header.php');
 echo $body;

@@ -32,15 +32,18 @@
     <div class="tab-pane active fade in" id="overview">
       <!-- overview Items -->
        <?php include ('page_content/community/tab_community_overview.php')?><!-- end overview items-->
-      </div><!-- end overview tab-->
+      <a target="_blank" href="page/overview">View tab as stand alone page</a>
+</div><!-- end overview tab-->
      <div class="tab-pane fade" id="forum">
       <!-- fourm Items -->
        <?php include ('page_content/community/tab_community_forum.php')?><!-- end forum items-->
-      </div><!-- end forum tab-->
+<a target="_blank" href="page/forum">View tab as stand alone page</a>      
+</div><!-- end forum tab-->
 <div class="tab-pane fade" id="socialmedia">
      <!-- socialmedia Items -->
        <?php include ('page_content/community/tab_community_socialmedia.php')?><!-- end socialmedia items-->
-      </div><!-- end socialmedia tab-->
+<a target="_blank" href="page/socialmedia">View tab as stand alone page</a>      
+</div><!-- end socialmedia tab-->
     <!-- ends tabs-->
 </div>
 <!-- end container-->

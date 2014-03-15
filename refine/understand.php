@@ -32,19 +32,21 @@
     <div class="tab-pane active fade in" id="tools">
       <!-- About Peercoin Items -->
        <?php include ('page_content/understand/tab_about_peercoin.php')?><!-- end About Peercoin Items -->
-      </div><!-- end About Peercoin tab-->
+     <a target="_blank" href="page/about_peercoin">View tab as stand alone page</a>
+ </div><!-- end About Peercoin tab-->
     <div class="tab-pane fade" id="mine">
       <!-- About Mining Items -->
        <?php include ('page_content/understand/tab_about_mining.php')?><!-- end About Mining Items -->
-      </div><!-- end about mining tab-->
+      <a target="_blank" href="page/about_mining">View tab as stand alone page</a>
+</div><!-- end about mining tab-->
     <div class="tab-pane fade" id="mint">
       <!-- About Minting Items -->
        <?php include ('page_content/understand/tab_about_minting.php')?><!-- end About Minting Items -->
-      </div><!-- end about minting tab-->
+      <a target="_blank" href="page/about_minting">View tab as stand alone page</a></div><!-- end about minting tab-->
     <div class="tab-pane fade" id="spend">
       <!-- About Spending Items -->
        <?php include ('page_content/understand/tab_about_spending.php')?><!-- end About Spending Items -->
-      </div><!-- end about spending tab-->
+      <a target="_blank" href="page/about_spending">View tab as stand alone page</a></div><!-- end about spending tab-->
     <!-- ends tabs-->
 </div>
 <!-- end container-->

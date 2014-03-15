@@ -124,6 +124,14 @@ $locale_strings['gr']['dropdown_contribute_participate'] = "Συμμετοχή";
 $locale_strings['cat']['dropdown_contribute_participate'] = "Participa";
 $locale_strings['zh']['dropdown_contribute_participate'] = "Participate";
 
+$locale_strings['en']['dropdown_forum'] = "Forum";
+$locale_strings['fr']['dropdown_forum'] = "Forum";
+$locale_strings['es']['dropdown_forum'] = "Forum";
+$locale_strings['gr']['dropdown_forum'] = "Forum";
+$locale_strings['it']['dropdown_forum'] = "Forum";
+$locale_strings['cat']['dropdown_forum'] = "Forum";
+$locale_strings['zh']['dropdown_forum'] = "论坛";
+
 //main body
 
 $locale_strings['en']['download_wallet'] = "Download Wallet";
@@ -139,6 +147,13 @@ $locale_strings['es']['big_welcome_header'] = "Seguro. Sostenible. <span><strong
 $locale_strings['gr']['big_welcome_header'] = "Ασφαλές. Ανεκτό. Το <span><strong>Peercoin</strong> είναι εδώ.</span>";
 $locale_strings['cat']['big_welcome_header'] = "Segur. Sostenible. <span><strong>Peercoin</strong> és aquí.</span>";
 $locale_strings['zh']['big_welcome_header'] = "安全的. 可持续的. <span><strong>点点币</strong> 就在这里.</span>";
+
+$locale_strings['en']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
+$locale_strings['fr']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
+$locale_strings['es']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
+$locale_strings['gr']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
+$locale_strings['cat']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
+$locale_strings['zh']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
 
 $locale_strings['en']['why_peercoin_header_innovation'] = "Original <b>Innovation</b>";
 $locale_strings['fr']['why_peercoin_header_innovation'] = "<b>Innovation</b> originale";

@@ -1,4 +1,4 @@
-<?php include ('header.php'); ?>
+<?php include ('header_index.php'); ?>
 
   <!-- Headerwrap -->
 			<div class="row">
@@ -71,7 +71,15 @@
 
 	<div class="video centered">
 		<div class="videoWrapper">
-			<iframe width="560" height="315" src="//www.youtube.com/embed/TjL2AgCQDJ0?rel=0?modestbranding=1" frameborder="0" allowfullscreen></iframe>
+			<!-- 
+				As the "Great Firewall"(http://en.wikipedia.org/wiki/Golden_Shield_Project), Chinese people can't visit youtube.  
+				So use a local video source withe Chinese captions.
+			-->
+			<?php if ($Locale->locale_code == 'zh') { ?>
+				<iframe height=498 width=510 src="http://player.youku.com/embed/XNjQ4MjE1MTYw" frameborder=0 allowfullscreen></iframe>
+			<?php } else { ?>
+				<iframe width="560" height="315" src="//www.youtube.com/embed/TjL2AgCQDJ0?rel=0?modestbranding=1" frameborder="0" allowfullscreen></iframe>
+			<?php } ?>
 		</div>
 	</div>
 

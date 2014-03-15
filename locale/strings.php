@@ -166,6 +166,13 @@ $locale_strings['it']['big_welcome_header'] = "Sicuro. Sostenibile. <span><stron
 $locale_strings['cat']['big_welcome_header'] = "Segur. Sostenible. <span><strong>Peercoin</strong> és aquí.</span>";
 $locale_strings['zh']['big_welcome_header'] = "安全的. 可持续的. <span><strong>点点币</strong> 就在这里.</span>";
 
+$locale_strings['en']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
+$locale_strings['fr']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
+$locale_strings['es']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
+$locale_strings['gr']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
+$locale_strings['cat']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
+$locale_strings['zh']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
+
 $locale_strings['en']['why_peercoin_header_innovation'] = "Original <b>Innovation</b>";
 $locale_strings['fr']['why_peercoin_header_innovation'] = "<b>Innovation</b> originale";
 $locale_strings['es']['why_peercoin_header_innovation'] = "<b>Innovación</b> original";
