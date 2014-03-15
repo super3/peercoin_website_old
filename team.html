@@ -23,7 +23,6 @@
       <script src="assets/js/respond.min.js"></script>
     <![endif]-->
     
-	<script src="assets/js/Chart.js"></script>
 	<script type="text/javascript" src="assets/js/modernizr.custom.79639.js"></script> 
     
   </head>
@@ -52,15 +51,15 @@
                 <li><a href="index04.html">Home Ver. 4</a></li>
               </ul>
             </li>
-            <li class="active"><a href="about.html">About</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li class="dropdown">
+            <li class="dropdown active">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="services.html">Services</a></li>
                 <li><a href="pricing.html">Pricing Tables</a></li>
                 <li><a href="testimonials.html">Testimonials</a></li>
-                <li><a href="team.html">Our Team</a></li>
+                <li class="active"><a href="team.html">Our Team</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="blog-single.html">Blog Article</a></li>
                 <li><a href="faq.html">FAQ</a></li>
@@ -82,10 +81,12 @@
 
 
     <!-- Aboutrwrap -->
-    <div id="aboutwrap">
+    <div id="teamwrap">
     	<div class="container">
 			<div class="row">
-				<h1><br/> <b>GOOD</b> is a family<br/> of digital thinkers & makers.</h1>
+				<h1>We are not just a team<br/>
+					we are a <b>family</b>
+				</h1>
 			</div>
     	</div>
     </div>
@@ -103,8 +104,55 @@
 	</div><!-- /container -->
 	
 	
+	<div class="container">
+		<div class="row sinfo centered">
+			<div class="col-lg-3">
+				<img class="img-circle" src="assets/images/pic.jpg" width="100" height="100" alt="">
+				<h5>Paul Harris</h5>
+				<p>It is a long established fact that a reader will be distracted by the readable content.</p>
+				<p><a href="#"><span class="fui-dribbble"></span></a> <a href="#"><span class="fui-mail"></span></a> <a href="#"><span class="fui-twitter"></span></a></p>
+			</div><!-- col-lg-3 -->
+			
+			<div class="col-lg-3">
+				<img class="img-circle" src="assets/images/pic2.jpg" width="100" height="100" alt="">
+				<h5>Daniel Patt</h5>
+				<p>It is a long established fact that a reader will be distracted by the readable content.</p>
+				<p><a href="#"><span class="fui-dribbble"></span></a> <a href="#"><span class="fui-mail"></span></a> <a href="#"><span class="fui-twitter"></span></a></p>
+			</div><!-- col-lg-3 -->
+			
+			<div class="col-lg-3">
+				<img class="img-circle" src="assets/images/pic3.jpg" width="100" height="100" alt="">
+				<h5>Mark Smith</h5>
+				<p>It is a long established fact that a reader will be distracted by the readable content.</p>
+				<p><a href="#"><span class="fui-dribbble"></span></a> <a href="#"><span class="fui-mail"></span></a> <a href="#"><span class="fui-twitter"></span></a></p>
+			</div><!-- col-lg-3 -->
+			
+			<div class="col-lg-3">
+				<img class="img-circle" src="assets/images/pic4.jpg" width="100" height="100" alt="">
+				<h5>Sharon Lee</h5>
+				<p>It is a long established fact that a reader will be distracted by the readable content.</p>
+				<p><a href="#"><span class="fui-dribbble"></span></a> <a href="#"><span class="fui-mail"></span></a> <a href="#"><span class="fui-twitter"></span></a></p>
+			</div><!-- col-lg-3 -->
+		
+		</div><!-- /row -->
+	</div><!-- container -->
+	
+	
+	<!-- Spacer Section -->
+	<div id="sp1">
+		<div class="container">
+			<div class="row">
+				<br>
+				<h3>From the purely practical to the richly philosophical, design is the solution to a host of challenges.</h3>
+				<br>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /sp1 -->
+	
+	
 	<!-- Leaders Section -->
 	<div class="container">
+		<br><br><br>
 		<div class="row">
 			<div class="col-lg-2">
 				<div class="tabbable">
@@ -175,111 +223,7 @@
 		</div><!-- /row -->
 	</div><!-- /container -->
 	
-	
-	<!-- Spacer Section -->
-	<div id="sp1">
-		<div class="container">
-			<div class="row">
-				<br>
-				<h3>From the purely practical to the richly philosophical, design is the solution to a host of challenges.</h3>
-				<br>
-			</div>
-		</div><!-- /container -->
-	</div><!-- /sp1 -->
-	
-	<!-- Charts Section -->
-	<div class="container sinfo">
-		<div class="row centered">
-			<h3>Our Capabilities</h3>
-			<br>
 			
-			<!-- First Chart -->
-			<div class="col-lg-3">
-				<canvas id="canvas" height="130" width="130"></canvas>
-				<br>
-				<script>
-					var doughnutData = [
-							{
-								value: 70,
-								color:"#1abc9c"
-							},
-							{
-								value : 30,
-								color : "#ecf0f1"
-							}
-						];
-						var myDoughnut = new Chart(document.getElementById("canvas").getContext("2d")).Doughnut(doughnutData);
-				</script>
-				<p><b>DESIGN & BRAND</b></p>
-				<p><small>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</small></p>
-			</div><!-- /col-lg-3 -->
-
-			<!-- Second Chart -->
-			<div class="col-lg-3">
-				<canvas id="canvas2" height="130" width="130"></canvas>
-				<br>
-				<script>
-					var doughnutData = [
-							{
-								value: 90,
-								color:"#1abc9c"
-							},
-							{
-								value : 10,
-								color : "#ecf0f1"
-							}
-						];
-						var myDoughnut = new Chart(document.getElementById("canvas2").getContext("2d")).Doughnut(doughnutData);
-				</script>
-				<p><b>WEB DEVELOPMENT</b></p>
-				<p><small>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</small></p>
-			</div><!-- /col-lg-3 -->
-			
-			<!-- Third Chart -->
-			<div class="col-lg-3">
-				<canvas id="canvas3" height="130" width="130"></canvas>
-				<br>
-				<script>
-					var doughnutData = [
-							{
-								value: 50,
-								color:"#1abc9c"
-							},
-							{
-								value : 50,
-								color : "#ecf0f1"
-							}
-						];
-						var myDoughnut = new Chart(document.getElementById("canvas3").getContext("2d")).Doughnut(doughnutData);
-				</script>
-				<p><b>SEO SERVICES</b></p>
-				<p><small>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</small></p>
-			</div><!-- /col-lg-3 -->
-			
-			<!-- Fourth Chart -->
-			<div class="col-lg-3">
-				<canvas id="canvas4" height="130" width="130"></canvas>
-				<br>
-				<script>
-					var doughnutData = [
-							{
-								value: 80,
-								color:"#1abc9c"
-							},
-							{
-								value : 20,
-								color : "#ecf0f1"
-							}
-						];
-						var myDoughnut = new Chart(document.getElementById("canvas4").getContext("2d")).Doughnut(doughnutData);
-				</script>
-				<p><b>PRINTING</b></p>
-				<p><small>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</small></p>
-			</div><!-- /col-lg-3 -->
-			
-		</div><!-- /row -->
-	</div><!-- /container -->
-	
 	<!-- FOOTER -->
 	<div id="f">
 		<div class="container">
