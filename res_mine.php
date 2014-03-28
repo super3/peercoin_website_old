@@ -28,7 +28,7 @@
           </p>
           <ul style="list-style-type: circle;">
             <li>
-              <a href="https://www.coinotron.com/coinotron/">Coinotron</a> -Pay Per Share: 12% fee, Round-Based Pay Per Share: 2%
+              <a href="https://www.coinotron.com/coinotron/">Coinotron</a> - Pay Per Share: 12% fee, Round-Based Pay Per Share: 2%
             </li>
             <li>
               <a href="http://www.multipool.us/">Multipool.us</a> - 1.5% fee, Pay Per Share
