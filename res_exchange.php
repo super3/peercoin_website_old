@@ -32,7 +32,7 @@
               </p>
               <ul style="list-style-type: circle;">
                 <li>
-                  <a href="https://vircurex.com/welcome/index?alt=ppc&amp;base=btc">Vircurex exchange</a> - High volume PPC/BTC exchange
+                  <a href="https://vircurex.com/welcome/index?alt=ppc&amp;base=btc">Vircurex exchange</a> -High volume PPC/BTC exchange
                 </li>
                 <li>
                   <a href="https://www.cryptsy.com/">Cryptsy exchange</a> - Support for almost all popular altcoins. Lots of trading pairs.
