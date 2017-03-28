@@ -21,7 +21,7 @@ $locale_strings['cat']['dropdown_title_docs_and_press'] = "Documents";
 $locale_strings['zh']['dropdown_title_docs_and_press'] = "文档";
 
 $locale_strings['en']['dropdown_docs_news'] = "News and Events";
-$locale_strings['fr']['dropdown_docs_news'] = "Documents";
+$locale_strings['fr']['dropdown_docs_news'] = "Actualités et Évènements";
 $locale_strings['es']['dropdown_docs_news'] = "Noticias acerca de Peercoin";
 $locale_strings['gr']['dropdown_docs_news'] = "Έγγραφα";
 $locale_strings['it']['dropdown_docs_news'] = "Notizie su Peercoin";
@@ -53,7 +53,7 @@ $locale_strings['cat']['dropdown_docs_and_press_resources'] = "Llista de Recurso
 $locale_strings['zh']['dropdown_docs_and_press_resources'] = "资源列表";
 
 $locale_strings['en']['dropdown_docs_and_press_kit'] = "Press Kit";
-$locale_strings['fr']['dropdown_docs_and_press_kit'] = "Kit Presse";
+$locale_strings['fr']['dropdown_docs_and_press_kit'] = "Kit de Presse";
 $locale_strings['es']['dropdown_docs_and_press_kit'] = "Kit de prensa";
 $locale_strings['gr']['dropdown_docs_and_press_kit'] = "Συλλογή Τύπου";
 $locale_strings['it']['dropdown_docs_and_press_kit'] = "Corredo Pressa";
@@ -77,7 +77,7 @@ $locale_strings['cat']['dropdown_docs_and_press_sunny_king_interview'] = "Entrev
 $locale_strings['zh']['dropdown_docs_and_press_sunny_king_interview'] = "Sunny King采访";
 
 $locale_strings['en']['dropdown_title_use_peercoins'] = "Resources";
-$locale_strings['fr']['dropdown_title_use_peercoins'] = "Utiliser des Peercoins";
+$locale_strings['fr']['dropdown_title_use_peercoins'] = "Ressources";
 $locale_strings['es']['dropdown_title_use_peercoins'] = "Usa Peercoins";
 $locale_strings['gr']['dropdown_title_use_peercoins'] = "Χρησιμοποίησε Peercoins";
 $locale_strings['it']['dropdown_title_use_peercoins'] = "Utilizzare Peercoins";
@@ -125,7 +125,7 @@ $locale_strings['cat']['dropdown_title_contribute'] = "Contribueix";
 $locale_strings['zh']['dropdown_title_contribute'] = "贡献";
 
 $locale_strings['en']['dropdown_contribute_volunteer'] = "Volunteer";
-$locale_strings['fr']['dropdown_contribute_volunteer'] = "Se porter volontaire";
+$locale_strings['fr']['dropdown_contribute_volunteer'] = "Se porter Volontaire";
 $locale_strings['es']['dropdown_contribute_volunteer'] = "Voluntarios";
 $locale_strings['gr']['dropdown_contribute_volunteer'] = "Εθελοντική Εργασία";
 $locale_strings['it']['dropdown_contribute_volunteer'] = "Volontariato";
