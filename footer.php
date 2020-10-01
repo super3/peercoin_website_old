@@ -51,7 +51,7 @@
 	            	<?php
 		            	foreach($Locale->getLanguages() as $language_code => $language_text):
 			            	if($Locale->locale_code!=$language_code){
-			            		echo "<a href=\"".$_SERVER['PHP_SELF']."?locale=".$language_code."\">".$language_text."</a>";
+			            		echo "<a href=\"".$_SERVER['REQUEST_URI']."?locale=".$language_code."\">".$language_text."</a>";
 			            	}
 		            	endforeach;
 	            	?>
